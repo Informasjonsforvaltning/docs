@@ -4,7 +4,7 @@ This is a project to produce content to our documentation site over at https://i
 
 We use [Hugo](https://gohugo.io/) and the [docDock theme](http://docdock.netlify.com/) to build our site.
 ## Requirements
-You need to have git and hugo installed.
+You need to have [Git](https://git-scm.com/) and [Hugo](https://gohugo.io/) installed on your pc.
 ## Produce content
 To produce content to the site, you need to do the following steps. Only people with the correct privileges will actually be able to publish new content.
 ```
