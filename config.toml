@@ -12,8 +12,6 @@ pygmentsStyle = "monokailight"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
-publishDir = "docs"
-
 
 # [Languages]
 # [Languages.en]
