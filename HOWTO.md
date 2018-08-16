@@ -7,7 +7,7 @@ Here is a short description of what we did to set up our site to our [organizati
 2. Create a `<organization name>.github.io` repository that will contain the fully rendered version of the Hugo website.
 
 ## Requirements
-You need to have git and hugo installed on your pc.
+You need to have [Git](https://git-scm.com/) and [Hugo](https://gohugo.io/) installed on your pc.
 
 ## In a capable terminal:
 ```
@@ -42,7 +42,8 @@ git push origin master
 To automate the last part, use the [./deploy.sh](./deploy.sh) script. You should find your site at `http://<organization name>.github.io`.
 
 
-## Credits:
-http://docdock.netlify.com/
-https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages
-https://github.com/whipperstacker/blog/blob/master/content/post/deploying-a-hugo-site-to-github-pages.md
+## Credits
+
+- http://docdock.netlify.com/
+- https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages
+- https://github.com/whipperstacker/blog/blob/master/content/post/deploying-a-hugo-site-to-github-pages.md
