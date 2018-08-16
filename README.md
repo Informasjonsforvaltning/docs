@@ -10,7 +10,7 @@ To produce content to the site, you need to do the following steps. Only people 
 ```
 git clone https://github.com/Informasjonsforvaltning/docs.git
 cd docs
-hugo server - D # This will start hugo in draft livereload mode 
+hugo server - D # This will start hugo in draft livereload mode
 atom . # Open the content folder in your favourite editor
 ```
 At http://localhost:1313 you will see your site as you update and save content.
@@ -18,5 +18,6 @@ At http://localhost:1313 you will see your site as you update and save content.
 To publish your new content to our site, you need to do the following steps. Only people with the correct privileges will actually be able to publish new content.
 ```
 <Press Ctrl+C to kill the hugo server>
-./deploy.sh # This script will commit and publish the new content to our site
+./deploy.sh
 ```
+This script will generate, commit and publish the new content (the public folder) to our site.
