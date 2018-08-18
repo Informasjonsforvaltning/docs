@@ -3,4 +3,4 @@
 	url = https://github.com/vjeantet/hugo-theme-docdock.git
 [submodule "public"]
 	path = public
-	url = https://github.com/Informasjonsforvaltning/Informasjonsforvaltning.github.io.git
+	url = git@github.com:Informasjonsforvaltning/Informasjonsforvaltning.github.io.git
