@@ -1,5 +1,7 @@
 # docs
 
+[![Build Status](https://travis-ci.org/Informasjonsforvaltning/docs.svg?branch=master)](https://travis-ci.org/Informasjonsforvaltning/docs)
+
 This is a project to produce content to our documentation site over at https://informasjonsforvaltning.github.io/
 
 We use [Hugo](https://gohugo.io/) and the [docDock theme](http://docdock.netlify.com/) to build our site.
