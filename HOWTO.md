@@ -41,9 +41,12 @@ git push origin master
 ```
 To automate the last part, use the [./deploy.sh](./deploy.sh) script. You should find your site at `http://<organization name>.github.io`.
 
+## Automatic deploy with Travis
+Essentially what we did was to set up travis to generate static content with hugo and push the new content to our site. This is made possible by the .travis.yml script. Note that you will have to generate a secret key for Travis at github and add it you the travis-configuration. For a good step-by-step description, check this [blog](https://www.martinkaptein.com/blog/hugo-with-travis-ci-on-gh-pages/).
 
 ## Credits
 
 - http://docdock.netlify.com/
 - https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages
 - https://github.com/whipperstacker/blog/blob/master/content/post/deploying-a-hugo-site-to-github-pages.md
+- https://www.martinkaptein.com/blog/hugo-with-travis-ci-on-gh-pages/
