@@ -8,7 +8,7 @@ You need to have [Git](https://git-scm.com/) and [Hugo](https://gohugo.io/) inst
 ## Produce content
 To produce content to the site, you need to do the following steps. Only people with the correct privileges will actually be able to publish new content.
 ```
-git clone git clone --recurse-submodules https://github.com/Informasjonsforvaltning/docs.git
+git clone --recurse-submodules https://github.com/Informasjonsforvaltning/docs.git
 cd docs
 hugo server - D # This will start hugo in draft livereload mode
 atom . # Open the content folder in your favourite editor
