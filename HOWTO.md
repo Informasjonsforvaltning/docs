@@ -24,24 +24,8 @@ Edit the config.toml file as needed. Specifically the following should read:
 theme = "docdock"
 # themesdir = "../.."
 ```
-To add the content to `<organization name>.github.io`, you need to add a submodule:
-```
-rm -rf public
-git submodule add -b master git@github.com:<organization name>/<organization name>.github.io.git public
-git add .
-git push -u origin master
-```
-To regenerate the content and push the submodule to `<organization name>.github.io.git`:
-```
-hugo
-cd public
-git add .
-git commit -m "Generate site"
-git push origin master
-```
-To automate the last part, use the [./deploy.sh](./deploy.sh) script. You should find your site at `http://<organization name>.github.io`.
 
-## Automatic deploy with Travis
+## Automatic deploy of static content to our site with Travis
 Essentially what we did was to set up travis to generate static content with hugo and push the new content to our site. This is made possible by the .travis.yml script. Note that you will have to generate a secret key for Travis at github and add it you the travis-configuration. For a good step-by-step description, check this [blog](https://www.martinkaptein.com/blog/hugo-with-travis-ci-on-gh-pages/).
 
 ## Credits
