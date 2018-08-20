@@ -56,3 +56,9 @@ name = "<i class='fa fa-bookmark'></i> <label>Hugo dokumentasjon</label>"
 identifier = "hugodoc"
 url = "https://gohugo.io/"
 weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-twitter'></i> <label>Følg oss på Twitter</label>"
+identifier = "twitter"
+url = "https://twitter.com/datakatalogen"
+weight = 30
