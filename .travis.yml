@@ -20,3 +20,6 @@ deploy:
   name: "Stig B. Dørmænen"
   on:
     branch: master
+
+notifications:
+    slack: br-inforvalt:JCeNMCKAXjtRbvbNeFTrtwX3
