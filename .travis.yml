@@ -1,13 +1,5 @@
-language: go
-
-go:
-  - master
-
-install:
-  - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis
-
 script:
-  - hugo
+  - ./bin/hugo
 
 deploy:
   local_dir: public # Default static site output dir for Hugo
