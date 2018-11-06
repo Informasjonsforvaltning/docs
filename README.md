@@ -15,7 +15,7 @@ cd docs
 hugo server - D # This will start hugo in draft livereload mode
 atom . # Open the content folder in your favourite editor
 ```
-At http://localhost:1313 you will see your site as you update and save content.
+At http://localhost:1313 you will see your site as you update and save content. 
 ## Publish
 To publish your new content to our site, you need to commit and push your changes to the master branch of this repo. Only people with the correct privileges will actually be able to publish new content.
 ```
