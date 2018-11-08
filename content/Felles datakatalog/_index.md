@@ -9,7 +9,7 @@ Felles Datakatalog adresserer behovet for å *oppdage* datasett, *evaluere* om d
 
 ### Hvor hentes datasettbeskrivelser fra?
 
-FDK høster beskrivelser fra andre datakataloger, herunder geonorge.no, data.norge.no og vegvesenes katalog over åpne data. I tillegg tilbys en registreringsløsning. 
+FDK høster beskrivelser fra andre datakataloger, herunder geonorge.no, data.norge.no og vegvesenes katalog over åpne data. I tillegg tilbys en registreringsløsning.
 
 ### Hvordan registerer jeg mine datasett?
 Felles datakatalog inneholder en registreringsløsning som alle offentlige virksomheter kan benytte. Private virksomheter oppfordres til å ta kontakt for å registrere sine datasett.
@@ -25,4 +25,3 @@ Ja, se her for [statistikk](statistikk) over innhold og bruk av felles datakatal
 
 ### Hvor finner jeg felles datakatalog?
 Her finner du [Felles datakatalog] (https://fellesdatakatalog.brreg.no)
-
