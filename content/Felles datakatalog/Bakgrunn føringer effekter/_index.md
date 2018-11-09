@@ -6,6 +6,10 @@ title: Bakgrunn, føringer og effekter
 Beslutninger i offentlig sektor tas på grunnlag av informasjon innhentet fra brukere, tredjeparter og fra andre offentlige virksomheter. Med god dokumentering av hvilken informasjon den enkelte offentlige virksomhet forvalter og åpne APIer som gir tilgang til selve dataene, kan andelen som brukerne selv rapporterer inn gradvis reduseres.
 
 ### Tiltak over flere trinn
+Tiltakene innen informasjonsforvaltning plasserers ofte i følgende "ambisjonstrapp" hentet fra [Difis sider om informasjonsforvaltning](https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/informasjonsforvaltning):
+
+![Ambisjonstrapp for felles informasjonsforvaltning i offentlig sektor](trappemodell_inforforvaltning_2.png)
+
 
 * Tilrettelegge - "Orden i eget hus"
 
