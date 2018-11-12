@@ -24,6 +24,12 @@ Edit the config.toml file as needed. Specifically the following should read:
 theme = "docdock"
 # themesdir = "../.."
 ```
+## On updating the hugo binary
+After downloading the new hugo binary in the bin folder, it is important to make the linux binary executable
+```
+git update-index --add --chmod=+x bin/hugo
+```
+Then commit and push as usual
 ## On updating the themes submodule
 ```
 cd themes/docdock

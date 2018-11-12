@@ -4,16 +4,16 @@ A Fast and Flexible Static Site Generator built with love by [bep](https://githu
 
 [Website](https://gohugo.io) |
 [Forum](https://discourse.gohugo.io) |
-[Developer Chat (no support)](https://gitter.im/gohugoio/hugo) |
-[Documentation](https://gohugo.io/overview/introduction/) |
-[Installation Guide](https://gohugo.io/overview/installing/) |
+[Developer Chat (no support)](https://gitter.im/spf13/hugo) |
+[Documentation](https://gohugo.io/getting-started/) |
+[Installation Guide](https://gohugo.io/getting-started/installing/) |
 [Contribution Guide](CONTRIBUTING.md) |
 [Twitter](https://twitter.com/gohugoio)
 
 [![GoDoc](https://godoc.org/github.com/gohugoio/hugo?status.svg)](https://godoc.org/github.com/gohugoio/hugo)
 [![Linux and macOS Build Status](https://api.travis-ci.org/gohugoio/hugo.svg?branch=master&label=Linux+and+macOS+build "Linux and macOS Build Status")](https://travis-ci.org/gohugoio/hugo)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/a5mr220vsd091kua?svg=true&label=Windows+build "Windows Build Status")](https://ci.appveyor.com/project/bep/hugo/branch/master)
-[![Dev chat at https://gitter.im/gohugoio/hugo](https://img.shields.io/badge/gitter-developer_chat-46bc99.svg)](https://gitter.im/spf13/hugo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Dev chat at https://gitter.im/spf13/hugo](https://img.shields.io/badge/gitter-developer_chat-46bc99.svg)](https://gitter.im/spf13/hugo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gohugoio/hugo)](https://goreportcard.com/report/github.com/gohugoio/hugo)
 
 ## Overview
@@ -36,7 +36,7 @@ Currently, we provide pre-built Hugo binaries for Windows, Linux, FreeBSD, NetBS
 
 Hugo may also be compiled from source wherever the Go compiler tool chain can run, e.g. for other operating systems including DragonFly BSD, OpenBSD, Plan 9, and Solaris.
 
-**Complete documentation is available at [Hugo Documentation][].**
+**Complete documentation is available at [Hugo Documentation](https://gohugo.io/getting-started/).**
 
 ## Choose How to Install
 
@@ -50,7 +50,7 @@ Building the binaries is an easy task for an experienced `go` getter.
 
 ### Install Hugo as Your Site Generator (Binary Install)
 
-Use the [installation instructions in the Hugo documentation](https://gohugo.io/overview/installing/).
+Use the [installation instructions in the Hugo documentation](https://gohugo.io/getting-started/installing/).
 
 ### Build and Install the Binaries from Source (Advanced Install)
 
@@ -61,7 +61,7 @@ Use the [installation instructions in the Hugo documentation](https://gohugo.io/
 
 #### Fetch from GitHub
 
-Since Hugo 0.48, Hugo uses the Go Modules support built into Go 1.11 to build. The easiest is is to clone Hugo in a directory outside of `GOPATH`, as in the following example:
+Since Hugo 0.48, Hugo uses the Go Modules support built into Go 1.11 to build. The easiest is to clone Hugo in a directory outside of `GOPATH`, as in the following example:
 
 ```bash
 mkdir $HOME/src
