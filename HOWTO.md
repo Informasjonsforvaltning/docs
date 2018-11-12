@@ -24,6 +24,15 @@ Edit the config.toml file as needed. Specifically the following should read:
 theme = "docdock"
 # themesdir = "../.."
 ```
+## On updating the themes submodule
+```
+cd themes/docdock
+git pull origin master
+cd ../..
+git status
+git add themes/docdock
+git commit -m "Update themes submodule"
+```
 
 ## Automatic deploy of static content to our site with Travis
 Essentially what we did was to set up travis to generate static content with hugo and push the new content to our site. This is made possible by the .travis.yml script. Note that you will have to generate a secret key for Travis at github and add it you the travis-configuration. For a good step-by-step description, check this [blog](https://www.martinkaptein.com/blog/hugo-with-travis-ci-on-gh-pages/).
