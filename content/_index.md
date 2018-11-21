@@ -1,5 +1,6 @@
 ---
 title: Informasjonsforvaltning dokumentasjon
+alwaysopen : true
 ---
 
 # Informasjonsforvaltning dokumentasjon
