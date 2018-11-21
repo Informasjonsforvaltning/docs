@@ -1,5 +1,6 @@
 ---
 title: Felles datakatalog
+weight: 4
 ---
 <div style="text-align: center"><small>DATASETT - BEGREPER - API</small></div style="text-align: center">
 

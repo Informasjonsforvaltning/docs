@@ -1,5 +1,6 @@
 ---
-title: Bakgrunn, føringer og effekter
+title : Bakgrunn, føringer og effekter
+weight : 1
 ---
 
 ### Felles offentlig informasjonsforvaltning
