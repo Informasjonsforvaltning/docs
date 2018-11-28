@@ -35,6 +35,9 @@ Then commit and push as usual
 cd themes/docdock
 git pull origin master
 cd ../..
+```
+You should test your pages with the new version of the theme: `./bin/hugo server`
+```
 git status
 git add themes/docdock
 git commit -m "Update themes submodule"
