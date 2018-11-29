@@ -1,5 +1,7 @@
 baseURL = "/"
 
+staticDir = "static"
+
 languageCode = "nb-no"
 DefaultContentLanguage = "no"
 title = "Informasjonsforvaltning dokumentasjon"
