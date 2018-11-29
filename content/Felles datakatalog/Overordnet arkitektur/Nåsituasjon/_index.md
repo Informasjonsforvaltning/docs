@@ -4,6 +4,10 @@ weight: 1
 ---
 
 Her følger en kort oversikt over den overordnede arkitekturen til våre komponenter.
+## Diagram
+Sammenhengen mellom komponentene illustreres i følgende diagram:
+![Overodnet arkitektur](overordnet_arkitektur_baseline.svg)
+
 ## Om komponentene i nåsituasjon
 I dag har vi delt de ulike komponentene inn i en løsning for søk i kataloger, en løsning for registrering, en løsning for innhøsting (harvester). I tillegg har vi en intern komponent for referanse-data.
 
@@ -23,10 +27,6 @@ Høsteløsningen laster ned datakataloger og gjør dem søkbare. Består av
 
 * harvester
 * harvester-api
-
-## Diagram
-Sammenhengen illustreres i følgende diagram:
-![Overodnet arkitektur](overordnet_arkitektur_baseline.svg)
 
 ## Modellene
 
