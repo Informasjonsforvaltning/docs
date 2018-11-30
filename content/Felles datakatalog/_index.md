@@ -10,11 +10,11 @@ alwaysopen : true
 Felles Datakatalog adresserer behovet for å *oppdage* datasett, *evaluere* om datasettene kan benyttes i den aktuelle konteksten og *tilgang* til datasett gjennom API-er.
 
 ### Hvor hentes datasettbeskrivelser fra?
-
 FDK høster beskrivelser fra andre datakataloger, herunder geonorge.no, data.norge.no og vegvesenes katalog over åpne data. I tillegg tilbys en registreringsløsning.
 
 ### Hvordan registerer jeg mine datasett?
 Felles datakatalog inneholder en registreringsløsning som alle offentlige virksomheter kan benytte. Private virksomheter oppfordres til å ta kontakt for å registrere sine datasett.
+<img src="./FDK_skjermbilde.png" width="40%" alt="Felles datakatalog bilde" align=right >
 
 ### Hva er planer for løsningen videre?
 Løsningen utvides i 2018 til å inkludere vurdering av *tilgang* til data gjennom en [API-katalog](/felles-datakatalog/api-katalog).
@@ -22,7 +22,6 @@ Løsningen utvides i 2018 til å inkludere vurdering av *tilgang* til data gjenn
 Felles datakatalog inkluderer også oversikt over Begreper. Dette omtales som begrepskatalog.
 
 ### Har dere statistikk på bruk?
-
 Ja, se her for [statistikk](statistikk) over innhold og bruk av felles datakatalog.
 
 ### Hvor finner jeg felles datakatalog?
