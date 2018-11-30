@@ -6,7 +6,7 @@ weight: 1
 Her følger en kort oversikt over den overordnede arkitekturen til våre komponenter.
 ## Diagram
 Sammenhengen mellom komponentene illustreres i følgende diagram:
-![Overodnet arkitektur](overordnet_arkitektur_baseline.svg)
+<img src="./overordnet_arkitektur_baseline.svg" width="100%" alt="Overodnet nåsituasjons-arkitektur" align=center >
 
 ## Om komponentene i nåsituasjon
 I dag har vi delt de ulike komponentene inn i en løsning for søk i kataloger, en løsning for registrering, en løsning for innhøsting (harvester). I tillegg har vi en intern komponent for referanse-data.

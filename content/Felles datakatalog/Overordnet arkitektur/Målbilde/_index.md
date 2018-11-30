@@ -5,7 +5,7 @@ weight: 2
 Vi jobber kontinuerlig med å oppdatere målbildet vårt etter hvert som behovene endrer seg. I hovedsak dreier endringene seg om å implementere støtte for nye typer kataloger.
 ## Diagram
 Sammenhengen mellom komponenten illustreres i følgende diagram:
-![Overodnet arkitektur](overordnet_arkitektur_target.svg)
+<img src="./overordnet_arkitektur_target.svg" width="100%" alt="Overodnet mål-arkitektur" align=center >
 
 ## Om komponentene i målbildet
 * Felles Datakatalog Portal: grafisk brukergrensesnitt der publikum har generell tilgang til oversikt over innhold som er publisert av hver enkelt virksomhet.
