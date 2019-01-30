@@ -10,14 +10,14 @@ Den har følgende steg:
 
 | Roller | Aktivitet | Verktøy |
 | ------ | --------- | ------- |
-| Behovseier | Detaljere epos og utarbeide enkel gevinstanalyse | GitHub |
+| Gevinstansvarlig | Opprette epos og utarbeide enkel gevinstanalyse | GitHub |
 | Funksjonell arkitekt | Opprette brukerhistorier | GitHub |
 ## Analysere behov
 *Kriteria:Behovet skal vere formulert som et epos og ha en enkel gevinstanalyse.*
 
 | Roller | Aktivitet | Verktøy |
 | ------ | --------- | ------- |
-| Funksjonell arkitekt | Detaljere brukerhistorier som operasjonaliserer eposet | GitHub |
+| Funksjonell arkitekt | Detaljere epos og brukerhistorier som operasjonaliserer eposet | GitHub |
 | Løsningsarkitekt | Dokumentere relevante kvalitetskrav | |
 | Interaksjonsdesigner | Lage trådskisser der dette er relevant | |
 ## Beskrive design og løsningsarkitektur
@@ -29,11 +29,12 @@ Den har følgende steg:
 | Designer | Utarbeide design basert på trådskisser | |
 | Senior utvikler | Utarbeide features i [Gherkin](https://docs.cucumber.io/gherkin/reference/)| GitHub |
 ## Klar til konstruksjon
-*Kritieria: Brukerhistorien skal ha et design (der det er relevant), en løsningsarkitektur og et sett av features.*
+*Kritieria: Brukerhistorien skal ha et design (der det er relevant), en løsningsarkitektur og et sett av features. Brukerhistoriene skal også prioriteres*
 
 | Roller | Aktivitet | Verktøy |
 | ------ | --------- | ------- |
-| Scrum-master| Opprette brukerhistorien i utviklingsprosjekt | GitHub |
+| Produkteier | Prioritere brukerhistorier | GitHub |
+| Scrumleder | Opprette brukerhistorien i utviklingsprosjekt | GitHub |
 | Seniorutvikler | Dele brukerhistorien opp i oppgaver | GitHub |
 ___
 *Her vil brukerhistorien bli duplisert over i det relevante utviklingsprosjektet, som oppretter sine brukerhistorier etter behov. Disse skal referere til den opprinnelige brukerhistorien i behovsprosjektet. Utviklingsteamet vil også legge brukerhistorien ut i sine prosjekter med tilhørende milepæler.*
@@ -43,6 +44,6 @@ ___
 
 | Roller | Aktivitet | Verktøy |
 | ------ | --------- | ------- |
-| Behovseier | | |
-| Funksjonel arkitekt | | |
+| Produkteier | | |
+| Funksjonell arkitekt | | |
 | Løsningsarkitekt | |
