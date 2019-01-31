@@ -2,7 +2,7 @@
 title: Behovsprosessen
 ---
 
-Vår behovsprosess er implementert som et GitHub-prosjekt og er [åpent tilgjengelig](https://github.com/orgs/Informasjonsforvaltning/projects/3). Behovsprosessen starter ved at det er registrert et issue i på en av våre løsninger eller på vårt dedikerte [behovsprosjekt](https://github.com/Informasjonsforvaltning/behov).
+Vår behovsprosess er implementert som et GitHub-prosjekt og er <a href="https://github.com/orgs/Informasjonsforvaltning/projects/3" target="_blank">åpent tilgjengelig</a>. Behovsprosessen starter ved at det er registrert et issue på en av våre løsninger eller på vårt dedikerte <a href="https://github.com/Informasjonsforvaltning/behov" target="_blank">behovsprosjekt</a>.
 
 Den har følgende steg:
 ## Avklare behov
