@@ -1,5 +1,6 @@
 <div style="text-align: center; margin:2em 0;">
-  <img
-    src="/images/brregLogoHvit.svg" style="width:320px; display:inline; margin:0; cursor:default;"  alt="Informasjonsforvaltning" title="Informasjonsforvaltning docs" onclick="return false;">&nbsp;
-  </img>
+  <a href="/">
+    <img src="/images/brregLogoHvit.svg" style="width:320px; display:inline; margin:0;"  alt="Informasjonsforvaltning" title="Informasjonsforvaltning docs">
+    </img>
+    </a>
 </div>
