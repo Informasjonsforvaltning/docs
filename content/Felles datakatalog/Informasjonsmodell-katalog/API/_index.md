@@ -6,8 +6,9 @@ Her følger en kort beskrivelse informasjonsmodell-katalogens API, samt eksempel
 ## Detaljer
 * Server: `https://fellesdatakatalog.brreg.no/api/informationmodels`
 * Tilbyr: `application/json`
-* Oppføring i API-katalogen:
-* Lenke direkte til spesifikasjon (openAPI v3):
+
+| <a>Oppføring i API-katalogen</a> | <a>Lenke direkte til spesifikasjon (openAPI v3)</a> |
+| --------------- | --------- |
 
 ## Eksempel på spørringer
 Alle informasjonsmodeller:
