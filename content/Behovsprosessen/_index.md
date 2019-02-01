@@ -1,5 +1,5 @@
 ---
-title: Behovsprosessen
+title: Åpen behovsprosess
 weight: 2
 ---
 
