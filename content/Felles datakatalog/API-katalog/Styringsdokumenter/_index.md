@@ -1,5 +1,6 @@
 ---
 title: Styringsdokumentasjon API katalog
+weight: 1
 ---
 
 Her finner du styringsdokumentene i felles API-katalog utviklet av Brønnøysundregistrene.
