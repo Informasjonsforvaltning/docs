@@ -1,6 +1,6 @@
 ---
 title: Overordnet arkitektur
-weight: 1
+weight: 2
 ---
 
 Her følger en kort oversikt over den overordnede arkitekturen til våre komponenter.

@@ -1,6 +1,6 @@
 ---
 title: Informasjonsmodell-katalog
-weight: 5
+weight: 6
 ---
 
 Felles informasjonsmodell-katalog er en utvidelse av Felles datakatalog for å skape en oversikt over informasjonsmodeller. I katalogen finner man også hvilke API'er informasjonsmodellene tilhører.
