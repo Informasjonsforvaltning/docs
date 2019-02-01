@@ -3,6 +3,10 @@ title: Felles datakatalog
 weight: 1
 alwaysopen : true
 ---
+<img
+ src="/images/fdk-logo@2x.png" style="width:320px; display:inline; margin:0; cursor:default;" alt="Felles datakatalog" title="Felles datakatalog" onclick="return false;">&nbsp;
+ </img>
+
 <div style="text-align: center"><small>DATASETT - BEGREPER - API</small></div style="text-align: center">
 
 **Felles Datakatalog** er en løsning som gir oversikt over datasett i offentlig sektor, enten de er offentlige åpne data eller begrenset offentlighet.
