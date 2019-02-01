@@ -1,33 +1,17 @@
-baseURL = "/"
-
-staticDir = "static"
-
-languageCode = "nb-no"
-DefaultContentLanguage = "no"
 title = "Informasjonsforvaltning dokumentasjon"
 theme = "docdock"
-# themesdir = "../.."
-pygmentsCodeFences = true
-pygmentsStyle = "monokailight"
 
-# defaultContentLanguage = "en"
+baseURL = "/"
+
+contentDir = "content"
+staticDir = "static"
+publishDir = "public"
+
+# Language
+languageCode = "nb"
+DefaultContentLanguage = "nb"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
-
-
-# [Languages]
-# [Languages.en]
-# title = "Documentation for Hugo docDock"
-# weight = 1
-# languageName = "English"
-#
-# [Languages.fr]
-# title = "Documentation du thème docDock"
-# weight = 2
-# languageName = "Français"
-
-
-
 
 [params]
 editURL = "https://github.com/Informasjonsforvaltning/docs/edit/master/content/"
@@ -44,7 +28,6 @@ enableGitInfo = true
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
-
 
 [[menu.shortcuts]]
 pre = "<h3>Mere</h3>"
