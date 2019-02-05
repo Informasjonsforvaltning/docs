@@ -31,10 +31,11 @@ Behovsprosessen har følgende steg:
 | --------------- | --------- | ------- |
 | Løsningsarkitekt | Utarbeide løsningsarkitektur | [Archi](https://github.com/Informasjonsforvaltning/SA_Informasjonsforvaltning) |
 | Designer | Utarbeide design basert på trådskisser | |
+| Testleder | Utarbeide akseptansekriteria | |
 | Senior utvikler | Utarbeide features i [Gherkin](https://docs.cucumber.io/gherkin/reference/)| GitHub |
 
 ## Klar til konstruksjon
-*Kritieria: Brukerhistorien skal ha et design (der det er relevant), en løsningsarkitektur og et sett av features. Brukerhistoriene skal også prioriteres.*
+*Kritieria: Brukerhistorien skal ha et design (der det er relevant), en løsningsarkitektur og et sett av features. Akseptansekriteria skal være dokumentert.*
 
 | Ansvarlig rolle | Aktivitet | Verktøy |
 | --------------- | --------- | ------- |
@@ -42,6 +43,9 @@ Behovsprosessen har følgende steg:
 | Scrumleder | Opprette brukerhistorien i utviklingsprosjekt | GitHub |
 | Seniorutvikler | Dele brukerhistorien opp i oppgaver | GitHub |
 ___
+## I konstruksjon
+*Kritieria: Brukerhistorien er prioritert og opprettet i utviklingsprosjekt.*
+
 *Her vil brukerhistorien bli duplisert over i det relevante utviklingsprosjektet, som oppretter sine brukerhistorier etter behov. Disse skal referere til den opprinnelige brukerhistorien i behovsprosjektet. Utviklingsteamet vil også legge brukerhistorien ut i sine prosjekter med tilhørende milepæler.*
 ___
 
@@ -50,6 +54,6 @@ ___
 
 | Ansvarlig rolle | Aktivitet | Verktøy |
 | --------------- | --------- | ------- |
-| Produkteier | | |
-| Funksjonell arkitekt | | |
-| Løsningsarkitekt | |
+| Funksjonell arkitekt | Godkjenne levert funksjonalitet | |
+| Løsningsarkitekt | Godkjenne levert kvalitet |
+| Produkteier | Akseptere levert funksjonalitet  | |
