@@ -10,9 +10,8 @@ Sammenhengen mellom komponenten illustreres i følgende diagram:
 ## Om komponentene i målbildet
 * Felles Datakatalog Portal: grafisk brukergrensesnitt der publikum har generell tilgang til oversikt over innhold som er publisert av hver enkelt virksomhet.
 * \<Katalog\>: samling av kataloger som virksomheter har publisert. Disse komponentene tilbyr et maskin-til-maskin grensesnitt (API) mot de ulike katalogene.
-* \<Katalog\> GUI: Et brukergrensesnitt der virksomheten har tilgang til søk og oppslag i sin katalog.
-* \<Katalog\> Admin GUI: En administrativt løsning der virksomheten administrerer sin katalog og høsteløsning fra eventuell virksomhetsintern informasjonsmodell-katalog.
-* Virksomhetsintern \<katalog\>: lokale kataloger som er installert hos den enkelte virksomhet og vedlikeholdes og driftes av virksomheten. Understøtter høsting.
+* \<Katalog\> GUI: Et rollebasert brukergrensesnitt der virksomheten har tilgang til søk og oppslag i sin katalog.  Høsteløsning fra eventuell virksomhetsinterne kataloger kan også administreres her.
+* en \<katalog\> i virksomheten: lokale kataloger som er installert hos den enkelte virksomhet og vedlikeholdes og driftes av virksomheten. Understøtter høsting.
 
 ## Modellene
 
