@@ -15,11 +15,15 @@ Alle datasett:
 ```
 curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/datasets
 ```
+Alle datasett med "paginering", returnerer første side:
+```
+curl -H "Accept: application/json" 'http://fellesdatakatalog.brreg.no/api/datasets?page=0'
+```
 Et spesifikt datasett basert på id:
 ```
 curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/apis/<id>
 ```
-En  enkelt søk etter datasett med ordet "summert":
+En  enkelt søk etter datasett med ordet "barnehage":
 ```
 curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/datasets?q=barnehage
 ```
