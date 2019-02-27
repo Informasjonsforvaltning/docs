@@ -3,7 +3,7 @@ title: Åpen behovsprosess
 weight: 2
 ---
 
-Vår behovsprosess er implementert som et GitHub-prosjekt og er <a href="https://github.com/orgs/Informasjonsforvaltning/projects/3" target="_blank">åpent tilgjengelig</a>. Behovsprosessen starter ved at det er registrert et issue på en av våre løsninger eller på vårt dedikerte <a href="https://github.com/Informasjonsforvaltning/behov" target="_blank">behovsprosjekt</a>.
+Vår behovsprosess er implementert som et GitHub-prosjekt og er <a href="https://github.com/orgs/Informasjonsforvaltning/projects/3" target="_blank">åpent tilgjengelig</a>. Behovsprosessen starter ved at det er registrert et issue på en av våre løsninger eller på vårt dedikerte <a href="https://github.com/Informasjonsforvaltning/behov/issues" target="_blank">behovsprosjekt</a>.
 
 Behovsprosessen har følgende steg:
 
@@ -31,11 +31,11 @@ Behovsprosessen har følgende steg:
 | --------------- | --------- | ------- |
 | Løsningsarkitekt | Utarbeide løsningsarkitektur | [Archi](https://github.com/Informasjonsforvaltning/SA_Informasjonsforvaltning) |
 | Designer | Utarbeide design basert på trådskisser | |
-| Testleder | Utarbeide akseptansekriteria | |
-| Senior utvikler | Utarbeide features i [Gherkin](https://docs.cucumber.io/gherkin/reference/)| GitHub |
+| Testleder | Utarbeide akseptansekriteria som features i [Gherkin](https://docs.cucumber.io/gherkin/reference/)| GitHub |
+| Senior utvikler | Utarbeide scenarier i features | GitHub |
 
 ## Klar til konstruksjon
-*Kritieria: Brukerhistorien skal ha et design (der det er relevant), en løsningsarkitektur og et sett av features. Akseptansekriteria skal være dokumentert.*
+*Kritieria: Brukerhistorien skal ha et design (der det er relevant) og en løsningsarkitektur. Akseptansekriteria skal være dokumentert som et sett av features.*
 
 | Ansvarlig rolle | Aktivitet | Verktøy |
 | --------------- | --------- | ------- |
