@@ -31,11 +31,11 @@ Behovsprosessen har følgende steg:
 | --------------- | --------- | ------- |
 | Løsningsarkitekt | Utarbeide løsningsarkitektur | [Archi](https://github.com/Informasjonsforvaltning/SA_Informasjonsforvaltning) |
 | Designer | Utarbeide design basert på trådskisser | |
-| Testleder | Utarbeide akseptansekriteria | |
-| Senior utvikler | Utarbeide features i [Gherkin](https://docs.cucumber.io/gherkin/reference/)| GitHub |
+| Testleder | Utarbeide akseptansekriteria som features i [Gherkin](https://docs.cucumber.io/gherkin/reference/)| GitHub |
+| Senior utvikler | Utarbeide scenarier i features | GitHub |
 
 ## Klar til konstruksjon
-*Kritieria: Brukerhistorien skal ha et design (der det er relevant), en løsningsarkitektur og et sett av features. Akseptansekriteria skal være dokumentert.*
+*Kritieria: Brukerhistorien skal ha et design (der det er relevant) og en løsningsarkitektur. Akseptansekriteria skal være dokumentert som et sett av features.*
 
 | Ansvarlig rolle | Aktivitet | Verktøy |
 | --------------- | --------- | ------- |
