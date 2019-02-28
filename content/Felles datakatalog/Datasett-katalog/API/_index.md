@@ -17,11 +17,11 @@ curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/datase
 ```
 Alle datasett med "paginering", returnerer første side:
 ```
-curl -H "Accept: application/json" 'http://fellesdatakatalog.brreg.no/api/datasets?page=0'
+curl -H "Accept: application/json" 'https://fellesdatakatalog.brreg.no/api/datasets?page=0'
 ```
 Et spesifikt datasett basert på id:
 ```
-curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/apis/<id>
+curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/datasets/<id>
 ```
 En  enkelt søk etter datasett med ordet "barnehage":
 ```
