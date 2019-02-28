@@ -2,7 +2,7 @@
 title: API
 weight: 2
 ---
-Her følger en kort beskrivelse informasjonsmodell-katalogens API, samt eksempel på bruk med [curl](https://curl.haxx.se/).
+Her følger en kort beskrivelse informasjonsmodell-katalogens API, samt eksempel på bruk med <a href="https://curl.haxx.se/" target="_blank">curl</a>.
 ## Detaljer
 * Server: `https://fellesdatakatalog.brreg.no/api/informationmodels`
 * Tilbyr: `application/json`

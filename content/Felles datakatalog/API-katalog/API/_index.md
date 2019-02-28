@@ -2,7 +2,7 @@
 title: API
 weight: 2
 ---
-Her følger en kort beskrivelse API-katalogens API, samt eksempel på bruk med [curl](https://curl.haxx.se/).
+Her følger en kort beskrivelse API-katalogens API, samt eksempel på bruk med <a href="https://curl.haxx.se/" target="_blank">curl</a>.
 ## Detaljer
 * Server: `https://fellesdatakatalog.brreg.no`
 * Tilbyr: `application/json`

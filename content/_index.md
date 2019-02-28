@@ -11,5 +11,5 @@ Her finner du informasjon om informasjonsforvaltning i Brønnøysundregistrene o
 Hvis du finner noe som er feil, eller som ikke er beskrevet godt nok på disse sidene:
 
 * send en epost til [fellesdatakatalog@brreg.no](mailto:fellesdatakatalog@brreg.no),
-* opprett en [sak](https://github.com/Informasjonsforvaltning/docs/issues), eller
-* lag en [pull request](https://github.com/Informasjonsforvaltning/docs/pulls).
+* opprett en <a href="https://github.com/Informasjonsforvaltning/docs/issues" target="_blank">sak</a>, eller
+* lag en <a href="https://github.com/Informasjonsforvaltning/docs/pulls" target="_blank">pull request</a>.

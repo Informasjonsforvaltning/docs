@@ -29,9 +29,9 @@ Behovsprosessen har følgende steg:
 
 | Ansvarlig rolle | Aktivitet | Verktøy |
 | --------------- | --------- | ------- |
-| Løsningsarkitekt | Utarbeide løsningsarkitektur | [Archi](https://github.com/Informasjonsforvaltning/SA_Informasjonsforvaltning) |
+| Løsningsarkitekt | Utarbeide løsningsarkitektur | <a href="https://github.com/Informasjonsforvaltning/SA_Informasjonsforvaltning" target="_blank">Archi</a> |
 | Designer | Utarbeide design basert på trådskisser | |
-| Testleder | Utarbeide akseptansekriteria som features i [Gherkin](https://docs.cucumber.io/gherkin/reference/)| GitHub |
+| Testleder | Utarbeide akseptansekriteria som features i <a href="https://docs.cucumber.io/gherkin/reference/" target="_blank">Gherkin</a> | GitHub |
 | Senior utvikler | Utarbeide scenarier i features | GitHub |
 
 ## Klar til konstruksjon

@@ -29,4 +29,4 @@ Felles datakatalog inkluderer også oversikt over Begreper. Dette omtales som be
 Ja, se her for [statistikk](statistikk) over innhold og bruk av felles datakatalog.
 
 ### Hvor finner jeg felles datakatalog?
-Her finner du [Felles datakatalog] (https://fellesdatakatalog.brreg.no)
+Her finner du <a href="https://fellesdatakatalog.brreg.no" target="_blank">Felles datakatalog</a>

@@ -7,7 +7,7 @@ weight : 1
 Beslutninger i offentlig sektor tas på grunnlag av informasjon innhentet fra brukere, tredjeparter og fra andre offentlige virksomheter. Med god dokumentering av hvilken informasjon den enkelte offentlige virksomhet forvalter og åpne APIer som gir tilgang til selve dataene, kan andelen som brukerne selv rapporterer inn gradvis reduseres.
 
 ### Tiltak over flere trinn
-Tiltakene innen informasjonsforvaltning plasserers ofte i følgende "ambisjonstrapp" hentet fra [Difis sider om informasjonsforvaltning](https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/informasjonsforvaltning):
+Tiltakene innen informasjonsforvaltning plasserers ofte i følgende "ambisjonstrapp" hentet fra <a href="https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/informasjonsforvaltning" target="_blank">Difis sider om informasjonsforvaltning</a>:
 
 ![Ambisjonstrapp for felles informasjonsforvaltning i offentlig sektor](trappemodell_inforforvaltning_2.png)
 
