@@ -19,7 +19,7 @@ Et spesifikt API basert på id:
 ```
 curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/apis/<id>
 ```
-En  enkelt søk etter API-er med ordet "summert":
+En  enkelt søk etter API-er med ordet "barnehage":
 ```
 curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/apis/search?q=barnehage
 ```
