@@ -13,7 +13,7 @@ Her følger en kort beskrivelse API-katalogens API, samt eksempel på bruk med <
 ## Eksempel på spørringer
 Alle API-er:
 ```
-curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/apis/search
+curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/apis
 ```
 Et spesifikt API basert på id:
 ```
