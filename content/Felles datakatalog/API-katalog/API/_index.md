@@ -21,5 +21,5 @@ curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/apis/<
 ```
 En  enkelt søk etter API-er med ordet "barnehage":
 ```
-curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/apis/search?q=barnehage
+curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/apis?q=barnehage
 ```
