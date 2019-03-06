@@ -57,3 +57,7 @@ ___
 | Funksjonell arkitekt | Godkjenne levert funksjonalitet | |
 | Løsningsarkitekt | Godkjenne levert kvalitet |
 | Produkteier | Akseptere levert funksjonalitet  | |
+
+## Utført
+*Kriteria: Funksjonalitet og kvalitet er godkjent i akseptansetest og issue er "closed". Eller det er bestemt at behovet ikke skal taes videre i behovsprosessen.*
+Alle issues som blir lukka vil automatisk havne i denne kolonnen.
