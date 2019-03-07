@@ -23,3 +23,7 @@ En  enkelt søk etter API-er med ordet "barnehage":
 ```
 curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/apis?q=barnehage
 ```
+Liste alle API-er der utgiver er Registerenheten i Brønnøysund:
+```
+curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/apis?orgPath=/STAT/912660680/974760673
+```
