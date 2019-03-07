@@ -10,13 +10,24 @@ Behovsprosessen har følgende steg:
 ## Avklare behov
 *Kriteria: Issuet skal vere identifisert som et potensielt behov.*
 
+__Aktiviterer:__
+
 | Ansvarlig rolle | Aktivitet | Verktøy |
 | --------------- | --------- | ------- |
 | Gevinstansvarlig | Opprette epos og utarbeide enkel gevinstanalyse | GitHub |
 | Funksjonell arkitekt | Opprette brukerhistorier | GitHub |
 
 ## Analysere behov
-*Kriteria: Behovet skal vere formulert som et epos og ha en enkel gevinstanalyse.*
+*Kriteria: Behovet skal vere formulert som et epos og ha en enkel gevinstanalyse. Brukerhistorien skal tildeles forretningsverdi etter følgende kriteria:*
+
+| Indikator | Kriterium |
+| --------- | --------- |
+| Kritisk | Eposet kan ikke leveres uten denne brukerhistorien. |
+| Viktig | Brukerhistorien er vesentlig for at funksjonaliteten i Eposet realiseres. |
+| Mindre viktig | Eposets funksjonelle intensjon er realisert uten denne brukerhistorien. |
+| Kjekt-å-ha | Når alt annet er levert og teamet ikke har noe bedre å finne på, kan denne realiseres.|
+
+__Aktiviteter:__
 
 | Ansvarlig rolle | Aktivitet | Verktøy |
 | --------------- | --------- | ------- |
@@ -27,6 +38,8 @@ Behovsprosessen har følgende steg:
 ## Beskrive design og løsningsarkitektur
 *Kriteria: Eposet skal ha ei eller flere brukerhistorier knytta til seg.*
 
+__Aktiviteter:__
+
 | Ansvarlig rolle | Aktivitet | Verktøy |
 | --------------- | --------- | ------- |
 | Løsningsarkitekt | Utarbeide løsningsarkitektur | <a href="https://github.com/Informasjonsforvaltning/SA_Informasjonsforvaltning" target="_blank">Archi</a> |
@@ -36,6 +49,8 @@ Behovsprosessen har følgende steg:
 
 ## Klar til konstruksjon
 *Kritieria: Brukerhistorien skal ha et design (der det er relevant) og en løsningsarkitektur. Akseptansekriteria skal være dokumentert som et sett av features.*
+
+__Aktiviteter:__
 
 | Ansvarlig rolle | Aktivitet | Verktøy |
 | --------------- | --------- | ------- |
@@ -51,6 +66,8 @@ ___
 
 ## Klar til akseptansetest
 *Kriteria: Utviklingsteamet har levert funksjonalitet til staging-miljø som realiserer brukerhistorien.*
+
+__Aktiviteter:__
 
 | Ansvarlig rolle | Aktivitet | Verktøy |
 | --------------- | --------- | ------- |
