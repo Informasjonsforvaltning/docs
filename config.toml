@@ -1,6 +1,6 @@
 title = "Informasjonsforvaltning dokumentasjon"
 theme = "docdock"
-googleAnalytics= "UA-110098477-1"
+googleAnalytics= "UA-110098477-3"
 baseURL = "/"
 
 contentDir = "content"
