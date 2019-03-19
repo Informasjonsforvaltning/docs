@@ -305,6 +305,12 @@
       ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath100"
       ><path d="M729 204 L739 204 L739 213 L729 213 L729 204 Z"
       /></clipPath
+      ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath101"
+      ><path d="M238 236 L586 236 L586 265 L238 265 L238 236 Z"
+      /></clipPath
+      ><clipPath clipPathUnits="userSpaceOnUse" id="clipPath102"
+      ><path d="M248 246 L258 246 L258 255 L248 255 L248 246 Z"
+      /></clipPath
       ><font horiz-adv-x="64.55078" id="font1"
       ><font-face ascent="107.91016" font-style="normal" descent="25.097656" units-per-em="100" font-family="Segoe UI" font-weight="normal"
         /><missing-glyph horiz-adv-x="64.55078" d="M8.1094 0 L8.1094 68.2656 L56.4531 68.2656 L56.4531 0 L8.1094 0 ZM15.3281 7.2344 L49.2188 7.2344 L49.2188 61.0312 L15.3281 61.0312 L15.3281 7.2344 Z"
@@ -912,6 +918,25 @@
       /><line clip-path="url(#clipPath99)" fill="none" x1="805" x2="730" y1="208" y2="208" stroke-dasharray="6,3" stroke="black"
       /><polygon fill="black" stroke-dasharray="6,3" clip-path="url(#clipPath100)" points=" 730 208 737 205 737 211" stroke="none"
       /><polygon fill="none" clip-path="url(#clipPath100)" points=" 730 208 737 205 737 211" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="574" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="418" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath101)" fill="none" x1="418" x2="249" y1="250" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath102)" fill="none" x1="256" x2="249" y1="247" y2="250" stroke="black"
+      /><line clip-path="url(#clipPath102)" fill="none" x1="249" x2="256" y1="250" y2="253" stroke="black"
     /></g
   ></g
 ></svg
