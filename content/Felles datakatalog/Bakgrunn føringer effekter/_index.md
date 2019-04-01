@@ -25,6 +25,10 @@ Beskrive hvordan data som er beskrevet i datasettene kan nås og anvendes – i 
 
 Etter hvert som oversiktene blir mer komplette og katalogene fylles opp av virksomhetene, vil det være grunnlag for mer automatisert gjenbruk og viderebruk av data, og mulig å nå målet om at informasjon bare skal innhentes én gang (deretter gjenbrukes).
 
+### Føringer
+<a href="https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2623277/" target="_blank">Digitaliseringsrundskrivet</a> er en sammenstilling av pålegg og anbefalinger om digitalisering i offentlig sektor. Rundskrivet gir følgende anbefaling: "Den enkelte virksomhet bør synliggjøre data som de er i stand til å dele med andre i Felles datakatalog og på data.norge.no."
+
+
 ### Effekter
 
 Effektene av arbeidet med informasjonsforvaltning gjennom disse tiltakene vil blant annet være økt datakvalitet - felles definisjoner/forståelse og mere sanntidsdata. Dette vil igjen åpne for at rapporteringsplikter (skjema) kan reduseres i antall og omfang.
