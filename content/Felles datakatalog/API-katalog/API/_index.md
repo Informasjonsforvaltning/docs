@@ -27,3 +27,11 @@ Liste alle API-er der utgiver er Registerenheten i Brønnøysund:
 ```
 curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/apis?orgPath=/STAT/912660680/974760673
 ```
+Liste endepunkter til alle API-er som realiserer en gitt tjenestetype:
+```
+curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/apis/endpoints?serviceType=Kontoopplysninger
+```
+Liste endepunkter til alle API-er som realiserer en gitt tjenestetype for gitte organisasjonsnummer:
+```
+curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/apis/endpoints?serviceType=Kontoopplysninger&orgNos=910244132,910888447
+```
