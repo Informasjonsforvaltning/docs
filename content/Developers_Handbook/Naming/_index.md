@@ -12,11 +12,9 @@ There are <a href="https://martinfowler.com/bliki/TwoHardThings.html" target="_b
 | api specification | _microservice name_.yaml | a-backend-service.yaml |
 | groupId | no.brreg._servicename_ | no.brreg.abackendservice |
 | artifactId | _service-name_  | a-backend-service|
-| package | _groupId_._funtion_ | no.brreg.abackendservice.api |
-|         |                     | no.brreg.abackendservice.api.template|
-| Api classes | _Microservice name_+Api  | ABackEndApi.java |
-| Model classes | _Name of business object_  | ABackEnd.java |
-| Controller classes | _Microservice name_+Controller | ABackEndController.java |
-| Service classes | _Microservice name_ +Service | ABackEndService.java |
-| Repository classes | _Microservice name_ +Service | ABackEndService.java |
-| Util classes | _Microservice name_+_Util_ | ABackEndUtil.java |
+| package | _groupId_._funtion_ | no.brreg.abackendservice.api\|controller\|service\|repository\|model |
+| Api classes | _name-of-resource-in-api-spec_+Api  | SomeResourceApi.java |
+| Model classes | _name-of-resource-in-api-spec_+DB  | SomeResourceDB.java |
+| Controller classes | _name-of-resource-in-api-spec_+ApiImpl.java | SomeResourceApiImpl.java |
+| Service classes | _name-of-resource-in-api-spec_ +Service | SomeResourceService.java |
+| Repository classes | _name-of-resource-in-api-spec_ +Repository | SomeResourceRepository.java |
