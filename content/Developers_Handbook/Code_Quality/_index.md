@@ -1,6 +1,6 @@
 ---
 title: Code quality
-weight: 5
+weight: 6
 ---
 We use [SonarCloud](https://sonarcloud.io) to monitor code quality, including test coverage.
 
