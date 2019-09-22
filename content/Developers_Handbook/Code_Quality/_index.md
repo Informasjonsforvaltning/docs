@@ -1,6 +1,6 @@
 ---
 title: Code quality
-weight: 5
+weight: 6
 ---
 We use <a href="https://sonarcloud.io" target="_blank">SonarCloud</a> to monitor code quality, including test coverage.
 
