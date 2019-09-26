@@ -13,13 +13,17 @@ Her følger en kort beskrivelse begrepskatalogens API, samt eksempel på bruk me
 ## Eksempel på spørringer
 Alle begrep:
 ```
-curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/concepts
+curl -H "Accept: application/json" "https://fellesdatakatalog.brreg.no/api/concepts"
 ```
 Et spesifikt begrep basert på id:
 ```
-curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/concepts/<id>
+curl -H "Accept: application/json" "https://fellesdatakatalog.brreg.no/api/concepts/<id>"
 ```
-En  enkelt søk etter begrep med ordet "innsyn":
+Et  enkelt søk etter begrep med ordet "innsyn":
 ```
-curl -H "Accept: application/json" https://fellesdatakatalog.brreg.no/api/concepts?q=innsyn
+curl -H "Accept: application/json" "https://fellesdatakatalog.brreg.no/api/concepts?q=innsyn"
+```
+En spørring som gir filter på organisasjonen (i eksempelet Brønnøysundregistrene) som har publisert begrepet:
+```
+curl -H "Accept: application/json" "https://fellesdatakatalog.brreg.no/api/concepts?orgpath=/STAT/912660680/974760673"
 ```
