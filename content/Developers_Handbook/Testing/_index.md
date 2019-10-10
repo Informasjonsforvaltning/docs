@@ -13,6 +13,14 @@ From Clemson "Testing Strategies in a Microservice Architecture" we have borrowe
 - contract
 - end-to-end
 
+From Clemson "Testing Strategies in a Microservice Architecture" we have borrowed the following strategies:
+
+- unit (solitary + sociable) _automated_
+- integration (testing adapters, classes that communicates with the outside world) _automated_
+- contract (based on specification, "service test", the artifact thatwill be deployed) _automated_
+- end-to-end (minimal) _mostly manual_
+
+_next step_  
 As an alternative to end-to-end tests we prefer a technique called _semantic monitoring_, where we use fake events (_synthetic transactions_) to ensure that the system is behaving semantically.
 
 Another aspect of testing is _timing_, when to run what tests [1]:
