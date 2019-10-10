@@ -15,9 +15,9 @@ From Clemson "Testing Strategies in a Microservice Architecture" we have borrowe
 
 From Clemson "Testing Strategies in a Microservice Architecture" we have borrowed the following strategies:
 
-- unit (solitary + sociable) _automated_
-- integration (testing adapters, classes that communicates with the outside world) _automated_
-- contract (based on specification, "service test", the artifact thatwill be deployed) _automated_
+- unit (solitary + sociable) _automated, included in coverage_
+- integration (testing adapters, classes that communicates with the outside world) _automated, included in coverage_
+- contract (based on specification, "service test", the artifact that will be deployed) _automated_
 - end-to-end (minimal) _mostly manual_
 
 _next step_  
