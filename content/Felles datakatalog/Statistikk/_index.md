@@ -8,3 +8,5 @@ weight: 99
 - [Mai 2019](FDK-rapport 2019-05.pptx)
 - [Juni 2019](FDK-rapport 2019-06.pptx)
 - [Juli 2019](FDK-rapport 2019-07.pptx)
+- [August 2019](FDK-rapport 2019-08.pptx)
+- [September 2019](FDK-rapport 2019-09.pptx)
