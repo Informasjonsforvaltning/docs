@@ -5,6 +5,8 @@ weight: 2
 
 Vår behovsprosess er implementert som et GitHub-prosjekt og er <a href="https://github.com/orgs/Informasjonsforvaltning/projects/3" target="_blank">åpent tilgjengelig</a>. Behovsprosessen starter ved at det er registrert et issue på en av våre løsninger eller på vårt dedikerte <a href="https://github.com/Informasjonsforvaltning/behov/issues" target="_blank">behovsprosjekt</a>.
 
+Dersom du ønsker å registrere et behov eller en brukerhistorie mot en av våre løsninger, kan du opprette et nytt issue ved <a href="https://github.com/Informasjonsforvaltning/behov/issues/new?assignees=&labels=userstory&template=brukerhistorie.md&title=%5BBRUKERHISTORIE%5D" target="_blank"> å opprette en brukerhistorie</a>.
+
 Behovsprosessen har følgende steg:
 
 ## Avklare behov
