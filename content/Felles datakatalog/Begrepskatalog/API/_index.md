@@ -27,3 +27,7 @@ En spørring som gir filter på organisasjonen (i eksempelet Brønnøysundregist
 ```
 curl -H "Accept: application/json" "https://fellesdatakatalog.brreg.no/api/concepts?orgpath=/STAT/912660680/974760673"
 ```
+Tilgang til registreringsløsningens samling av publiserte begreper som <a href="https://doc.difi.no/data/begrep-skos-ap-no/" target="_blank"><u>SKOS-AP-NO</u></a>:
+```
+curl -H "Accept: text/turtle" https://registrering-begrep-api.fellesdatakatalog.brreg.no/collections
+```
