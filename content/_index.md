@@ -4,7 +4,7 @@ title: Informasjonsforvaltning dokumentasjon
 
 # Informasjonsforvaltning dokumentasjon
 
-Her finner du informasjon om informasjonsforvaltning i Brønnøysundregistrene og de løsningene vi utvikler og forvalter.
+Her finner du informasjon om informasjonsforvaltning i Digitaliseringsdirektoratet og de løsningene vi utvikler og forvalter.
 
 [Felles datakatalog](/felles-datakatalog)
 

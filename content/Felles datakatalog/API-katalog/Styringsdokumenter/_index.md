@@ -3,7 +3,7 @@ title: Styringsdokumentasjon API katalog
 weight: 1
 ---
 
-Her finner du styringsdokumentene i felles API-katalog utviklet av Brønnøysundregistrene.
+Her finner du styringsdokumentene i felles API-katalog utviklet av Digitaliseringsdirektoratet.
 
 
 * [Styringsdokument](Styringsdokument_API-katalog_v1.1.pdf)
