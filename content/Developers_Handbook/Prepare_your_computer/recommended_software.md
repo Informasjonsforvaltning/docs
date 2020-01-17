@@ -31,6 +31,10 @@ sudo snap install kubectl --classic
 ```
 More <a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux" target="_blank">here</a>
 
+You need to set a default cluster (e.g fdk-dev) for kubectl commands:
+```
+gcloud container clusters get-credentials fdk-dev
+```
 #### Enable shell autocompletion for kubectl
 In short, if you use zsh add the follwing line to the end of your ~/.zshrc file:
 ```
