@@ -12,7 +12,7 @@ Dette er en representasjon av modellen i form av <a href="https://json-schema.or
 ```
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "$id": "https://fellesdatakatalog.brreg.no/informationmodels/c207ad40-cf59-47e6-b7a8-35d6c4692067/schema",
+  "$id": "https://fellesdatakatalog.digdir.no/informationmodels/c207ad40-cf59-47e6-b7a8-35d6c4692067/schema",
   "definitions": {
     "QueryResponse": {
       "type": "object",

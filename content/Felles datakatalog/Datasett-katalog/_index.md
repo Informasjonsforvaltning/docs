@@ -11,7 +11,7 @@ FDK høster beskrivelser fra andre datakataloger, herunder <a href="https://www.
 Har du en datakatalog som kan eksponeres og deles? Ta kontakt! 
 
 ### Hvordan registerer jeg mine datasett?
-Felles datasettkatalog inneholder en <a href="https://fellesdatakatalog.brreg.no/about-registration" target="_blank">registreringsløsning</a> som alle offentlige virksomheter kan benytte. Private virksomheter oppfordres til å ta kontakt for å registrere sine datasett.
+Felles datasettkatalog inneholder en <a href="https://fellesdatakatalog.digdir.no/about-registration" target="_blank">registreringsløsning</a> som alle offentlige virksomheter kan benytte. Private virksomheter oppfordres til å ta kontakt for å registrere sine datasett.
 
 ### Hvor finner jeg felles datasettkatalog?
-Her finner du <a href="https://fellesdatakatalog.brreg.no" target="_blank">Felles datasettkatalog</a>
+Her finner du <a href="https://fellesdatakatalog.digdir.no" target="_blank">Felles datasettkatalog</a>

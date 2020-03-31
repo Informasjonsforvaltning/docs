@@ -12,4 +12,4 @@ I dag hentes informasjonsmodellen fra spesifikasjonen til APIer i API-katalogen.
 Foreløpig har vi ingen løsning for å registrere informasjonsmodeller i vår løsning.
 
 ### Hvor finner jeg felles informasjonsmodell-katalog?
-Her finner du <a href="https://fellesdatakatalog.brreg.no/informationmodels" target="_blank">Informasjonsmodell-katalogen</a>.
+Her finner du <a href="https://fellesdatakatalog.digdir.no/informationmodels" target="_blank">Informasjonsmodell-katalogen</a>.
