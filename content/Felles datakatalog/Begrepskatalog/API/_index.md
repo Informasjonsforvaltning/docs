@@ -31,3 +31,7 @@ Tilgang til registreringsløsningens samling av publiserte begreper som <a href=
 ```
 curl -H "Accept: text/turtle" https://registrering-begrep-api.fellesdatakatalog.digdir.no/collections
 ```
+Som over, men for ein gitt organisasjon (publisher):
+```
+curl -H "Accept: text/turtle" "https://registrering-begrep-api.fellesdatakatalog.digdir.no/collections?publisher=991825827"
+```
