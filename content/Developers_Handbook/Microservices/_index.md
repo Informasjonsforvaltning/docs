@@ -12,6 +12,6 @@ We base our understanding of what a microservice is on the following definitions
 > *A __component__ is a unit of software that is independently replaceable and upgradeable.*
 
 ## References
-  <a href="https://samnewman.io/books/building_microservices/" target="_blank">Sam Newman, Building Microservices</a>
+  [Sam Newman, Building Microservices](https://samnewman.io/books/building_microservices/)
 
-  <a href="https://martinfowler.com/articles/microservices.html" target="_blank">Martin Fowler, Microservices</a>
+  [Martin Fowler, Microservices](https://martinfowler.com/articles/microservices.html)

@@ -7,7 +7,7 @@ Vi jobber kontinuerlig med å oppdatere målbildet vårt etter hvert som behoven
 
 # Diagram
 
-Sammenhengen mellom komponenten illustreres i følgende diagram: ![Overodnet mål-arkitektur](./Informasjonsforvaltning Applications - Målbilde.svg)
+Sammenhengen mellom komponenten illustreres i følgende diagram: ![Overodnet mål-arkitektur](maalbilde.svg)
 
 # Om komponentene i målbildet
 

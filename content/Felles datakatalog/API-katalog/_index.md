@@ -9,7 +9,7 @@ Felles API-katalog ble utviklet i 2018 som en utvidelse av Felles datakatalog fo
 FDK høster beskrivelser fra andre API-kataloger. I tillegg tilbys en registreringsløsning.
 
 ### Hvordan registerer jeg mine API?
-Felles datasettkatalog inneholder en <a href="https://fellesdatakatalog.digdir.no/about-registration" target="_blank">registreringsløsning</a> som alle offentlige virksomheter kan benytte. Private virksomheter oppfordres til å ta kontakt for å registrere sine API.
+Felles datasettkatalog inneholder en [registreringsløsning](https://fellesdatakatalog.digdir.no/about-registration) som alle offentlige virksomheter kan benytte. Private virksomheter oppfordres til å ta kontakt for å registrere sine API.
 
 ### Hvor finner jeg felles API-katalog?
-Her finner du <a href="https://fellesdatakatalog.digdir.no/apis" target="_blank">API-katalogen</a>.
+Her finner du API-katalogen: https://data.norge.no/dataservices

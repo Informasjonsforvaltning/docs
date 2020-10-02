@@ -3,7 +3,7 @@ title: Naming
 weight: 3
 ---
 
-There are <a href="https://martinfowler.com/bliki/TwoHardThings.html" target="_blank">two hard things</a> in Computer Science, and the following is an attempt to ease our pain when naming things.
+There are [two hard things](https://martinfowler.com/bliki/TwoHardThings.html) in Computer Science, and the following is an attempt to ease our pain when naming things.
 
 | What | Naming convention | Example |
 | ---- | ----------------- | ------- |
