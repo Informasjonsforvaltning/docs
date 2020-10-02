@@ -1,17 +1,16 @@
 ---
-title: Informasjonsforvaltning dokumentasjon
+title: Felles datakatalog dokumentasjon
 ---
 
-# Informasjonsforvaltning dokumentasjon
+# Felles datakatalog dokumentasjon
 
-Her finner du informasjon om informasjonsforvaltning i Digitaliseringsdirektoratet og de løsningene vi utvikler og forvalter.
+Her finner du informasjon og dokumentasjon om [Felles datakatalog](/felles-datakatalog).
 
-[Felles datakatalog](/felles-datakatalog)
 
 Hvis du finner noe som er feil i vår dokumentasjon, eller som ikke er beskrevet godt nok på disse sidene:
 
-* send en epost til [fellesdatakatalog@brreg.no](mailto:fellesdatakatalog@brreg.no),
-* opprett en <a href="https://github.com/Informasjonsforvaltning/docs/issues" target="_blank">sak</a>, eller
-* lag en <a href="https://github.com/Informasjonsforvaltning/docs/pulls" target="_blank">pull request</a>.
+* send en epost til [fellesdatakatalog@digdir.no](mailto:fellesdatakatalog@digdir.no),
+* opprett en [sak](https://github.com/Informasjonsforvaltning/docs/issues), eller
+* lag en [pull request](https://github.com/Informasjonsforvaltning/docs/pulls).
 
-Dersom du har funnet feil eller mangler i <a href="https://fellesdatakatalog.digdir.no" target="_blank">Felles datakatalog</a>, opprett en sak direkte <a href="https://github.com/Informasjonsforvaltning/fdk/issues" target="_blank">her</a>.
+Dersom du har funnet feil eller mangler i [Felles datakatalog](https://data.norge.no), opprett en sak direkte [her](https://github.com/Informasjonsforvaltning/fdk-issue-tracker/issues).
