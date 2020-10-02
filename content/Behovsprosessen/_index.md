@@ -3,9 +3,9 @@ title: Åpen behovsprosess
 weight: 2
 ---
 
-Vår behovsprosess er implementert som et GitHub-prosjekt og er <a href="https://github.com/orgs/Informasjonsforvaltning/projects/3" target="_blank">åpent tilgjengelig</a>. Behovsprosessen starter ved at det er registrert et issue på en av våre løsninger eller på vårt dedikerte <a href="https://github.com/Informasjonsforvaltning/behov/issues" target="_blank">behovsprosjekt</a>.
+Vår behovsprosess er implementert som et GitHub-prosjekt og er [åpent tilgjengelig](https://github.com/orgs/Informasjonsforvaltning/projects/3). Behovsprosessen starter ved at det er registrert et issue på en av våre løsninger eller på vårt dedikerte [behovsprosjekt](https://github.com/Informasjonsforvaltning/behov/issues).
 
-Dersom du ønsker å registrere et behov eller en brukerhistorie mot en av våre løsninger, kan du opprette et nytt issue ved <a href="https://github.com/Informasjonsforvaltning/behov/issues/new?assignees=&labels=userstory&template=brukerhistorie.md&title=%5BBRUKERHISTORIE%5D" target="_blank"> å opprette en brukerhistorie</a>.
+Dersom du ønsker å registrere et behov eller en brukerhistorie mot en av våre løsninger, kan du opprette et nytt issue ved [å opprette en brukerhistorie]("https://github.com/Informasjonsforvaltning/behov/issues/new?assignees=&labels=userstory&template=brukerhistorie.md&title=%5BBRUKERHISTORIE%5D).
 
 Behovsprosessen har følgende steg:
 
@@ -44,9 +44,9 @@ __Aktiviteter:__
 
 | Ansvarlig rolle | Aktivitet | Verktøy |
 | --------------- | --------- | ------- |
-| Løsningsarkitekt | Utarbeide løsningsarkitektur | <a href="https://github.com/Informasjonsforvaltning/SA_Informasjonsforvaltning" target="_blank">Archi</a> |
+| Løsningsarkitekt | Utarbeide løsningsarkitektur | [Archi](https://github.com/Informasjonsforvaltning/SA_Informasjonsforvaltning)|
 | Designer | Utarbeide design basert på trådskisser | |
-| Testleder | Utarbeide akseptansekriteria som features i <a href="https://docs.cucumber.io/gherkin/reference/" target="_blank">Gherkin</a> | GitHub |
+| Testleder | Utarbeide akseptansekriteria som features i [Gherkin](https://docs.cucumber.io/gherkin/reference/) | GitHub |
 | Senior utvikler | Utarbeide scenarier i features | GitHub |
 
 ## Klar til konstruksjon

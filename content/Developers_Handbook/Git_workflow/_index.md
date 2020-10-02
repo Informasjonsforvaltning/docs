@@ -2,7 +2,7 @@
 title: Git workflow
 weight: 4
 ---
-There are different popular Git workflows. We consider <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank">Gitflow</a> too focused on scheduled releases. Since we try to deploy "all the time", we shall adhere to the <a href="https://githubflow.github.io/" target="_blank">GitHub Flow</a>:
+There are different popular Git workflows. We consider [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)" too focused on scheduled releases. Since we try to deploy "all the time", we shall adhere to the [GitHub Flow](https://githubflow.github.io/):
 
 > - Anything in the master branch is deployable
 > - To work on something new, create a descriptively named branch off of master (ie: new-oauth2-scopes)
