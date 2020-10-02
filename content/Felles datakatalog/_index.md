@@ -15,14 +15,14 @@ I menyen til venstre kan du finne informasjon om de ulike katalogene.
 <img src="./FDK_skjermbilde.png" width="40%" alt="Felles datakatalog bilde" align=right >
 
 ### Hvor finner jeg felles datakatalog?
-Her finner du <a href="https://fellesdatakatalog.digdir.no" target="_blank">Felles datakatalog</a>
+Her finner du Felles datakatalog: <https://data.norge.no>
 
 ### Hvordan kan jeg teste felles datakatalog?
-Her finner du <a href="https://demo.fellesdatakatalog.digdir.no" target="_blank">Demo Felles datakatalog</a>
+Her finner du vårt demo miljø: <https://demo.fellesdatakatalog.digdir.no>
 
-Her finner du <a href="https://registrering.demo.fellesdatakatalog.digdir.no/loggin" target="_blank">Demo FDK Registrering</a>
+Her finner du registreringsløsningene i demo miljøet: <https://registrering.demo.fellesdatakatalog.digdir.no>
 
-For å få demo-bruker kan du ta kontakt på mail: fellesdatakatalog@brreg.no
+For å få demo-bruker kan du ta kontakt på mail: fellesdatakatalog@digdir.no
 
 ### Har dere statistikk på bruk?
 Ja, se her for [statistikk](statistikk) over innhold og bruk av felles datakatalog.

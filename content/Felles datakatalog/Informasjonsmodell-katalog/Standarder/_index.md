@@ -8,7 +8,7 @@ Informasjonsmodell-katatalogen representerer modeller på to måter:
 Dette er en fritekstlig representasjon av modellen med navn på elementet og elementets type.
 
 ## JSON Schema
-Dette er en representasjon av modellen i form av <a href="https://json-schema.org/" target="_blank">JSON Schema</a>. Vi støtter pr i dag draft-06 av spesifikasjonen. For eksempel slik:
+Dette er en representasjon av modellen i form av [JSON Schema](https://json-schema.org/). Vi støtter pr i dag draft-06 av spesifikasjonen. For eksempel slik:
 ```
 {
   "$schema": "http://json-schema.org/draft-06/schema#",

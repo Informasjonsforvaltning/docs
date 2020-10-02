@@ -6,9 +6,9 @@ description: A list of required software and how to install
 
 ## In your linux machine you will need to install some software
 #### Docker
-Instructions <a href="https://docs.docker.com/install/linux/docker-ce/ubuntu/" target="_blank">here</a>
+Instructions [here](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 #### Docker compose
-Instructions <a href="https://docs.docker.com/compose/install/" target="_blank">here</a>
+Instructions [here](https://docs.docker.com/compose/install/)
 #### Maven
 ```
 % sudo apt-get install maven
@@ -38,7 +38,7 @@ Python 2.7.16+
 Python 3.7.4
 ```
 #### NodeJS
-It is highly recommended to use the _node version manager_ (`nvm`). To install nvm, follow <a href="https://github.com/nvm-sh/nvm#installation-and-update" target="_blank">instructions</a>.
+It is highly recommended to use the _node version manager_ (`nvm`). To install nvm, follow [instructions](https://github.com/nvm-sh/nvm#installation-and-update).
 
 Then, to download, compile, and install the latest release of node, do this:
 ```

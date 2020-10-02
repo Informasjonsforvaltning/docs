@@ -15,6 +15,6 @@ The following is guidelines prescribing what HTTP method to use for common "busi
 | Delete   | DELETE /foos/1234 | 204 No Content | | No body in response |
 
 ## References
-<a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html" target="_blank">Method definitions</a>  
-<a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html" target="_blank">Status Code Definitions</a>  
-<a href="https://tools.ietf.org/html/rfc6902" target="_blank">JSON Patch</a>  
+[Method definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html)
+[Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)  
+[JSON Patch](https://tools.ietf.org/html/rfc6902)
