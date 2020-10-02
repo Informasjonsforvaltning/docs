@@ -22,7 +22,7 @@ Her finner du <a href="https://demo.fellesdatakatalog.digdir.no" target="_blank"
 
 Her finner du <a href="https://registrering.demo.fellesdatakatalog.digdir.no/loggin" target="_blank">Demo FDK Registrering</a>
 
-For å få demo-bruker kan du ta kontakt på mail: fellesdatakatalog@brreg.no
+For å få demo-bruker kan du ta kontakt på mail: fellesdatakatalog@digdir.no
 
 ### Har dere statistikk på bruk?
 Ja, se her for [statistikk](statistikk) over innhold og bruk av felles datakatalog.
