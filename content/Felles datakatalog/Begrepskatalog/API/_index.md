@@ -25,7 +25,7 @@ curl -H "Accept: application/json" "https://fellesdatakatalog.digdir.no/api/conc
 ```
 En spørring som gir filter på organisasjonen (i eksempelet Brønnøysundregistrene) som har publisert begrepet:
 ```
-curl -H "Accept: application/json" "https://fellesdatakatalog.digdir.no/api/concepts?orgpath=/STAT/912660680/974760673"
+curl -H "Accept: application/json" "https://fellesdatakatalog.digdir.no/api/concepts?orgPath=/STAT/912660680/974760673"
 ```
 Tilgang til registreringsløsningens samling av publiserte begreper som <a href="https://doc.difi.no/data/begrep-skos-ap-no/" target="_blank"><u>SKOS-AP-NO</u></a>:
 ```
