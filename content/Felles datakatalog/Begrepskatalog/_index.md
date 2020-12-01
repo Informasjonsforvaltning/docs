@@ -9,7 +9,7 @@ Felles begrepskatalog ble utviklet i 2018 som en utvidelse av Felles datakatalog
 FDK høster beskrivelser fra andre begrepskataloger. I tillegg tilbys en registreringsløsning.
 
 ### Hvordan registerer jeg mine begrep?
-Felles datasettkatalog inneholder en [registreringsløsning](https://fellesdatakatalog.digdir.no/about-registration) som alle offentlige virksomheter kan benytte. Private virksomheter oppfordres til å ta kontakt for å registrere sine begreper.
+Felles datasettkatalog inneholder en [registreringsløsning](https://fellesdatakatalog.digdir.no/about-registration) som alle offentlige virksomheter kan benytte. Private virksomheter oppfordres til å [ta kontakt](mailto:fellesdatakatalog@digdir.no) for å registrere sine begreper.
 
 ### Hvor finner jeg felles begrepskatalog?
 Her finner du Begrepskatalogen: https://data.norge.no/concepts
