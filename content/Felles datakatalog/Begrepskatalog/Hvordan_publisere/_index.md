@@ -18,7 +18,7 @@ Se SKOS terminologi i øverste rad, og verdien i radene under. Legg til flere be
 
 | anbefaltTerm:nb | tillattTerm:nb | anbefaltTerm:en |tillattTerm:en | fraraadetTerm:nb | definisjon:nb | 
 --- | --- | --- | --- |--- |--- |--- |
-| anbefaltTerm	| tillattTerm	| tillattTerm |	anbefaltTerm	| tillattTerm	| fraraadetTerm |  definisjon |
+| anbefaltTerm	| tillattTerm	| anbefaltTerm	| tillattTerm	| fraraadetTerm |  definisjon |
 
 Her er ett eksempel på bruk av bruksområde hvor kolonne a og b er formattert for norsk bokmål (norsk bokmål om ikke annet er oppgitt), og kolonne C og D er på nynorsk. Rekkefølgen på kolonnene har ikke noe å si for importering av begreper.
 
