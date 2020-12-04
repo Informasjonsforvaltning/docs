@@ -17,7 +17,7 @@ Enkelte felter støtter også språk og målform. Støttede språk og målformer
 Se SKOS terminologi i øverste rad, og verdien i radene under. Legg til flere begreper under.
 
 | anbefaltTerm:nb | tillattTerm:nb | anbefaltTerm:en |tillattTerm:en | fraraadetTerm:nb | definisjon:nb | 
---- | --- | --- | --- |--- |--- |--- |
+| --- | --- | --- | --- |--- |--- |
 | test eksempel	| eksempeltest	| Test example	| example test	| illustrasjonstest |  Dette er en definisjon på et eksempel |
 
 Her er ett eksempel på bruk av bruksområde hvor kolonne a og b er formattert for norsk bokmål (norsk bokmål om ikke annet er oppgitt), og kolonne C og D er på nynorsk. Rekkefølgen på kolonnene har ikke noe å si for importering av begreper.
