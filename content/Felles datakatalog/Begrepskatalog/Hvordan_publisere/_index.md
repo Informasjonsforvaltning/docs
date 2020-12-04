@@ -13,12 +13,12 @@ I denne forbindelsen har vi en funksjonalitet for å importere ferdigbeskrevet b
 #### Hvordan Importere begreper fra CSV format? 
 Tabellen består av en rekke kolonne-overskrifter. For at dataene skal leses riktig må overskriftene og dataene være formattert riktig. Enkelte kolonner støtter flere verdier, f.eks bruksområde. For å legge inn flere forekomster av noe, bare legg til en ekstra kolonne med samme navn på første linje(overskrift).
 
-Enkelte felter støtter også språk og målform. Dette settes i overskriften separert med kolon (se bilde under). Støttede språk og målformer er for øyeblikket engelsk(en), nynorsk(nn) og norsk bokmål(nb). Om ikke språk og måform er definert så settes bokmål som default.
+Enkelte felter støtter også språk og målform. Støttede språk og målformer er for øyeblikket engelsk(en), nynorsk(nn) og norsk bokmål(nb). Om ikke språk og måform er definert så settes bokmål som default.
 Se SKOS terminologi i øverste rad, og verdien i radene under. Legg til flere begreper under.
 
 | anbefaltTerm:nb | tillattTerm:nb | anbefaltTerm:en |tillattTerm:en | fraraadetTerm:nb | definisjon:nb | 
 --- | --- | --- | --- |--- |--- |--- |
-| anbefaltTerm	| tillattTerm	| tillattTerm |	anbefaltTerm	| tillattTerm	| fraraadetTerm |  definisjon |
+| test eksempel	| eksempeltest	| Test example	| example test	| illustrasjonstest |  Dette er en definisjon på et eksempel |
 
 Her er ett eksempel på bruk av bruksområde hvor kolonne a og b er formattert for norsk bokmål (norsk bokmål om ikke annet er oppgitt), og kolonne C og D er på nynorsk. Rekkefølgen på kolonnene har ikke noe å si for importering av begreper.
 
@@ -72,6 +72,7 @@ seogsaa: NB! Dette feltet kan ikke brukes til eksterne referanser utenfor begrep
 
 #### Hvordan Importere begreper fra JSON format? 
 Opprett en JSON fil med 1 eller flere begreper på formatet under:
+```
 [
   {
     "anbefaltTerm": {
@@ -205,7 +206,7 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     ]
   }
 ]
-
+```
 
 
 ## Publisere en begrepssamling via vår høsteløsning
