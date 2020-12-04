@@ -5,7 +5,7 @@ weight: 4
 Her følger en kort beskrivelse av hvordan man kan publisere begreper i Felles datakatalog.
 
 ## Registrere begreper i Begrepskatalog GUI
-I [registreringsløsningen](https://registrering.fellesdatakatalog.digdir.no) vår kan du registrere begreper og publisere de ut til portallsøningen https://data.norge.no.
+I [registreringsløsningen](https://registrering.fellesdatakatalog.digdir.no) vår kan du registrere begreper og publisere de ut til portalløsningen https://data.norge.no.
 
 ### Importere Begreper
 I denne forbindelsen har vi en funksjonalitet for å importere ferdigbeskrevet begreper fra CSV- og JSON-formater
@@ -13,7 +13,7 @@ I denne forbindelsen har vi en funksjonalitet for å importere ferdigbeskrevet b
 #### Hvordan Importere begreper fra CSV format? 
 Tabellen består av en rekke kolonne-overskrifter. For at dataene skal leses riktig må overskriftene og dataene være formattert riktig. Enkelte kolonner støtter flere verdier, f.eks bruksområde. For å legge inn flere forekomster av noe, bare legg til en ekstra kolonne med samme navn på første linje(overskrift).
 
-Enkelte felter støtter også språk og målform. Dette settes i overskriften separert med kolon (se bilde under). Støttede språk og målformer er for øyeblikket engelsk(en), nynorsk(nn) og norsk bokmål(nb). Om ikke språk og måform er definert så settes det automatisk.
+Enkelte felter støtter også språk og målform. Dette settes i overskriften separert med kolon (se bilde under). Støttede språk og målformer er for øyeblikket engelsk(en), nynorsk(nn) og norsk bokmål(nb). Om ikke språk og måform er definert så settes bokmål som default.
 Se SKOS terminologi i øverste rad, og verdien i radene under. Legg til flere begreper under.
 
 | anbefaltTerm:nb | tillattTerm:nb | anbefaltTerm:en |tillattTerm:en | fraraadetTerm:nb | definisjon:nb | 
