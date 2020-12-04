@@ -72,6 +72,7 @@ seogsaa: NB! Dette feltet kan ikke brukes til eksterne referanser utenfor begrep
 
 #### Hvordan Importere begreper fra JSON format? 
 Opprett en JSON fil med 1 eller flere begreper på formatet under:
+```
 [
   {
     "anbefaltTerm": {
@@ -205,7 +206,7 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     ]
   }
 ]
-
+```
 
 
 ## Publisere en begrepssamling via vår høsteløsning
