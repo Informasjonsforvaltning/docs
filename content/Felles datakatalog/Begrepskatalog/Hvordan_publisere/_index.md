@@ -16,22 +16,30 @@ Tabellen består av en rekke kolonne-overskrifter. For at dataene skal leses rik
 Enkelte felter støtter også språk og målform. Støttede språk og målformer er for øyeblikket engelsk(en), nynorsk(nn) og norsk bokmål(nb). Om ikke språk og måform er definert så settes bokmål som default.
 Se SKOS terminologi i øverste rad, og verdien i radene under. Legg til flere begreper under.
 
-| anbefaltTerm:nb | tillattTerm:nb | anbefaltTerm:en |tillattTerm:en | fraraadetTerm:nb | definisjon:nb | 
+| anbefaltTerm:nb | tillattTerm:nb | anbefaltTerm:en |tillattTerm:en | frarådetTerm:nb | definisjon:nb | 
 --- | --- | --- | --- |--- |--- |--- |
 | test eksempel	| eksempeltest	| Test example	| example test	| illustrasjonstest |  Dette er en definisjon på et eksempel |
 
-Her er ett eksempel på bruk av bruksområde hvor kolonne a og b er formattert for norsk bokmål (norsk bokmål om ikke annet er oppgitt), og kolonne C og D er på nynorsk. Rekkefølgen på kolonnene har ikke noe å si for importering av begreper.
+Her er ett eksempel på bruk av bruksområde hvor kolonne a og b er formattert for norsk bokmål (norsk bokmål om ikke annet er oppgitt), og kolonne C og D er på engelsk. Rekkefølgen på kolonnene har ikke noe å si for importering av begreper.
 
 Kolonner som ikke gjenkjennes vil bli ignorert, så det kan være lurt å teste først med et par begreper og kontrollere at disse ble importert korrekt i registreringsløsningen.
 
-Når formatteringen av tabellen med dine data er ferdig husk å eksportere til CSV, og deretter importer CSV filen i registreringsløsningen.
+Når formatteringen av tabellen med dine data er ferdig husk å eksportere til CSV separert med semikolon og UTF-8 encoding, og deretter importer CSV filen i registreringsløsningen.
+
+CSV filen skal se slik ut:
+```
+anbefaltTerm:nb;tillattTerm:nb;anbefaltTerm:en;tillattTerm:en;frarådetTerm:nb;definisjon:nb
+test eksempel;eksempeltest;Test example;example test;illustrasjonstest;Dette er en definisjon på et eksempel
+```
+
+Eksempelfil kan lastes ned [her](https://github.com/Informasjonsforvaltning/fdk-testdata/raw/master/testdata/concept_sample.xlsx)
 
 #### Eksempler:
 anbefaltTerm: Flere språk og målformer, kun en kolonne pr språk og målform.
 
 tillattTerm: Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere tillatte termer).
 
-fraraadetTerm: Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere frarådede termer).
+frarådetTerm: Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere frarådede termer).
 
 definisjon: Flere språk og målformer, kun en kolonne pr språk og målform.
 
@@ -43,7 +51,7 @@ merknad: Flere språk og målformer, kun en kolonne pr språk og målform.
 
 eksempel: Flere språk og målformer, kun en kolonne pr språk og målform.
 
-fagomraade: Flere språk og målformer, kun en kolonne pr språk og målform.
+fagområde: Flere språk og målformer, kun en kolonne pr språk og målform.
 
 bruksområde: Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere bruksområder termer).
 
@@ -56,17 +64,17 @@ kontaktpunkt_epost: Kun en kolonne. Rader må inneholde gyldig epostadresse.
 kontaktpunkt_telefon: Kun en kolonne.
 gyldigfom: Fra og med dato for perioden hvor begrepet er gyldig. Kun en kolonne.
 
-Dato formattert med (dd.mm.åååå) dag, måned, år.
+Dato formattert med (åååå-mm-dd) år, måned, dag.
 
 Eksempel: 31.01.2020
 
 gyldigtom: Til og med dato for perioden hvor begrepet er gyldig. Kun en kolonne.
 
-Dato formattert med (dd.mm.åååå) dag, måned, år.
+Dato formattert med (åååå-mm-dd) år, måned, dag.
 
 Eksempel: 01.12.2020
 
-seogsaa: NB! Dette feltet kan ikke brukes til eksterne referanser utenfor begrepskatalogen. Det anbefales sterkt å sette dette etter begrepet er registrert inn. Kun en kolonne støttes og rader må inneholde en gyldig uri som peker til eksisterende begrep i begrepskatalogen.
+seogså: NB! Dette feltet kan ikke brukes til eksterne referanser utenfor begrepskatalogen. Det anbefales sterkt å sette dette etter begrepet er registrert inn. Kun en kolonne støttes og rader må inneholde en gyldig uri som peker til eksisterende begrep i begrepskatalogen.
 
 
 
