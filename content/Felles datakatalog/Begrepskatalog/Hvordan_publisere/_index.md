@@ -66,13 +66,13 @@ gyldigfom: Fra og med dato for perioden hvor begrepet er gyldig. Kun en kolonne.
 
 Dato formattert med (åååå-mm-dd) år, måned, dag.
 
-Eksempel: 31.01.2020
+Eksempel: 2020-01-31
 
 gyldigtom: Til og med dato for perioden hvor begrepet er gyldig. Kun en kolonne.
 
 Dato formattert med (åååå-mm-dd) år, måned, dag.
 
-Eksempel: 01.12.2020
+Eksempel: 2020-12-01
 
 seogså: NB! Dette feltet kan ikke brukes til eksterne referanser utenfor begrepskatalogen. Det anbefales sterkt å sette dette etter begrepet er registrert inn. Kun en kolonne støttes og rader må inneholde en gyldig uri som peker til eksisterende begrep i begrepskatalogen.
 
@@ -110,13 +110,6 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     },
     "merknad": {
       "nb": "merknad"
-    },
-    "ansvarligVirksomhet": {
-      "uri": null,
-      "id": "910244132",
-      "navn": null,
-      "orgPath": null,
-      "prefLabel": null
     },
     "eksempel": {
       "nb": "bruk av begrepet: Eksempel"
@@ -175,13 +168,6 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     },
     "merknad": {
       "nb": "merknad"
-    },
-    "ansvarligVirksomhet": {
-      "uri": null,
-      "id": "910244132",
-      "navn": null,
-      "orgPath": null,
-      "prefLabel": null
     },
     "eksempel": {
       "nb": "bruk av begrepet: Eksempel"
