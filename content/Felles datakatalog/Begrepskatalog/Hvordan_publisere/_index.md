@@ -17,7 +17,7 @@ Enkelte felter støtter også språk og målform. Støttede språk og målformer
 Se SKOS terminologi i øverste rad, og verdien i radene under. Legg til flere begreper under.
 
 | anbefaltTerm:nb | tillattTerm:nb | anbefaltTerm:en |tillattTerm:en | frarådetTerm:nb | definisjon:nb | 
---- | --- | --- | --- |--- |--- |--- |
+| --- | --- | --- | --- | --- | --- |
 | test eksempel	| eksempeltest	| Test example	| example test	| illustrasjonstest |  Dette er en definisjon på et eksempel |
 
 Her er ett eksempel på bruk av bruksområde hvor kolonne a og b er formattert for norsk bokmål (norsk bokmål om ikke annet er oppgitt), og kolonne C og D er på engelsk. Rekkefølgen på kolonnene har ikke noe å si for importering av begreper.
@@ -32,50 +32,42 @@ anbefaltTerm:nb;tillattTerm:nb;anbefaltTerm:en;tillattTerm:en;frarådetTerm:nb;d
 test eksempel;eksempeltest;Test example;example test;illustrasjonstest;Dette er en definisjon på et eksempel
 ```
 
-Eksempelfil kan lastes ned [her](https://github.com/Informasjonsforvaltning/fdk-testdata/raw/master/testdata/concept_sample.xlsx)
+[Last ned eksempelfil med alle felter](https://github.com/Informasjonsforvaltning/fdk-testdata/raw/master/testdata/concept_sample.xlsx)
 
-#### Eksempler:
-anbefaltTerm: Flere språk og målformer, kun en kolonne pr språk og målform.
+Dette er en excelfil som kan manipuleres ved å endre innholdene i feltene beskrevet under eksempler samt legge til flere begreper.
+Husk å eksportere som CSV separert med semikolon og UTF-8 encoding.
 
-tillattTerm: Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere tillatte termer).
+#### Veiledning for eksport til UTF-8:
+![Eksport til csv med excel](Export_csv.png)
+![Eksport til csv med excel - velg filformat](Export_csv2.png)
 
-frarådetTerm: Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere frarådede termer).
+* 1 - Trykk på 'Export'
+* 2 - Trykk på 'Change File Type'
+* 3 - Velg 'CSV (comma delimited)'
+* 4 - Trykk på 'Save as'
+* 5 - Velg 'CSV UTF-8 (comma delimited)' under 'Save as type'
 
-definisjon: Flere språk og målformer, kun en kolonne pr språk og målform.
 
-forholdtilkilde: må være en av: «egendefinert», «basertPaaKilde» eller «sitatFraKilde»
-
-kilde: Formatteres med tekst beskrivelse og gyldig uri til kilde separert med tegnet |. eksempel: «brønnøysund|https://www.brreg.no/»
-
-merknad: Flere språk og målformer, kun en kolonne pr språk og målform.
-
-eksempel: Flere språk og målformer, kun en kolonne pr språk og målform.
-
-fagområde: Flere språk og målformer, kun en kolonne pr språk og målform.
-
-bruksområde: Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere bruksområder termer).
-
-omfang_uri: Kun en kolonne.
-
-omfangtekst: Kun en kolonne.
-
-kontaktpunkt_epost: Kun en kolonne. Rader må inneholde gyldig epostadresse.
-
-kontaktpunkt_telefon: Kun en kolonne.
-gyldigfom: Fra og med dato for perioden hvor begrepet er gyldig. Kun en kolonne.
-
-Dato formattert med (åååå-mm-dd) år, måned, dag.
-
-Eksempel: 2020-01-31
-
-gyldigtom: Til og med dato for perioden hvor begrepet er gyldig. Kun en kolonne.
-
-Dato formattert med (åååå-mm-dd) år, måned, dag.
-
-Eksempel: 2020-12-01
-
-seogså: NB! Dette feltet kan ikke brukes til eksterne referanser utenfor begrepskatalogen. Det anbefales sterkt å sette dette etter begrepet er registrert inn. Kun en kolonne støttes og rader må inneholde en gyldig uri som peker til eksisterende begrep i begrepskatalogen.
-
+#### Gyldige felter
+| Felt | Kommentar | Eksempel |
+| --- | --- | --- |
+| anbefaltTerm | Flere språk og målformer, kun en kolonne pr språk og målform. | |
+| tillattTerm | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere tillatte termer). | |
+| frarådetTerm | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere frarådede termer). | |
+| definisjon | Flere språk og målformer, kun en kolonne pr språk og målform. | |
+| forholdtilkilde | må være en av: «egendefinert», «basertPaaKilde» eller «sitatFraKilde» | |
+| kilde | Formatteres med tekst beskrivelse og gyldig uri til kilde separert med tegnet \|. | «brønnøysund\|https://www.brreg.no/» |
+| merknad | Flere språk og målformer, kun en kolonne pr språk og målform. | |
+| eksempel | Flere språk og målformer, kun en kolonne pr språk og målform. | |
+| fagområde | Flere språk og målformer, kun en kolonne pr språk og målform. | |
+| bruksområde | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere bruksområder termer). | |
+| omfang_uri | Kun en kolonne. | |
+| omfangtekst | Kun en kolonne. | |
+| kontaktpunkt_epost | Kun en kolonne. Rader må inneholde gyldig epostadresse. | |
+| kontaktpunkt_telefon | Kun en kolonne. | |
+| gyldigfom | Fra og med dato for perioden hvor begrepet er gyldig. Kun en kolonne. Dato formattert med (åååå-mm-dd) år, måned, dag. | 2020-01-31 |
+| gyldigtom | Til og med dato for perioden hvor begrepet er gyldig. Kun en kolonne. Dato formattert med (åååå-mm-dd) år, måned, dag. | 2020-12-01 |
+| seogså | NB! Dette feltet kan ikke brukes til eksterne referanser utenfor begrepskatalogen. Det anbefales sterkt å sette dette etter begrepet er registrert inn. Kun en kolonne støttes og rader må inneholde en gyldig uri som peker til eksisterende begrep i begrepskatalogen. | |
 
 
 #### Hvordan Importere begreper fra JSON format? 
