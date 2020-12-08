@@ -17,7 +17,7 @@ Enkelte felter støtter også språk og målform. Støttede språk og målformer
 Se SKOS terminologi i øverste rad, og verdien i radene under. Legg til flere begreper under.
 
 | anbefaltTerm:nb  | tillattTerm:nb | anbefaltTerm:en | tillattTerm:en | frarådetTerm:nb | definisjon:nb
-| --- | --- | --- | --- | --- | --- | 
+| --- | --- | ---  | ---  | --- | --- | 
 | test eksempel	| eksempeltest | test example | example test | illustrasjonstest | Dette er en definisjon på et eksempel |
 
 
