@@ -5,50 +5,31 @@ weight: 4
 Her følger en kort beskrivelse av hvordan man kan publisere begreper i Felles datakatalog.
 
 ## Registrere begreper i Begrepskatalog GUI
-I [registreringsløsningen](https://registrering.fellesdatakatalog.digdir.no) vår kan du registrere begreper og publisere de ut til portalløsningen https://data.norge.no.
+I [registreringsløsningen](https://registrering.fellesdatakatalog.digdir.no) vår kan du registrere begreper og velge å publisere de slik at informasjonen blir tilgjengelig i portalløsningen av Felles datakatalog https://data.norge.no.
 
 ### Importere Begreper
-I denne forbindelsen har vi en funksjonalitet for å importere ferdigbeskrevet begreper fra CSV- og JSON-formater
+Virksomheter som har utarbeidet en strukturert oversikt over noen av sine begreper, for eksempel i et regneark eller tabell, kan overføre disse til registreringsløsningen i Felles datakatalog gjennom import av en CSV- eller JSON fil.
 
 #### Hvordan Importere begreper fra CSV format? 
-Tabellen består av en rekke kolonne-overskrifter. For at dataene skal leses riktig må overskriftene og dataene være formattert riktig. Enkelte kolonner støtter flere verdier, f.eks bruksområde. For å legge inn flere forekomster av noe, bare legg til en ekstra kolonne med samme navn på første linje(overskrift).
+For at importen til registreringsløsningen skal fungere må begrepene og beskrivelsene følge en struktur som er nærmere beskrevet i denne [malen](https://github.com/Informasjonsforvaltning/fdk-testdata/raw/master/testdata/concept_sample.xlsx)
 
-Enkelte felter støtter også språk og målform. Støttede språk og målformer er for øyeblikket engelsk(en), nynorsk(nn) og norsk bokmål(nb). Om ikke språk og måform er definert så settes bokmål som default.
-Se SKOS terminologi i øverste rad, og verdien i radene under. Legg til flere begreper under.
+Noen av kolonnene, for eksempel _Bruksområde_ har støtte for flere verdier. For å legge inn flere forekomster legger du til en ekstra kolonne med samme navn på første linje (overskrift).
+
+Enkelte felter har også støtte for flere språk og målformer. Den nåværende importløsningen støtter norsk bokmål (nb), nynorsk (nn) og engelsk (en). Hvis språk og målform ikke er oppgitt vil denne automatisk bli satt til bokmål under importen.
+
+Legg til eller kopier inn termer og tilhørende informasjon ved å sette inn flere rader inntil listen du ønsker å importere til Registreringsløsningen er komplett.
+
+##### Eksempel:
+I tabellen nedenfor er kolonne a og b formattert for norsk bokmål, og kolonne c og d for engelsk.
 
 | anbefaltTerm:nb | tillattTerm:nb | anbefaltTerm:en | tillattTerm:en | frarådetTerm:nb | definisjon:nb | 
 | --- | --- | --- | --- | --- | --- |
 | test eksempel	| eksempeltest | test example | example test | illustrasjonstest | Dette er en definisjon på et eksempel |
 
-Her er ett eksempel på bruk av bruksområde hvor kolonne a og b er formattert for norsk bokmål (norsk bokmål om ikke annet er oppgitt), og kolonne C og D er på engelsk. Rekkefølgen på kolonnene har ikke noe å si for importering av begreper.
-
-Kolonner som ikke gjenkjennes vil bli ignorert, så det kan være lurt å teste først med et par begreper og kontrollere at disse ble importert korrekt i registreringsløsningen.
-
-Når formatteringen av tabellen med dine data er ferdig husk å eksportere til CSV separert med semikolon og UTF-8 encoding, og deretter importer CSV filen i registreringsløsningen.
-
-CSV filen skal se slik ut:
-```
-anbefaltTerm:nb;tillattTerm:nb;anbefaltTerm:en;tillattTerm:en;frarådetTerm:nb;definisjon:nb
-test eksempel;eksempeltest;Test example;example test;illustrasjonstest;Dette er en definisjon på et eksempel
-```
-
-[Last ned eksempelfil med alle felter](https://github.com/Informasjonsforvaltning/fdk-testdata/raw/master/testdata/concept_sample.xlsx)
-
-Dette er en excelfil som kan manipuleres ved å endre innholdet i feltene. Man kan legge til flere begreper ved å legge til nye rader.
-Husk å eksportere som CSV separert med semikolon og UTF-8 encoding.
-
-#### Veiledning for eksport til UTF-8:
-![Eksport til csv med excel](Export_csv.png)
-![Eksport til csv med excel - velg filformat](Export_csv2.png)
-
-* 1 - Trykk på 'Export'
-* 2 - Trykk på 'Change File Type'
-* 3 - Velg 'CSV (comma delimited)'
-* 4 - Trykk på 'Save as'
-* 5 - Velg 'CSV UTF-8 (comma delimited)' under 'Save as type'
+Kolonner som ikke gjenkjennes under importen vil bli ignorert, så test gjerne med et par begreper først og kontroller at disse blir korrekt importert i registreringsløsningen. Selve rekkefølgen på kolonnene har ikke noe å si for importen av begreper.
 
 
-#### Gyldige felter
+##### Om innholdet i feltene
 | Felt | Kommentar | Eksempel |
 | --- | --- | --- |
 | anbefaltTerm | Flere språk og målformer, kun en kolonne pr språk og målform. | |
@@ -68,6 +49,30 @@ Husk å eksportere som CSV separert med semikolon og UTF-8 encoding.
 | gyldigfom | Fra og med dato for perioden hvor begrepet er gyldig. Kun en kolonne. Dato formattert med (åååå-mm-dd) år, måned, dag. | 2020-01-31 |
 | gyldigtom | Til og med dato for perioden hvor begrepet er gyldig. Kun en kolonne. Dato formattert med (åååå-mm-dd) år, måned, dag. | 2020-12-01 |
 | seogså | NB! Dette feltet kan ikke brukes til eksterne referanser utenfor begrepskatalogen. Det anbefales sterkt å sette dette etter begrepet er registrert inn. Kun en kolonne støttes og rader må inneholde en gyldig uri som peker til eksisterende begrep i begrepskatalogen. | |
+
+
+##### Lagring
+Når du har fylt tabellen med innhold i henhold til malen (riktig formattering) må du huske å eksportere den som en CSV-fil med semikolon separering og UTF-8 koding. 
+
+Eksempel med utgangspunkt i Excel for Microsoft 365:
+
+* 1 - Trykk på 'Export'
+* 2 - Trykk på 'Change File Type'
+* 3 - Velg 'CSV (comma delimited)'
+* 4 - Trykk på 'Save as'
+* 5 - Velg 'CSV UTF-8 (comma delimited)' under 'Save as type'
+
+![Eksportering til csv med excel|1673x717,50%](Export_csv.png)
+![Eksportering til csv med excel, valg av filformat|1179x649,50%](Export_csv2.png)
+
+Du er nå klar for å importere CSV filen i registreringsløsningen.
+
+
+##### Eksempel på CSV-fil:
+```
+anbefaltTerm:nb;tillattTerm:nb;anbefaltTerm:en;tillattTerm:en;frarådetTerm:nb;definisjon:nb
+test eksempel;eksempeltest;Test example;example test;illustrasjonstest;Dette er en definisjon på et eksempel
+```
 
 
 #### Hvordan Importere begreper fra JSON format? 
@@ -193,12 +198,3 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
   }
 ]
 ```
-
-
-## Publisere en begrepssamling via vår høsteløsning
-For å publisere en begrepssamling via vår høsteløsning må følgende gjøres:
-1. Tilgjengeliggjøre begrepssamlingen som SKOS-AP-NO, og
-2. Konfigurere FDKs høsteløsning
-### Tilgjengeliggjøre begrepssamlingen som SKOS-AP-NO
-
-### Konfigurere FDKs høsteløsning
