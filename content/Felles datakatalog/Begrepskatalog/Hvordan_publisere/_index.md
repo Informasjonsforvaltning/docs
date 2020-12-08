@@ -20,6 +20,7 @@ Se SKOS terminologi i øverste rad, og verdien i radene under. Legg til flere be
 | --- | --- | --- | --- | --- | --- |
 | test eksempel	| eksempeltest | test example | example test | illustrasjonstest | Dette er en definisjon på et eksempel |
 
+
 Her er ett eksempel på bruk av bruksområde hvor kolonne a og b er formattert for norsk bokmål (norsk bokmål om ikke annet er oppgitt), og kolonne C og D er på engelsk. Rekkefølgen på kolonnene har ikke noe å si for importering av begreper.
 
 Kolonner som ikke gjenkjennes vil bli ignorert, så det kan være lurt å teste først med et par begreper og kontrollere at disse ble importert korrekt i registreringsløsningen.
