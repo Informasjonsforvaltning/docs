@@ -16,9 +16,9 @@ Tabellen består av en rekke kolonne-overskrifter. For at dataene skal leses rik
 Enkelte felter støtter også språk og målform. Støttede språk og målformer er for øyeblikket engelsk(en), nynorsk(nn) og norsk bokmål(nb). Om ikke språk og måform er definert så settes bokmål som default.
 Se SKOS terminologi i øverste rad, og verdien i radene under. Legg til flere begreper under.
 
-| anbefaltTerm:nb | tillattTerm:nb | anbefaltTerm:en |tillattTerm:en | frarådetTerm:nb | definisjon:nb | 
+| anbefaltTerm:nb | tillattTerm:nb | anbefaltTerm:en | tillattTerm:en | frarådetTerm:nb | definisjon:nb | 
 | --- | --- | --- | --- | --- | --- |
-| test eksempel	| eksempeltest	| Test example	| example test	| illustrasjonstest |  Dette er en definisjon på et eksempel |
+| test eksempel	| eksempeltest | test example | example test | illustrasjonstest | Dette er en definisjon på et eksempel |
 
 Her er ett eksempel på bruk av bruksområde hvor kolonne a og b er formattert for norsk bokmål (norsk bokmål om ikke annet er oppgitt), og kolonne C og D er på engelsk. Rekkefølgen på kolonnene har ikke noe å si for importering av begreper.
 
@@ -34,7 +34,7 @@ test eksempel;eksempeltest;Test example;example test;illustrasjonstest;Dette er 
 
 [Last ned eksempelfil med alle felter](https://github.com/Informasjonsforvaltning/fdk-testdata/raw/master/testdata/concept_sample.xlsx)
 
-Dette er en excelfil som kan manipuleres ved å endre innholdene i feltene beskrevet under eksempler samt legge til flere begreper.
+Dette er en excelfil som kan manipuleres ved å endre innholdet i feltene. Man kan legge til flere begreper ved å legge til nye rader.
 Husk å eksportere som CSV separert med semikolon og UTF-8 encoding.
 
 #### Veiledning for eksport til UTF-8:
