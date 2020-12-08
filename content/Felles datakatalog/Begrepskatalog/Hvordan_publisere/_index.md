@@ -16,8 +16,8 @@ Tabellen består av en rekke kolonne-overskrifter. For at dataene skal leses rik
 Enkelte felter støtter også språk og målform. Støttede språk og målformer er for øyeblikket engelsk(en), nynorsk(nn) og norsk bokmål(nb). Om ikke språk og måform er definert så settes bokmål som default.
 Se SKOS terminologi i øverste rad, og verdien i radene under. Legg til flere begreper under.
 
-| anbefaltTerm:nb | tillattTerm:nb | anbefaltTerm:en | tillattTerm:en | frarådetTerm:nb | definisjon:nb | 
-| --- | --- | --- | --- | --- | --- |
+| anbefaltTerm:nb  | tillattTerm:nb | anbefaltTerm:en | tillattTerm:en | frarådetTerm:nb | definisjon:nb
+| --- | --- | --- | --- | --- | --- | 
 | test eksempel	| eksempeltest | test example | example test | illustrasjonstest | Dette er en definisjon på et eksempel |
 
 
