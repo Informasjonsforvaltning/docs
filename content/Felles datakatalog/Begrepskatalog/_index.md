@@ -11,7 +11,7 @@ FDK høster beskrivelser fra andre begrepskataloger. I tillegg tilbys en registr
 ### Hvordan registerer jeg mine begrep?
 Felles datasettkatalog inneholder en [registreringsløsning](https://fellesdatakatalog.digdir.no/about-registration) som alle offentlige virksomheter kan benytte. Private virksomheter oppfordres til å [ta kontakt](mailto:fellesdatakatalog@digdir.no) for å registrere sine begreper.
 
-### Hvordan importerer jeg mine begreper direkte inn i publiseringsløsningen??
+### Hvordan importerer jeg mine begreper direkte inn i publiseringsløsningen?
 [Se brukerveiledning her](https://informasjonsforvaltning.github.io/felles-datakatalog/begrepskatalog/hvordan_publisere)
 
 ### Hvor finner jeg felles begrepskatalog?
