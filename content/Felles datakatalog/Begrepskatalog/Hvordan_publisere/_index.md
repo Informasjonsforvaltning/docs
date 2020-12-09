@@ -11,13 +11,13 @@ I [registreringsløsningen](https://registrering.fellesdatakatalog.digdir.no) v�
 Virksomheter som har utarbeidet en strukturert oversikt over noen av sine begreper, for eksempel i et regneark eller tabell, kan overføre disse til registreringsløsningen i Felles datakatalog gjennom import av en CSV- eller JSON fil.
 
 #### Hvordan Importere begreper fra CSV format? 
-For at importen til registreringsløsningen skal fungere må begrepene og beskrivelsene følge en struktur som er nærmere beskrevet i denne [malen](https://github.com/Informasjonsforvaltning/fdk-testdata/raw/master/testdata/concept_sample.xlsx)
+For at importen til registreringsløsningen skal fungere må begrepene og beskrivelsene følge en struktur som er nærmere beskrevet i denne [malen](https://github.com/Informasjonsforvaltning/fdk-testdata/raw/master/testdata/concept_sample.xlsx).
 
-Noen av kolonnene, for eksempel _Bruksområde_ har støtte for flere verdier. For å legge inn flere forekomster legger du til en ekstra kolonne med samme navn på første linje (overskrift) eller separerer forekomstene med |.
+Noen av kolonnene, for eksempel _bruksområde_ har støtte for flere verdier. For å legge inn flere forekomster legger du til en ekstra kolonne med samme navn på første linje (overskrift) eller separerer forekomstene med |.
 
 Enkelte felter har også støtte for flere språk og målformer. Den nåværende importløsningen støtter norsk bokmål (nb), nynorsk (nn) og engelsk (en). Hvis språk og målform ikke er oppgitt vil denne automatisk bli satt til bokmål under importen.
 
-Legg til eller kopier inn termer og tilhørende informasjon ved å sette inn flere rader inntil listen du ønsker å importere til Registreringsløsningen er komplett.
+Legg til eller kopier inn termer og tilhørende informasjon ved å sette inn flere rader inntil listen du ønsker å importere til registreringsløsningen er komplett.
 
 #### Eksempel:
 I tabellen nedenfor er kolonne a og b formattert for norsk bokmål, og kolonne c og d for engelsk.
@@ -63,8 +63,8 @@ Eksempel med utgangspunkt i Excel for Microsoft 365:
 * 4 - Trykk på 'Save as'
 * 5 - Velg 'CSV UTF-8 (comma delimited)' under 'Save as type'
 
-![Eksportering til csv med excel|1673x717,50%](Export_csv.png)
-![Eksportering til csv med excel, valg av filformat|1179x649,50%](Export_csv2.png)
+![Skjermbilde fra excel for eksportering til csv](Export_csv.png)
+![Skjermbilde fra excel, valg av filformat](Export_csv2.png)
 
 Du er nå klar for å importere CSV filen i registreringsløsningen.
 
