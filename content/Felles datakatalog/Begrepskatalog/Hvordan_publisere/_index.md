@@ -68,6 +68,11 @@ Eksempel med utgangspunkt i Excel for Microsoft 365:
 
 Du er nå klar for å importere CSV filen i registreringsløsningen.
 
+Logg deg inn på [Registreringsløsningen](https://registrering.fellesdatakatalog.digdir.no) og velg Begrepskatalogen. 
+
+Klikk på «Importer begreper» og velg den csv- eller json-filen du har opprettet.
+
+
 
 #### Eksempel på CSV-fil:
 ```
