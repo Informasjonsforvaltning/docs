@@ -1,6 +1,6 @@
 ---
 title: Git workflow
-weight: 4
+weight: 5
 ---
 There are different popular Git workflows. We consider [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)" too focused on scheduled releases. Since we try to deploy "all the time", we shall adhere to the [GitHub Flow](https://githubflow.github.io/):
 
