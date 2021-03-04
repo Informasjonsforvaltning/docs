@@ -23,10 +23,11 @@ From Clemson "Testing Strategies in a Microservice Architecture" we have borrowe
 _next step_  
 As an alternative to end-to-end tests we prefer a technique called _semantic monitoring_, where we use fake events (_synthetic transactions_) to ensure that the system is behaving semantically.
 
-Another aspect of testing is _timing_, when to run what tests [1]:
+Another aspect of testing is _timing_, when to run what tests:
 ![A standard release pipeline](./A_standard_release_process_as_pipeline.svg)
 
 ----------------------------------------
 ### References
-- [1]: <https://martinfowler.com/articles/microservice-testing/>
-- [2]: <https://samnewman.io/books/building_microservices/>
+- https://martinfowler.com/articles/microservice-testing/
+- https://samnewman.io/books/building_microservices/
+- https://martinfowler.com/bliki/SyntheticMonitoring.html
