@@ -19,6 +19,20 @@ For Python-hackers, it is highly recommended to install and use [virtual-env](ht
 sudo apt-get install python3-venv
 ```
 
+#### PyCharm
+For Python-hackers using [PyCharm](https://www.jetbrains.com/pycharm/):
+
+##### plugin
+
+Add the poetry plugin https://plugins.jetbrains.com/plugin/14307-poetry
+
+##### interpreter
+- Ctrl+Alt+S -> Project -> python interpreter -> cog by dropdown -> Add -> Poetry Environment -> choose python interpreter, i.e. 'python3.9', from '.../.pyenv/shims/' as Base interpreter, and
+- set 'poetry' from '.../.pyenv/shims/' as Poetry executable.
+
+##### pytest
+Ctrl+Alt+S -> Tools -> Python integrated tools -> Testing -> set 'pytest' as Default test runner
+
 #### Google Cloud SDK
 ```
 sudo snap install google-cloud-sdk --classic
