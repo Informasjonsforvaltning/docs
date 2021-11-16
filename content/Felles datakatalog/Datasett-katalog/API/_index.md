@@ -3,27 +3,38 @@ title: API
 weight: 2
 ---
 Her følger en kort beskrivelse datasett-katalogens API, samt eksempel på bruk med [curl](https://curl.haxx.se/).
+
 ## Detaljer
+
 * Server: `https://fellesdatakatalog.digdir.no`
 * Tilbyr: `application/json`
 
-| <a href="https://fellesdatakatalog.digdir.no/apis/bff198ab-faef-4b31-89b2-348a0bf1336e" target="_blank"><u>Oppføring i API-katalogen</u></a> | <a href="https://raw.githubusercontent.com/brreg/openAPI/master/specs/fdk.json" target="_blank"><u>Lenke direkte til spesifikasjon (openAPI v3)</u></a> |
-| --------------- | --------- |
+| Oppføring i API-katalogen |
+| ---- |
+| <https://data.norge.no/dataservices/04c03d38-d856-3dea-9278-ae3de6b850fb> |
 
 ## Eksempel på spørringer
+
 Alle datasett:
-```
+
+```Shell
 curl -H "Accept: application/json" https://fellesdatakatalog.digdir.no/api/datasets
 ```
+
 Alle datasett med "paginering", returnerer første side:
-```
+
+```Shell
 curl -H "Accept: application/json" 'https://fellesdatakatalog.digdir.no/api/datasets?page=0'
 ```
+
 Et spesifikt datasett basert på id:
-```
+
+```Shell
 curl -H "Accept: application/json" https://fellesdatakatalog.digdir.no/api/datasets/<id>
 ```
+
 En  enkelt søk etter datasett med ordet "barnehage":
-```
+
+```Shell
 curl -H "Accept: application/json" https://fellesdatakatalog.digdir.no/api/datasets?q=barnehage
 ```

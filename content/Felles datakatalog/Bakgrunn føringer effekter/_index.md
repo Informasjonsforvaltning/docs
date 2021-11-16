@@ -4,13 +4,14 @@ weight : 1
 ---
 
 ### Felles offentlig informasjonsforvaltning
+
 Beslutninger i offentlig sektor tas på grunnlag av informasjon innhentet fra brukere, tredjeparter og fra andre offentlige virksomheter. Med god dokumentering av hvilken informasjon den enkelte offentlige virksomhet forvalter og åpne APIer som gir tilgang til selve dataene, kan andelen som brukerne selv rapporterer inn gradvis reduseres.
 
 ### Tiltak over flere trinn
+
 Tiltakene innen informasjonsforvaltning plasserers ofte i følgende "ambisjonstrapp" hentet fra [Difis sider om informasjonsforvaltning](https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/informasjonsforvaltning):
 
 ![Ambisjonstrapp for felles informasjonsforvaltning i offentlig sektor](trappemodell_inforforvaltning_2.png)
-
 
 * Tilrettelegge - "Orden i eget hus"
 
@@ -26,8 +27,8 @@ Beskrive hvordan data som er beskrevet i datasettene kan nås og anvendes – i 
 Etter hvert som oversiktene blir mer komplette og katalogene fylles opp av virksomhetene, vil det være grunnlag for mer automatisert gjenbruk og viderebruk av data, og mulig å nå målet om at informasjon bare skal innhentes én gang (deretter gjenbrukes).
 
 ### Føringer
-[Digitaliseringsrundskrivet](https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2623277/) er en sammenstilling av pålegg og anbefalinger om digitalisering i offentlig sektor. Rundskrivet gir følgende anbefaling: "Den enkelte virksomhet bør synliggjøre data som de er i stand til å dele med andre i Felles datakatalog og på data.norge.no."
 
+[Digitaliseringsrundskrivet](https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2623277/) er en sammenstilling av pålegg og anbefalinger om digitalisering i offentlig sektor. Rundskrivet gir følgende anbefaling: "Den enkelte virksomhet bør synliggjøre data som de er i stand til å dele med andre i Felles datakatalog og på data.norge.no."
 
 ### Effekter
 

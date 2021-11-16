@@ -5,11 +5,14 @@ weight: 1
 Informasjonsmodell-katatalogen representerer modeller på to måter:
 
 ## Struktur
+
 Dette er en fritekstlig representasjon av modellen med navn på elementet og elementets type.
 
 ## JSON Schema
+
 Dette er en representasjon av modellen i form av [JSON Schema](https://json-schema.org/). Vi støtter pr i dag draft-06 av spesifikasjonen. For eksempel slik:
-```
+
+```JSON
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
   "$id": "https://fellesdatakatalog.digdir.no/informationmodels/c207ad40-cf59-47e6-b7a8-35d6c4692067/schema",

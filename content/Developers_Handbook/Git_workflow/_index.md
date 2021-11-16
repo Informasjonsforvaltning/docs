@@ -11,6 +11,6 @@ There are different popular Git workflows. We consider [Gitflow](https://www.atl
 > - After someone else has reviewed and signed off on the feature, you can merge it into master
 > - Once it is merged and pushed to 'master', you can and should deploy immediately
 
-
 ## Tips and tricks
+
 - To track which state of the repo is deployed, we simply expose the currently deployed SHA through the webapp itself and curl it if we need a comparison made.
