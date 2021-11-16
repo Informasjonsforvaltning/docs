@@ -3,7 +3,8 @@ title: Simple Knowledge Organization System (SKOS)
 weight: 4
 ---
 ## Standard for tilgjengeliggjøring av begrep - SKOS
-Simple Knowledge Organization System, https://www.w3.org/TR/skos-reference/: Standarden definerer hvordan begreper representeres i maskinlesbare formater RDF: Resource Description Framework (RDF), 2014-02-25, https://www.w3.org/RDF/.
+
+Simple Knowledge Organization System, <https://www.w3.org/TR/skos-reference/>: Standarden definerer hvordan begreper representeres i maskinlesbare formater RDF: Resource Description Framework (RDF), 2014-02-25, <https://www.w3.org/RDF/>.
 
 SKOS er et lite vokabular (metamodell) for de mest sentrale klassene og egenskapene for begreper (Concept). For å bruke SKOS som representasjonsspråk i begrepsbeskrivelser må vokabularet utvides med andre vokabularer. Denne standarden supplerer SKOS med følgende vokabularer:
 
