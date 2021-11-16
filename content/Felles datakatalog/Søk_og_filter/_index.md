@@ -7,8 +7,8 @@ Det følgende er både en forklaring og en spesifikasjon på hvordan søke- og f
 
 ### Søk
 
-TBD
+TBD: Kort beskrivelse av søket
 
 ### Filter
 
-TBD
+TBD: Kort beskrivelse av filter
