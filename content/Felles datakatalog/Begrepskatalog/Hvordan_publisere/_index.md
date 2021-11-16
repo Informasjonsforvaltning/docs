@@ -5,12 +5,15 @@ weight: 4
 Her følger en kort beskrivelse av hvordan man kan publisere begreper i Felles datakatalog.
 
 ## Registrere begreper i Begrepskatalog GUI
-I [registreringsløsningen](https://registrering.fellesdatakatalog.digdir.no) vår kan du registrere begreper og velge å publisere de slik at informasjonen blir tilgjengelig i portalløsningen av Felles datakatalog https://data.norge.no.
+
+I [registreringsløsningen](https://registrering.fellesdatakatalog.digdir.no) vår kan du registrere begreper og velge å publisere de slik at informasjonen blir tilgjengelig i portalløsningen av Felles datakatalog <https://data.norge.no>.
 
 ### Importere Begreper
+
 Virksomheter som har utarbeidet en strukturert oversikt over noen av sine begreper, for eksempel i et regneark eller tabell, kan overføre disse til registreringsløsningen i Felles datakatalog gjennom import av en CSV- eller JSON fil.
 
-#### Hvordan Importere begreper fra CSV format? 
+#### Hvordan Importere begreper fra CSV format?
+
 For at importen til registreringsløsningen skal fungere må begrepene og beskrivelsene følge en struktur som er nærmere beskrevet i denne [malen](https://github.com/Informasjonsforvaltning/fdk-testdata/raw/master/testdata/concept_sample.xlsx).
 
 Noen av kolonnene, for eksempel _bruksområde_ har støtte for flere verdier. For å legge inn flere forekomster legger du til en ekstra kolonne med samme navn på første linje (overskrift) eller separerer forekomstene med |.
@@ -19,17 +22,18 @@ Enkelte felter har også støtte for flere språk og målformer. Den nåværende
 
 Legg til eller kopier inn termer og tilhørende informasjon ved å sette inn flere rader inntil listen du ønsker å importere til registreringsløsningen er komplett.
 
-#### Eksempel:
+#### Eksempel
+
 I tabellen nedenfor er kolonne a og b formattert for norsk bokmål, og kolonne c og d for engelsk.
 
-| anbefaltTerm:nb | tillattTerm:nb | anbefaltTerm:en | tillattTerm:en | frarådetTerm:nb | definisjon:nb 
+| anbefaltTerm:nb | tillattTerm:nb | anbefaltTerm:en | tillattTerm:en | frarådetTerm:nb | definisjon:nb
 | --- | --- | --- | --- | --- | --- |
-| test eksempel	| eksempeltest | test example | example test | illustrasjonstest | Dette er en definisjon på et eksempel |
+| test eksempel | eksempeltest | test example | example test | illustrasjonstest | Dette er en definisjon på et eksempel |
 
 Kolonner som ikke gjenkjennes under importen vil bli ignorert, så test gjerne med et par begreper først og kontroller at disse blir korrekt importert i registreringsløsningen. Selve rekkefølgen på kolonnene har ikke noe å si for importen av begreper.
 
-
 #### Om innholdet i feltene
+
 | Felt | Kommentar | Eksempel |
 | --- | --- | --- |
 | anbefaltTerm | Flere språk og målformer, kun en kolonne pr språk og målform. | |
@@ -37,7 +41,7 @@ Kolonner som ikke gjenkjennes under importen vil bli ignorert, så test gjerne m
 | frarådetTerm | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere frarådede termer). Kan også legge til flere termer i samme kolonne ved å separere termene med \| | frarådetTerm1\|frarådetTerm2\|frarådetTerm3 |
 | definisjon | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | forholdtilkilde | må være en av: «egendefinert», «basertPaaKilde» eller «sitatFraKilde» | |
-| kilde | Formatteres med tekst beskrivelse og gyldig uri til kilde separert med tegnet \|. | «brønnøysund\|https://www.brreg.no/» |
+| kilde | Formatteres med tekst beskrivelse og gyldig uri til kilde separert med tegnet \|. | «brønnøysund\|<https://www.brreg.no/>» |
 | merknad | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | eksempel | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | fagområde | Flere språk og målformer, kun en kolonne pr språk og målform. | |
@@ -53,7 +57,8 @@ Kolonner som ikke gjenkjennes under importen vil bli ignorert, så test gjerne m
 Du kan lese mer om beskrivelser av begrep her: [Forvaltningsstandard for begrepsbeskrivelser - Versjon 2.0.2](https://data.norge.no/specification/forvaltningsstandard-begrepsbeskrivelser/)
 
 #### Lagring
-Når du har fylt tabellen med innhold i henhold til malen (riktig formattering) må du huske å eksportere den som en CSV-fil med semikolon separering og UTF-8 koding. 
+
+Når du har fylt tabellen med innhold i henhold til malen (riktig formattering) må du huske å eksportere den som en CSV-fil med semikolon separering og UTF-8 koding.
 
 Eksempel med utgangspunkt i Excel for Microsoft 365:
 
@@ -68,28 +73,28 @@ Eksempel med utgangspunkt i Excel for Microsoft 365:
 
 Du er nå klar for å importere CSV filen i registreringsløsningen.
 
-Logg deg inn på [Registreringsløsningen](https://registrering.fellesdatakatalog.digdir.no) og velg Begrepskatalogen. 
+Logg deg inn på [Registreringsløsningen](https://registrering.fellesdatakatalog.digdir.no) og velg Begrepskatalogen.
 
 Klikk på «Importer begreper» og velg den csv- eller json-filen du har opprettet.
 
+#### Eksempel på CSV-fil
 
-
-#### Eksempel på CSV-fil:
-```
+```Shell
 anbefaltTerm:nb;tillattTerm:nb;anbefaltTerm:en;tillattTerm:en;frarådetTerm:nb;definisjon:nb
 test eksempel;eksempeltest;Test example;example test;illustrasjonstest;Dette er en definisjon på et eksempel
 ```
 
+#### Hvordan Importere begreper fra JSON format?
 
-#### Hvordan Importere begreper fra JSON format? 
 Opprett en JSON fil med 1 eller flere begreper på formatet under:
-```
+
+```JSON
 [
   {
     "anbefaltTerm": {
       "navn": {
         "nb": "1demoterm1811",
-	"en":"Test English term"
+ "en":"Test English term"
       }
     },
     "tillattTerm": {

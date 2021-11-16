@@ -10,6 +10,7 @@ Dersom du ønsker å registrere et behov eller en brukerhistorie mot en av våre
 Behovsprosessen har følgende steg:
 
 ## Avklare behov
+
 *Kriteria: Issuet skal vere identifisert som et potensielt behov.*
 
 __Aktiviterer:__
@@ -20,6 +21,7 @@ __Aktiviterer:__
 | Funksjonell arkitekt | Opprette brukerhistorier | GitHub |
 
 ## Analysere behov
+
 *Kriteria: Behovet skal vere formulert som et epos og ha en enkel gevinstanalyse. Brukerhistorien skal tildeles forretningsverdi etter følgende kriteria:*
 
 | Indikator | Kriterium |
@@ -38,6 +40,7 @@ __Aktiviteter:__
 | Interaksjonsdesigner | Lage trådskisser der dette er relevant | |
 
 ## Beskrive design og løsningsarkitektur
+
 *Kriteria: Eposet skal ha ei eller flere brukerhistorier knytta til seg.*
 
 __Aktiviteter:__
@@ -50,6 +53,7 @@ __Aktiviteter:__
 | Senior utvikler | Utarbeide scenarier i features | GitHub |
 
 ## Klar til konstruksjon
+
 *Kritieria: Brukerhistorien skal ha et design (der det er relevant) og en løsningsarkitektur. Akseptansekriteria skal være dokumentert som et sett av features.*
 
 __Aktiviteter:__
@@ -60,13 +64,16 @@ __Aktiviteter:__
 | Scrumleder | Opprette brukerhistorien i utviklingsprosjekt | GitHub |
 | Seniorutvikler | Dele brukerhistorien opp i oppgaver | GitHub |
 ___
+
 ## I konstruksjon
+
 *Kritieria: Brukerhistorien er prioritert og opprettet i utviklingsprosjekt.*
 
 *Her vil brukerhistorien bli duplisert over i det relevante utviklingsprosjektet, som oppretter sine brukerhistorier etter behov. Disse skal referere til den opprinnelige brukerhistorien i behovsprosjektet. Utviklingsteamet vil også legge brukerhistorien ut i sine prosjekter med tilhørende milepæler.*
 ___
 
 ## Klar til akseptansetest
+
 *Kriteria: Utviklingsteamet har levert funksjonalitet til staging-miljø som realiserer brukerhistorien.*
 
 __Aktiviteter:__
@@ -78,5 +85,6 @@ __Aktiviteter:__
 | Produkteier | Akseptere levert funksjonalitet  | |
 
 ## Utført
+
 *Kriteria: Funksjonalitet og kvalitet er godkjent i akseptansetest og issue er "closed". Eller det er bestemt at behovet ikke skal taes videre i behovsprosessen.*
 Alle issues som blir lukka vil automatisk havne i denne kolonnen.

@@ -5,7 +5,8 @@ weight: 2
 
 
 For our "back-end" services implemented in java/kotlin, a typical folder structure should be:
-```
+
+```sHELL
 tree -L 6 --dirsfirst -I 'target'
 .
 ├── src
@@ -60,4 +61,5 @@ tree -L 6 --dirsfirst -I 'target'
 ├── README.md
 ├── TODO.md
 ```
+
  A reference implementation is here: <https://github.com/Informasjonsforvaltning/a-back-end-service>

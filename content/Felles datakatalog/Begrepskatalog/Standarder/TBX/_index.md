@@ -3,6 +3,7 @@ title: TermBase Exchange (TBX)
 weight: 4
 ---
 ## Standard for tilgjengeliggjøring av begrep - TBX
+
 ISO 30042 Systems to manage terminology, knowledge and content —TermBase eXchange (TBX):
 Standarden definerer et rammeverk for hvordan (samlinger av) begrepsbeskrivelser skal kunne utveksles i maskinlesbare formater.
 Spesifikasjonen i dette kapitlet utgjør definisjonen av en TBX-dialekt, kalt TBX-AP-No. Dialektnavnet TBX-AP-No skal oppgis i en TBX-fil for å være i samsvar med denne standarden: <tbx type="TBX-AP-No">.
