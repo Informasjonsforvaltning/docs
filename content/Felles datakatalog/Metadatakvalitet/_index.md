@@ -8,7 +8,7 @@ weight: 7
                              | RabbitMQ       |
                              |                |
  .-----------------------.   |  +----------+  |   .-----------------.
-| dataset-event-publisher |<-(--+ harvests |<-(--| dataset-harvester |
+| dataset-event-publisher |<-(--+ harvests |<-(--+ dataset-harvester |
  '-+---------------------'   |  +----------+  |   '-----------------'
    |                   ^     +----------------+     ^
    |                   |                            |
