@@ -14,3 +14,4 @@ There are different popular Git workflows. We consider [Gitflow](https://www.atl
 ## Tips and tricks
 
 - To track which state of the repo is deployed, we simply expose the currently deployed SHA through the webapp itself and curl it if we need a comparison made.
+- Nice introductction to GitHub flow here: https://docs.github.com/en/get-started/quickstart/github-flow
