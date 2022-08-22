@@ -1,6 +1,6 @@
 ---
 title: Logging
-weight: 2
+weight: 3
 ---
 
 - [ ]   Decide logging standards and conventions
