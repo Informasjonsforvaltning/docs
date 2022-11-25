@@ -13,6 +13,12 @@ Substitute `dataset-events` with the desired topic.
 kubectl exec -it kafka-1-0 -- /bin/kafka-run-class kafka.tools.GetOffsetShell --broker-list localhost:9092 --topic dataset-events
 ```
 
+You may omit `--topic` to list all topics, but should then ignore ___consumer_ and __schemas_.
+
+```bash
+kubectl exec -it kafka-1-0 -- /bin/kafka-run-class kafka.tools.GetOffsetShell --broker-list localhost:9092 | grep -v __consumer | grep -v _schemas
+```
+
 #### Example output
 
 ```txt
