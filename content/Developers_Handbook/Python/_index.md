@@ -31,6 +31,7 @@ __Uninstall a package previously injected__:
 
 ## References
 
-[Method definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html)
-[Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)  
-[JSON Patch](https://tools.ietf.org/html/rfc6902)
+- [Method definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html)
+- [Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)  
+- [JSON Patch](https://tools.ietf.org/html/rfc6902)
+- [Python Tutoial](https://www.scaler.com/topics/python/)
