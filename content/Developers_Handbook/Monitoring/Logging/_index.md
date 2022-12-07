@@ -3,4 +3,4 @@ title: Logging
 weight: 3
 ---
 
-- [ ]   Decide logging standards and conventions
+Logs should preferably be in JSON.
