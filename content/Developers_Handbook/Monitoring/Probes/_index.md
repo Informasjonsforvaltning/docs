@@ -4,39 +4,39 @@ weight: 1
 ---
 Probes should not require authorization.
 
-Any code greater than or equal to 200 and less than 400 indicates success. Any other code indicates failure.
+Any http response code greater than or equal to `200` and less than `400` indicates success. Any other code indicates failure.
 
 ## Readiness
 
-A readiness probe is used to check whether the service is ready to accept connections.
+A containers's readiness probe is used to check whether the service is ready to accept connections.
 
-In the deployment.yaml, you define the readiness probe. Example:
+Example:
 
-```Shell
+```yaml
 readinessProbe:
    httpGet:
-      path: /ready
+      path: /readyz
       port: 8080
-   initialDelaySeconds: 20
+   initialDelaySeconds: 3
    periodSeconds: 30
    successThreshold: 1
-   failureThreshold: 5
+   failureThreshold: 3
 ```
 
 We should check if the runtime dependencies that the service absolutely need to function, is ready. If the service depends on a database, it should check if the database is ready.
 
 ## Liveness
 
-A liveness probe is used to check whether the service has gone into a broken state.
+A containers's liveness probe is used to check whether the service has gone into a broken state and should be restarted.
 
-In the deployment.yaml, you define the readiness probe. Example:
+Example:
 
-```Shell
+```yaml
 livenessProbe:
    httpGet:
-      path: /ping
+      path: /livez
       port: 8080
-   initialDelaySeconds: 20
+   initialDelaySeconds: 5
    periodSeconds: 30
    successThreshold: 1
    failureThreshold: 5
@@ -53,6 +53,6 @@ fun ping(): ResponseEntity<Void> =
 
 ## References
 
-The following is a nice intro for Spring Boot: <https://www.baeldung.com/spring-boot-kubernetes-self-healing-apps>
-Kubernetes configuration: <https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/>
-Example with authorization: <https://www.critiqus.com/post/kubernetes-health/>
+The following is a nice intro for Spring Boot: <https://www.baeldung.com/spring-boot-kubernetes-self-healing-apps>  
+Kubernetes configuration: <https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/>  
+Example with authorization: <https://www.critiqus.com/post/kubernetes-health/>  
