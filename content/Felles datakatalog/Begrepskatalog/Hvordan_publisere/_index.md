@@ -36,9 +36,9 @@ Kolonner som ikke gjenkjennes under importen vil bli ignorert, så test gjerne m
 
 | Felt | Kommentar | Eksempel |
 | --- | --- | --- |
-| anbefalt-_term | Flere språk og målformer, kun en kolonne pr språk og målform. | |
+| anbefalt_term | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | tillatt_term | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere tillatte termer). Kan også legge til flere termer i samme kolonne ved å separere termene med \| | tillattTerm1\|tillattTerm2\|tillattTerm3 |
-| frarådet-term | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere frarådede termer). Kan også legge til flere termer i samme kolonne ved å separere termene med \| | frarådetTerm1\|frarådetTerm2\|frarådetTerm3 |
+| frarådet_term | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere frarådede termer). Kan også legge til flere termer i samme kolonne ved å separere termene med \| | frarådetTerm1\|frarådetTerm2\|frarådetTerm3 |
 | definisjon | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | definisjon:forhold_til_kilde | må være en av: «egendefinert», «basertPaaKilde» eller «sitatFraKilde» | |
 | definisjon:kilde | Formateres med tekst beskrivelse og gyldig uri til kilde separert med tegnet \|. | «brønnøysund\|<https://www.brreg.no/>» |
