@@ -26,7 +26,7 @@ Legg til eller kopier inn termer og tilhørende informasjon ved å sette inn fle
 
 I tabellen nedenfor er kolonne a og b formattert for norsk bokmål, og kolonne c og d for engelsk.
 
-| anbefalt-term:nb | tillatt_term:nb | anbefalt_term:en | tillatt_term:en | frarådet_term:nb | definisjon:nb
+| anbefalt_term:nb | tillatt_term:nb | anbefalt_term:en | tillatt_term:en | frarådet_term:nb | definisjon:nb
 | --- | --- | --- | --- | --- | --- |
 | test eksempel | eksempeltest | test example | example test | illustrasjonstest | Dette er en definisjon på et eksempel |
 
