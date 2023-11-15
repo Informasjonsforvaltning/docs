@@ -16,7 +16,7 @@ Virksomheter som har utarbeidet en strukturert oversikt over noen av sine begrep
 
 For at importen til registreringsløsningen skal fungere må begrepene og beskrivelsene følge en struktur som er nærmere beskrevet i denne [malen](https://github.com/Informasjonsforvaltning/fdk-testdata/raw/master/testdata/concept_sample.xlsx).
 
-Noen av kolonnene, for eksempel _bruksområde_ har støtte for flere verdier. For å legge inn flere forekomster legger du til en ekstra kolonne med samme navn på første linje (overskrift) eller separerer forekomstene med |.
+Noen av kolonnene, for eksempel _tillatt_term_ har støtte for flere verdier. For å legge inn flere forekomster legger du til en ekstra kolonne med samme navn på første linje (overskrift) eller separerer forekomstene med |.
 
 Enkelte felter har også støtte for flere språk og målformer. Den nåværende importløsningen støtter norsk bokmål (nb), nynorsk (nn) og engelsk (en). Hvis språk og målform ikke er oppgitt vil denne automatisk bli satt til bokmål under importen.
 
@@ -41,19 +41,24 @@ Kolonner som ikke gjenkjennes under importen vil bli ignorert, så test gjerne m
 | frarådet_term | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere frarådede termer). Kan også legge til flere termer i samme kolonne ved å separere termene med \| | frarådetTerm1\|frarådetTerm2\|frarådetTerm3 |
 | definisjon | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | definisjon:forhold_til_kilde | må være en av: «egendefinert», «basertPaaKilde» eller «sitatFraKilde» | |
-| definisjon:kilde | Formateres med tekst beskrivelse og gyldig uri til kilde separert med tegnet \|. | «brønnøysund\|<https://www.brreg.no/>» |
+| definisjon:kilde | Formateres med tekstbeskrivelse og gyldig uri til kilde separert med tegnet \|. | «Digitaliseringsdirektoratet\|<https://www.digdir.no/>» |
+| definisjon_for_allmennheten | Flere språk og målformer, kun en kolonne pr språk og målform. | |
+| definisjon_for_allmennheten:forhold_til_kilde | må være en av: «egendefinert», «basertPaaKilde» eller «sitatFraKilde» | |
+| definisjon_for_allmennheten:kilde | Formateres med tekstbeskrivelse og gyldig uri til kilde separert med tegnet \|. |
+| definisjon_for_spesialister | Flere språk og målformer, kun en kolonne pr språk og målform. | |
+| definisjon_for_spesialister:forhold_til_kilde | må være en av: «egendefinert», «basertPaaKilde» eller «sitatFraKilde» | |
+| definisjon_for_spesialister:kilde | Formateres med tekstbeskrivelse og gyldig uri til kilde separert med tegnet \|. | |
 | merknad | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | eksempel | Flere språk og målformer, kun en kolonne pr språk og målform. | |
-| fagområde | Flere språk og målformer, kun en kolonne pr språk og målform. | |
-| bruksområde | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere bruksområder termer). Kan også legge til flere termer i samme kolonne ved å separere termene med \| | bruksområde1\|bruksområde2\|bruksområde3 |
-| verdiområde:uri | Kun en kolonne. | |
-| verdiområde:tekst | Kun en kolonne. | |
+| fagområde | Flere språk og målformer, kun en kolonne pr språk og målform. | terminologi |
+| verdiområde:uri | Kun en kolonne med gyldig uri. | https://www.ssb.no/klass/klassifikasjoner/19 |
+| verdiområde:tekst | Kun en kolonne med tekstbeskrivelse. | Standard for sivilstand |
 | kontaktpunkt:epost | Kun en kolonne. Rader må inneholde gyldig epostadresse. | |
 | kontaktpunkt:telefon | Kun en kolonne. | |
 | gyldig_fom | Fra og med dato for perioden hvor begrepet er gyldig. Kun en kolonne. Dato formattert med (åååå-mm-dd) år, måned, dag. | 2020-01-31 |
 | gyldig_tom | Til og med dato for perioden hvor begrepet er gyldig. Kun en kolonne. Dato formattert med (åååå-mm-dd) år, måned, dag. | 2020-12-01 |
 | se_også | NB! Dette feltet kan ikke brukes til eksterne referanser utenfor begrepskatalogen. Det anbefales sterkt å sette dette etter begrepet er registrert inn. Kun en kolonne støttes og rader må inneholde en gyldig uri som peker til eksisterende begrep i begrepskatalogen. | |
-| versjon | Versjonsnummer til begrepet. Må minimum være versjon 0.1.0. | 0.1.0 |
+| versjon | Versjonsnummer til begrepet. Består av tre siffer der første siffer er «major», andre siffer er «minor» og tredje er «patch». For at begrepet skal importeres må versjonsnummeret minimum være «minor», dvs. 0.1.0. | 0.1.0 |
 
 Du kan lese mer om beskrivelser av begrep her: [Forvaltningsstandard for begrepsbeskrivelser (SKOS-AP-NO-Begrep)](https://data.norge.no/specification/skos-ap-no-begrep/)
 
@@ -74,14 +79,14 @@ Eksempel med utgangspunkt i Excel for Microsoft 365:
 
 Du er nå klar for å importere CSV filen i registreringsløsningen.
 
-Logg deg inn på [Registreringsløsningen](https://registrering.fellesdatakatalog.digdir.no) og velg Begrepskatalogen.
+Logg deg inn på [Registreringsløsningen](https://registrering.fellesdatakatalog.digdir.no) og velg Begrepskatalogen. Vær oppmerksom på at du må ha rettigheten «Felles datakatalog - alle kataloger - virksomhetsadministrator i Altinn for å kunne importere.
 
 Klikk på «Importer begreper» og velg den csv- eller json-filen du har opprettet.
 
 #### Eksempel på CSV-fil
 
 ```Shell
-anbefaltTerm:nb;tillattTerm:nb;anbefaltTerm:en;tillattTerm:en;frarådetTerm:nb;definisjon:nb
+anbefalt_term:nb;tillatt_term:nb;anbefalt_term:en;tillatt_term:en;frarådet_term:nb;definisjon:nb
 test eksempel;eksempeltest;Test example;example test;illustrasjonstest;Dette er en definisjon på et eksempel
 ```
 
