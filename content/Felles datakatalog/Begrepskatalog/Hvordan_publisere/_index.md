@@ -26,7 +26,7 @@ Legg til eller kopier inn termer og tilhørende informasjon ved å sette inn fle
 
 I tabellen nedenfor er kolonne a og b formattert for norsk bokmål, og kolonne c og d for engelsk.
 
-| anbefaltTerm:nb | tillattTerm:nb | anbefaltTerm:en | tillattTerm:en | frarådetTerm:nb | definisjon:nb
+| anbefalt-term:nb | tillatt_term:nb | anbefalt_term:en | tillatt_term:en | frarådet_term:nb | definisjon:nb
 | --- | --- | --- | --- | --- | --- |
 | test eksempel | eksempeltest | test example | example test | illustrasjonstest | Dette er en definisjon på et eksempel |
 
@@ -36,25 +36,26 @@ Kolonner som ikke gjenkjennes under importen vil bli ignorert, så test gjerne m
 
 | Felt | Kommentar | Eksempel |
 | --- | --- | --- |
-| anbefaltTerm | Flere språk og målformer, kun en kolonne pr språk og målform. | |
-| tillattTerm | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere tillatte termer). Kan også legge til flere termer i samme kolonne ved å separere termene med \| | tillattTerm1\|tillattTerm2\|tillattTerm3 |
-| frarådetTerm | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere frarådede termer). Kan også legge til flere termer i samme kolonne ved å separere termene med \| | frarådetTerm1\|frarådetTerm2\|frarådetTerm3 |
+| anbefalt-_term | Flere språk og målformer, kun en kolonne pr språk og målform. | |
+| tillatt_term | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere tillatte termer). Kan også legge til flere termer i samme kolonne ved å separere termene med \| | tillattTerm1\|tillattTerm2\|tillattTerm3 |
+| frarådet-term | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere frarådede termer). Kan også legge til flere termer i samme kolonne ved å separere termene med \| | frarådetTerm1\|frarådetTerm2\|frarådetTerm3 |
 | definisjon | Flere språk og målformer, kun en kolonne pr språk og målform. | |
-| forholdtilkilde | må være en av: «egendefinert», «basertPaaKilde» eller «sitatFraKilde» | |
-| kilde | Formatteres med tekst beskrivelse og gyldig uri til kilde separert med tegnet \|. | «brønnøysund\|<https://www.brreg.no/>» |
+| definisjon:forhold_til_kilde | må være en av: «egendefinert», «basertPaaKilde» eller «sitatFraKilde» | |
+| definisjon:kilde | Formateres med tekst beskrivelse og gyldig uri til kilde separert med tegnet \|. | «brønnøysund\|<https://www.brreg.no/>» |
 | merknad | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | eksempel | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | fagområde | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | bruksområde | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere bruksområder termer). Kan også legge til flere termer i samme kolonne ved å separere termene med \| | bruksområde1\|bruksområde2\|bruksområde3 |
-| omfang_uri | Kun en kolonne. | |
-| omfangtekst | Kun en kolonne. | |
-| kontaktpunkt_epost | Kun en kolonne. Rader må inneholde gyldig epostadresse. | |
-| kontaktpunkt_telefon | Kun en kolonne. | |
-| gyldigfom | Fra og med dato for perioden hvor begrepet er gyldig. Kun en kolonne. Dato formattert med (åååå-mm-dd) år, måned, dag. | 2020-01-31 |
-| gyldigtom | Til og med dato for perioden hvor begrepet er gyldig. Kun en kolonne. Dato formattert med (åååå-mm-dd) år, måned, dag. | 2020-12-01 |
-| seogså | NB! Dette feltet kan ikke brukes til eksterne referanser utenfor begrepskatalogen. Det anbefales sterkt å sette dette etter begrepet er registrert inn. Kun en kolonne støttes og rader må inneholde en gyldig uri som peker til eksisterende begrep i begrepskatalogen. | |
+| verdiområde:uri | Kun en kolonne. | |
+| verdiområde:tekst | Kun en kolonne. | |
+| kontaktpunkt:epost | Kun en kolonne. Rader må inneholde gyldig epostadresse. | |
+| kontaktpunkt:telefon | Kun en kolonne. | |
+| gyldig_fom | Fra og med dato for perioden hvor begrepet er gyldig. Kun en kolonne. Dato formattert med (åååå-mm-dd) år, måned, dag. | 2020-01-31 |
+| gyldig_tom | Til og med dato for perioden hvor begrepet er gyldig. Kun en kolonne. Dato formattert med (åååå-mm-dd) år, måned, dag. | 2020-12-01 |
+| se_også | NB! Dette feltet kan ikke brukes til eksterne referanser utenfor begrepskatalogen. Det anbefales sterkt å sette dette etter begrepet er registrert inn. Kun en kolonne støttes og rader må inneholde en gyldig uri som peker til eksisterende begrep i begrepskatalogen. | |
+| versjon | Versjonsnummer til begrepet. Må minimum være versjon 0.1.0. | 0.1.0 |
 
-Du kan lese mer om beskrivelser av begrep her: [Forvaltningsstandard for begrepsbeskrivelser - Versjon 2.0.2](https://data.norge.no/specification/forvaltningsstandard-begrepsbeskrivelser/)
+Du kan lese mer om beskrivelser av begrep her: [Forvaltningsstandard for begrepsbeskrivelser (SKOS-AP-NO-Begrep)](https://data.norge.no/specification/skos-ap-no-begrep/)
 
 #### Lagring
 
