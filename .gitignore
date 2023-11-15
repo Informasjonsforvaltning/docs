@@ -13,3 +13,5 @@ $RECYCLE.BIN/
 
 # Hugu files
 .hugo_build.lock
+
+.idea
