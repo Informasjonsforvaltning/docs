@@ -99,19 +99,19 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
   {
     "anbefaltTerm": {
       "navn": {
-        "nb": "anbefalt term bokmål",
-        "nn": "tilrådd term nynorsk",
+        "nb": "anbefalt term norsk bokmål",
+        "nn": "tilrådd term norsk nynorsk",
         "en":"recommended term english"
               }
     },
     "tillattTerm": {
       "nb": [
-          "tillatt term 1 bokmål",
-          "tillatt term 2 bokmål"
+          "tillatt term 1 norsk bokmål",
+          "tillatt term 2 norsk bokmål"
       ],
       "nn": [
-          "tillaten term 1 nynorsk",
-          "tillaten term 2 nynorsk"
+          "tillaten term 1 norsk nynorsk",
+          "tillaten term 2 norsk nynorsk"
       ],
       "en": [
           "alternative term 1 english",
@@ -120,27 +120,90 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     },
     "frarådetTerm": {
       "nb": [
-          "frarådet term 1 bokmål",
-          "frarådet term 2 bokmål"
+          "frarådet term 1 norsk bokmål",
+          "frarådet term 2 norsk bokmål"
       ],
       "nn": [
-        "",
-        ""
+          "frårådd term 1 norsk nynorsk",
+          "frårådd term 2 norsk nynorsk"
       ],
       "en": [
-        "",
-        ""
+          "hidden term 1 english",
+          "hidden term 2 english"
      ]
     },
     "definisjon": {
       "tekst": {
-        "nb": "definisjon"
+          "nb": "definisjon norsk bokmål",
+          "nn": "definisjon norsk nynorsk",
+          "en": "definition english"
       }
     },
     "kildebeskrivelse": {
-      "forholdTilKilde": "egendefinert",
-      "kilde": []
+      "forholdTilKilde": "egendefinert",  # Alternativene er "egendefinert", "sitatFraKilde" og "basertPaaKilde".
+      "kilde": []  # Det er ikke mulig å legge til kilde når "forhold til kilde" er satt til "egendefinert". 
     },
+    "definisjonForAllmennheten": {
+        "tekst": {
+            "nb": "definisjon for allmennheten norsk bokmål",
+            "nn": "definisjon for allmenta norsk nynorsk",
+            "en": "definition for public english"
+        },
+        "kildebeskrivelse": {
+            "forholdTilKilde": "sitatFraKilde",
+            "kilde": [
+                {
+                    "tekst": "Tittel på kilde_allmennheten",
+                    "uri": "http://kildesitatallmennhetenuri.no/"
+                }
+            ]
+        }
+    },
+    "definisjonForSpesialister": {
+        "tekst": {
+            "nb": "definisjon for spesialist norsk bokmål",
+            "nn": "definisjon for spesialist norsk nynorsk",
+            "en": "definition for specialist english"
+        },
+        "kildebeskrivelse": {
+            "forholdTilKilde": "basertPaaKilde",
+            "kilde": [
+                {
+                    "tekst": "Tittel på kilde_spesialister",
+                    "uri": "http://kildebasertspesialisteruri.no/"
+                }
+            ]
+        }
+    },
+    "merkelapp": [
+        "test-import-json"
+    ],
+    "fagområdeKoder": [],
+    "gyldigFom": "2023-11-20",
+    "gyldigTom": "2024-11-25",
+    "seOgså": [
+        "https://concept-catalog.fellesdatakatalog.digdir.no/collections/991825827/concepts/00f3acbe-b8a0-4da4-bb4c-62db81c92acf"
+    ],
+    "erstattesAv": [
+        "http://begrepskatalogen/begrep/20b2e284-9fe1-11e5-a9f8-e4115b280940"
+    ],
+    "abbreviatedLabel": "testBegrep",
+    "begrepsRelasjon": [
+        {
+            "beskrivelse": {
+                "nb": "test",
+                "nn": "",
+                "en": ""
+            },
+            "inndelingskriterium": {
+                "nb": "",
+                "nn": "",
+                "en": ""
+            },
+            "relasjon": "assosiativ",
+            "relatertBegrep": "https://concept-catalog.staging.fellesdatakatalog.digdir.no/collections/910244132/concepts/75f229c6-dff7-4c0e-a08e-8010391751a4"
+        }
+    ],
     "merknad": {
       "nb": "merknad"
     },
@@ -163,8 +226,6 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
       "harEpost": "e-post@epost.no",
       "harTelefon": "47474747"
     },
-    "gyldigFom": "2019-12-31",
-    "gyldigTom": "2020-12-30",
     "endringslogelement": {
       "brukerId": "03096000854",
       "endringstidspunkt": "2020-10-14T12:54:52.264+02:00"
