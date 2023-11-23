@@ -226,7 +226,6 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
             "Specialized knowledge area to which the concept belongs in english"
         ]
     },
-    },
     "omfang": {
         "tekst": "Tittel på verdiområde",
         "uri": "http://lenketilverdiomraade.no"
@@ -375,7 +374,6 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
         "en": [
             "Specialized knowledge area to which the concept belongs in english"
         ]
-    },
     },
     "omfang": {
         "tekst": "Tittel på verdiområde",
