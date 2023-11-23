@@ -41,13 +41,13 @@ Kolonner som ikke gjenkjennes under importen vil bli ignorert, så test gjerne m
 | frarådet_term | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere frarådede termer). Kan også legge til flere termer i samme kolonne ved å separere termene med \| | frarådetTerm1\|frarådetTerm2\|frarådetTerm3 |
 | definisjon | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | definisjon:forhold_til_kilde | må være en av: «egendefinert», «basertPaaKilde» eller «sitatFraKilde» | |
-| definisjon:kilde | Formateres med tekstbeskrivelse og gyldig uri til kilde separert med tegnet \|. Ikke mulig å oppgi kilde hvis "forhold_til_kilde" er "egendefiner". | «Digitaliseringsdirektoratet\|<https://www.digdir.no/>» |
+| definisjon:kilde | Formateres med tekstbeskrivelse og gyldig uri til kilde separert med tegnet \|. Ikke mulig å oppgi kilde hvis "forhold_til_kilde" er "egendefinert". | «Digitaliseringsdirektoratet\|<https://www.digdir.no/>» |
 | definisjon_for_allmennheten | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | definisjon_for_allmennheten:forhold_til_kilde | må være en av: «egendefinert», «basertPaaKilde» eller «sitatFraKilde» | |
-| definisjon_for_allmennheten:kilde | Formateres med tekstbeskrivelse og gyldig uri til kilde separert med tegnet \|. |
+| definisjon_for_allmennheten:kilde | Formateres med tekstbeskrivelse og gyldig uri til kilde separert med tegnet \|. Ikke mulig å oppgi kilde hvis "forhold_til_kilde" er "egendefinert". | |
 | definisjon_for_spesialister | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | definisjon_for_spesialister:forhold_til_kilde | må være en av: «egendefinert», «basertPaaKilde» eller «sitatFraKilde» | |
-| definisjon_for_spesialister:kilde | Formateres med tekstbeskrivelse og gyldig uri til kilde separert med tegnet \|. | |
+| definisjon_for_spesialister:kilde | Formateres med tekstbeskrivelse og gyldig uri til kilde separert med tegnet \|. Ikke mulig å oppgi kilde hvis "forhold_til_kilde" er "egendefinert". | |
 | merknad | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | eksempel | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | fagområde | Flere språk og målformer, kun en kolonne pr språk og målform. | terminologi |
@@ -99,44 +99,44 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
   {
     "anbefaltTerm": {
       "navn": {
-        "nb": "anbefalt term norsk bokmål",
-        "nn": "tilrådd term norsk nynorsk",
-        "en":"recommended term english"
+        "nb": "anbefalt term på norsk bokmål",
+        "nn": "tilrådd term på norsk nynorsk",
+        "en":"recommended term in english"
               }
     },
     "tillattTerm": {
       "nb": [
-          "tillatt term 1 norsk bokmål",
-          "tillatt term 2 norsk bokmål"
+          "tillatt term 1 på norsk bokmål",
+          "tillatt term 2 på norsk bokmål"
       ],
       "nn": [
-          "tillaten term 1 norsk nynorsk",
-          "tillaten term 2 norsk nynorsk"
+          "tillaten term 1 på norsk nynorsk",
+          "tillaten term 2 på norsk nynorsk"
       ],
       "en": [
-          "alternative term 1 english",
-          "alternative term 2 english"
+          "alternative term 1 in english",
+          "alternative term 2 in english"
       ]
     },
     "frarådetTerm": {
       "nb": [
-          "frarådet term 1 norsk bokmål",
-          "frarådet term 2 norsk bokmål"
+          "frarådet term 1 på norsk bokmål",
+          "frarådet term 2 på norsk bokmål"
       ],
       "nn": [
-          "frårådd term 1 norsk nynorsk",
-          "frårådd term 2 norsk nynorsk"
+          "frårådd term 1 på norsk nynorsk",
+          "frårådd term 2 på norsk nynorsk"
       ],
       "en": [
-          "hidden term 1 english",
-          "hidden term 2 english"
+          "hidden term 1 in english",
+          "hidden term 2 in english"
      ]
     },
     "definisjon": {
       "tekst": {
-          "nb": "definisjon norsk bokmål",
-          "nn": "definisjon norsk nynorsk",
-          "en": "definition english"
+          "nb": "definisjon på norsk bokmål",
+          "nn": "definisjon på norsk nynorsk",
+          "en": "definition in english"
       }
     },
     "kildebeskrivelse": {
@@ -145,9 +145,9 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     },
     "definisjonForAllmennheten": {
         "tekst": {
-            "nb": "definisjon for allmennheten norsk bokmål",
-            "nn": "definisjon for allmenta norsk nynorsk",
-            "en": "definition for public english"
+            "nb": "definisjon for allmennheten på norsk bokmål",
+            "nn": "definisjon for allmenta på norsk nynorsk",
+            "en": "definition for public in english"
         },
         "kildebeskrivelse": {
             "forholdTilKilde": "sitatFraKilde",
@@ -161,9 +161,9 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     },
     "definisjonForSpesialister": {
         "tekst": {
-            "nb": "definisjon for spesialist norsk bokmål",
-            "nn": "definisjon for spesialist norsk nynorsk",
-            "en": "definition for specialist english"
+            "nb": "definisjon for spesialist på norsk bokmål",
+            "nn": "definisjon for spesialist på norsk nynorsk",
+            "en": "definition for specialist in english"
         },
         "kildebeskrivelse": {
             "forholdTilKilde": "basertPaaKilde",
@@ -182,116 +182,222 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     "gyldigFom": "2023-11-20",
     "gyldigTom": "2024-11-25",
     "seOgså": [
+        "https://concept-catalog.fellesdatakatalog.digdir.no/collections/991825827/concepts/00f3acbe-b8a0-4da4-bb4c-62db81c92acf",
         "https://concept-catalog.fellesdatakatalog.digdir.no/collections/991825827/concepts/00f3acbe-b8a0-4da4-bb4c-62db81c92acf"
     ],
     "erstattesAv": [
         "http://begrepskatalogen/begrep/20b2e284-9fe1-11e5-a9f8-e4115b280940"
     ],
-    "abbreviatedLabel": "testBegrep",
+    "abbreviatedLabel": "forkortelse-av-begrepet",
     "begrepsRelasjon": [
         {
             "beskrivelse": {
-                "nb": "test",
-                "nn": "",
-                "en": ""
+                "nb": "beskrivelse på norsk bokmål",
+                "nn": "skildring på norsk nynorsk",
+                "en": "description in english"
             },
             "inndelingskriterium": {
-                "nb": "",
-                "nn": "",
-                "en": ""
+                "nb": "inndelingskriterium på norsk bokmål",
+                "nn": "inndelingskriterium på norsk nynorsk",
+                "en": "division criterion in english"
             },
             "relasjon": "assosiativ",
-            "relatertBegrep": "https://concept-catalog.staging.fellesdatakatalog.digdir.no/collections/910244132/concepts/75f229c6-dff7-4c0e-a08e-8010391751a4"
+            "relatertBegrep": "http://data.brreg.no/begrep/40660"
         }
     ],
     "merknad": {
-      "nb": "merknad"
+        "nb": "Tilleggsopplysninger om begrepets betydning som ikke hører hjemme i definisjonsfeltet på norsk bokmål",
+        "nn": "Tilleggsopplysningar om betydninga av omgrepet som ikkje høyrer heime i definisjonsfeltet på nynorsk",
+        "en": "Additional information about the term's meaning that does not belong in the definition field in english "
     },
     "eksempel": {
-      "nb": "bruk av begrepet: Eksempel"
+        "nb": "Eksempler på konkrete tilfeller av begrepet på norsk bokmål",
+        "nn": "Døme på konkrete tilfelle av omgrepet på norsk nynorsk",
+        "en": "Examples of concrete cases of the concept in english"
     },
     "fagområde": {
-      "nb": "bruk av begrepet: Fagområde"
+        "nb": [
+            "Spesialisert kunnskapsområde som begrepet tilhører på norsk bokmål"
+        ],
+        "nn": [
+            "Spesialisert kunnskapsområde som omgrepet tilhøyrer på norsk nynorsk"
+        ],
+        "en": [
+            "Specialized knowledge area to which the concept belongs in english"
+        ]
     },
-    "bruksområde": {
-      "nb": [
-        "bruk av begrepet: bruksområde(r)"
-      ]
     },
     "omfang": {
-      "uri": "lenketilomfangno",
-      "tekst": "bruk av begrepet: Omfang: Tittel på omfang"
+        "tekst": "Tittel på verdiområde",
+        "uri": "http://lenketilverdiomraade.no"
     },
     "kontaktpunkt": {
-      "harEpost": "e-post@epost.no",
-      "harTelefon": "47474747"
+        "harEpost": "e-post@epost.no",
+        "harTelefon": "12345678"
     },
     "endringslogelement": {
-      "brukerId": "03096000854",
-      "endringstidspunkt": "2020-10-14T12:54:52.264+02:00"
+        "brukerId": "03096000854",
+        "endringstidspunkt": "2020-10-14T12:54:52.264+02:00"
     },
-    "seOgså": [
-      "http://begrepskatalogen/begrep/98da4336-dff2-11e7-a0fd-005056821322",
-      "http://begrepskatalogen/begrep/98da4336-dff2-11e7-a0fd-005056821322"
-    ]
+    "statusURI": "http://publications.europa.eu/resource/authority/concept-status/DRAFT",
+    "versjonsnr": {
+        "major": "0",
+        "minor": "1",
+        "patch": "0"
+    }
   },
   {
     "anbefaltTerm": {
       "navn": {
-        "nb": "2demoterm1811"
-      }
+        "nb": "anbefalt term 2 på norsk bokmål",
+        "nn": "tilrådd term 2 på norsk nynorsk",
+        "en":"recommended term 2 in english"
+              }
     },
     "tillattTerm": {
       "nb": [
-        "Tillatt term"
+          "tillatt term 1 på norsk bokmål",
+          "tillatt term 2 på norsk bokmål"
+      ],
+      "nn": [
+          "tillaten term 1 på norsk nynorsk",
+          "tillaten term 2 på norsk nynorsk"
+      ],
+      "en": [
+          "alternative term 1 in english",
+          "alternative term 2 in english"
       ]
     },
     "frarådetTerm": {
       "nb": [
-        "Frarådet term"
-      ]
+          "frarådet term 1 på norsk bokmål",
+          "frarådet term 2 på norsk bokmål"
+      ],
+      "nn": [
+          "frårådd term 1 på norsk nynorsk",
+          "frårådd term 2 på norsk nynorsk"
+      ],
+      "en": [
+          "hidden term 1 in english",
+          "hidden term 2 in english"
+     ]
     },
     "definisjon": {
       "tekst": {
-        "nb": "definisjon"
+          "nb": "definisjon på norsk bokmål",
+          "nn": "definisjon på norsk nynorsk",
+          "en": "definition in english"
       }
     },
     "kildebeskrivelse": {
       "forholdTilKilde": "egendefinert",
-      "kilde": []
+      "kilde": [] 
     },
+    "definisjonForAllmennheten": {
+        "tekst": {
+            "nb": "definisjon for allmennheten på norsk bokmål",
+            "nn": "definisjon for allmenta på norsk nynorsk",
+            "en": "definition for public in english"
+        },
+        "kildebeskrivelse": {
+            "forholdTilKilde": "sitatFraKilde",
+            "kilde": [
+                {
+                    "tekst": "Tittel på kilde_allmennheten",
+                    "uri": "http://kildesitatallmennhetenuri.no/"
+                }
+            ]
+        }
+    },
+    "definisjonForSpesialister": {
+        "tekst": {
+            "nb": "definisjon for spesialist på norsk bokmål",
+            "nn": "definisjon for spesialist på norsk nynorsk",
+            "en": "definition for specialist in english"
+        },
+        "kildebeskrivelse": {
+            "forholdTilKilde": "basertPaaKilde",
+            "kilde": [
+                {
+                    "tekst": "Tittel på kilde_spesialister",
+                    "uri": "http://kildebasertspesialisteruri.no/"
+                }
+            ]
+        }
+    },
+    "merkelapp": [
+        "test-import-json"
+    ],
+    "fagområdeKoder": [],
+    "gyldigFom": "2023-11-20",
+    "gyldigTom": "2024-11-25",
+    "seOgså": [
+        "https://concept-catalog.fellesdatakatalog.digdir.no/collections/991825827/concepts/00f3acbe-b8a0-4da4-bb4c-62db81c92acf",
+        "https://concept-catalog.fellesdatakatalog.digdir.no/collections/991825827/concepts/00f3acbe-b8a0-4da4-bb4c-62db81c92acf"
+    ],
+    "erstattesAv": [
+        "http://begrepskatalogen/begrep/20b2e284-9fe1-11e5-a9f8-e4115b280940"
+    ],
+    "abbreviatedLabel": "forkortelse-av-begrepet",
+    "begrepsRelasjon": [
+        {
+            "beskrivelse": {
+                "nb": "beskrivelse på norsk bokmål",
+                "nn": "skildring på norsk nynorsk",
+                "en": "description in english"
+            },
+            "inndelingskriterium": {
+                "nb": "inndelingskriterium på norsk bokmål",
+                "nn": "inndelingskriterium på norsk nynorsk",
+                "en": "division criterion in english"
+            },
+            "relasjon": "assosiativ",
+            "relatertBegrep": "http://data.brreg.no/begrep/40660"
+        }
+    ],
     "merknad": {
-      "nb": "merknad"
+        "nb": "Tilleggsopplysninger om begrepets betydning som ikke hører hjemme i definisjonsfeltet på norsk bokmål",
+        "nn": "Tilleggsopplysningar om betydninga av omgrepet som ikkje høyrer heime i definisjonsfeltet på nynorsk",
+        "en": "Additional information about the term's meaning that does not belong in the definition field in english "
     },
     "eksempel": {
-      "nb": "bruk av begrepet: Eksempel"
+        "nb": "Eksempler på konkrete tilfeller av begrepet på norsk bokmål",
+        "nn": "Døme på konkrete tilfelle av omgrepet på norsk nynorsk",
+        "en": "Examples of concrete cases of the concept in english"
     },
     "fagområde": {
-      "nb": "bruk av begrepet: Fagområde"
+        "nb": [
+            "Spesialisert kunnskapsområde som begrepet tilhører på norsk bokmål"
+        ],
+        "nn": [
+            "Spesialisert kunnskapsområde som omgrepet tilhøyrer på norsk nynorsk"
+        ],
+        "en": [
+            "Specialized knowledge area to which the concept belongs in english"
+        ]
     },
-    "bruksområde": {
-      "nb": [
-        "bruk av begrepet: bruksområde(r)"
-      ]
     },
     "omfang": {
-      "uri": "http://lenketilomfang.no",
-      "tekst": "bruk av begrepet: Omfang: Tittel på omfang"
+        "tekst": "Tittel på verdiområde",
+        "uri": "http://lenketilverdiomraade.no"
     },
     "kontaktpunkt": {
-      "harEpost": "e-post@epost.no",
-      "harTelefon": "47474747"
+        "harEpost": "e-post@epost.no",
+        "harTelefon": "12345678"
     },
-    "gyldigFom": "2019-12-31",
-    "gyldigTom": "2020-12-30",
+    "ansvarligVirksomhet": {
+        "id": "312460726"
+    },
     "endringslogelement": {
-      "brukerId": "03096000854",
-      "endringstidspunkt": "2020-10-14T12:54:52.264+02:00"
+        "brukerId": "03096000854",
+        "endringstidspunkt": "2020-10-14T12:54:52.264+02:00"
     },
-    "seOgså": [
-      "http://begrepskatalogen/begrep/98da4336-dff2-11e7-a0fd-005056821322",
-      "http://begrepskatalogen/begrep/98da4336-dff2-11e7-a0fd-005056821322"
-    ]
+    "statusURI": "http://publications.europa.eu/resource/authority/concept-status/DRAFT",
+    "versjonsnr": {
+        "major": "0",
+        "minor": "1",
+        "patch": "0"
+    }
   }
 ]
 ```
