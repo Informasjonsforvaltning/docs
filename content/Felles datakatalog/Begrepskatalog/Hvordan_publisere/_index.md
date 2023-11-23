@@ -41,7 +41,7 @@ Kolonner som ikke gjenkjennes under importen vil bli ignorert, så test gjerne m
 | frarådet_term | Flere språk og målformer, ubegrenset antall kolonner pr målform (kan ha flere frarådede termer). Kan også legge til flere termer i samme kolonne ved å separere termene med \| | frarådetTerm1\|frarådetTerm2\|frarådetTerm3 |
 | definisjon | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | definisjon:forhold_til_kilde | må være en av: «egendefinert», «basertPaaKilde» eller «sitatFraKilde» | |
-| definisjon:kilde | Formateres med tekstbeskrivelse og gyldig uri til kilde separert med tegnet \|. | «Digitaliseringsdirektoratet\|<https://www.digdir.no/>» |
+| definisjon:kilde | Formateres med tekstbeskrivelse og gyldig uri til kilde separert med tegnet \|. Ikke mulig å oppgi kilde hvis "forhold_til_kilde" er "egendefiner". | «Digitaliseringsdirektoratet\|<https://www.digdir.no/>» |
 | definisjon_for_allmennheten | Flere språk og målformer, kun en kolonne pr språk og målform. | |
 | definisjon_for_allmennheten:forhold_til_kilde | må være en av: «egendefinert», «basertPaaKilde» eller «sitatFraKilde» | |
 | definisjon_for_allmennheten:kilde | Formateres med tekstbeskrivelse og gyldig uri til kilde separert med tegnet \|. |
@@ -140,8 +140,8 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
       }
     },
     "kildebeskrivelse": {
-      "forholdTilKilde": "egendefinert",  # Alternativene er "egendefinert", "sitatFraKilde" og "basertPaaKilde".
-      "kilde": []  # Det er ikke mulig å legge til kilde når "forhold til kilde" er satt til "egendefinert". 
+      "forholdTilKilde": "egendefinert",
+      "kilde": [] 
     },
     "definisjonForAllmennheten": {
         "tekst": {
