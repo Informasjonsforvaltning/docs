@@ -99,19 +99,38 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
   {
     "anbefaltTerm": {
       "navn": {
-        "nb": "1demoterm1811",
- "en":"Test English term"
-      }
+        "nb": "anbefalt term bokmål",
+        "nn": "tilrådd term nynorsk",
+        "en":"recommended term english"
+              }
     },
     "tillattTerm": {
       "nb": [
-        "Tillatt term"
+          "tillatt term 1 bokmål",
+          "tillatt term 2 bokmål"
+      ],
+      "nn": [
+          "tillaten term 1 nynorsk",
+          "tillaten term 2 nynorsk"
+      ],
+      "en": [
+          "alternative term 1 english",
+          "alternative term 2 english"
       ]
     },
     "frarådetTerm": {
       "nb": [
-        "Frarådet term"
-      ]
+          "frarådet term 1 bokmål",
+          "frarådet term 2 bokmål"
+      ],
+      "nn": [
+        "",
+        ""
+      ],
+      "en": [
+        "",
+        ""
+     ]
     },
     "definisjon": {
       "tekst": {
