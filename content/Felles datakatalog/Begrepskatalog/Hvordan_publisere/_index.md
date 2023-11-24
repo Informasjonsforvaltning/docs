@@ -182,8 +182,8 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     "gyldigFom": "2023-11-20",
     "gyldigTom": "2024-11-25",
     "seOgså": [
-        "https://concept-catalog.fellesdatakatalog.digdir.no/collections/991825827/concepts/00f3acbe-b8a0-4da4-bb4c-62db81c92acf",
-        "https://concept-catalog.fellesdatakatalog.digdir.no/collections/991825827/concepts/00f3acbe-b8a0-4da4-bb4c-62db81c92acf"
+        "http://begrepskatalogen/begrep/20b2e299-9fe1-11e5-a9f8-e4115b280940",
+        "http://begrepskatalogen/begrep/20b2e299-9fe1-11e5-a9f8-e4115b280940"
     ],
     "erstattesAv": [
         "http://begrepskatalogen/begrep/20b2e284-9fe1-11e5-a9f8-e4115b280940"
@@ -202,7 +202,7 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
                 "en": "division criterion in english"
             },
             "relasjon": "assosiativ",
-            "relatertBegrep": "http://data.brreg.no/begrep/40660"
+            "relatertBegrep": "http://begrepskatalogen/begrep/20b2e299-9fe1-11e5-a9f8-e4115b280940"
         }
     ],
     "merknad": {
@@ -233,10 +233,6 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     "kontaktpunkt": {
         "harEpost": "e-post@epost.no",
         "harTelefon": "12345678"
-    },
-    "endringslogelement": {
-        "brukerId": "03096000854",
-        "endringstidspunkt": "2020-10-14T12:54:52.264+02:00"
     },
     "statusURI": "http://publications.europa.eu/resource/authority/concept-status/DRAFT",
     "versjonsnr": {
@@ -331,8 +327,8 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     "gyldigFom": "2023-11-20",
     "gyldigTom": "2024-11-25",
     "seOgså": [
-        "https://concept-catalog.fellesdatakatalog.digdir.no/collections/991825827/concepts/00f3acbe-b8a0-4da4-bb4c-62db81c92acf",
-        "https://concept-catalog.fellesdatakatalog.digdir.no/collections/991825827/concepts/00f3acbe-b8a0-4da4-bb4c-62db81c92acf"
+        "http://begrepskatalogen/begrep/20b2e299-9fe1-11e5-a9f8-e4115b280940",
+        "http://begrepskatalogen/begrep/20b2e299-9fe1-11e5-a9f8-e4115b280940"
     ],
     "erstattesAv": [
         "http://begrepskatalogen/begrep/20b2e284-9fe1-11e5-a9f8-e4115b280940"
@@ -351,7 +347,7 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
                 "en": "division criterion in english"
             },
             "relasjon": "assosiativ",
-            "relatertBegrep": "http://data.brreg.no/begrep/40660"
+            "relatertBegrep": "http://begrepskatalogen/begrep/20b2e299-9fe1-11e5-a9f8-e4115b280940"
         }
     ],
     "merknad": {
@@ -382,13 +378,6 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     "kontaktpunkt": {
         "harEpost": "e-post@epost.no",
         "harTelefon": "12345678"
-    },
-    "ansvarligVirksomhet": {
-        "id": "312460726"
-    },
-    "endringslogelement": {
-        "brukerId": "03096000854",
-        "endringstidspunkt": "2020-10-14T12:54:52.264+02:00"
     },
     "statusURI": "http://publications.europa.eu/resource/authority/concept-status/DRAFT",
     "versjonsnr": {
