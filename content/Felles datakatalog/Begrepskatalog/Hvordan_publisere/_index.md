@@ -178,7 +178,9 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     "merkelapp": [
         "test-import-json"
     ],
-    "fagområdeKoder": [],
+    "fagområdeKoder": [
+				"4"
+	],
     "gyldigFom": "2023-11-20",
     "gyldigTom": "2024-11-25",
     "seOgså": [
@@ -323,7 +325,9 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     "merkelapp": [
         "test-import-json"
     ],
-    "fagområdeKoder": [],
+    "fagområdeKoder": [
+				"5"
+	],
     "gyldigFom": "2023-11-20",
     "gyldigTom": "2024-11-25",
     "seOgså": [
