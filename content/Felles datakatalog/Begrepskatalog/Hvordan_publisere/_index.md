@@ -14,7 +14,7 @@ Virksomheter som har utarbeidet en strukturert oversikt over noen av sine begrep
 
 #### Hvordan Importere begreper fra CSV format?
 
-For at importen til registreringsløsningen skal fungere må begrepene og beskrivelsene følge en struktur som er nærmere beskrevet i denne [malen](https://github.com/Informasjonsforvaltning/fdk-testdata/raw/master/testdata/concept_sample.xlsx).
+For at importen til registreringsløsningen skal fungere må begrepene og beskrivelsene følge en struktur som er nærmere beskrevet i denne [[**malen**]](https://github.com/Informasjonsforvaltning/fdk-testdata/raw/master/testdata/concept_sample.xlsx).
 
 Noen av kolonnene, for eksempel _tillatt_term_ har støtte for flere verdier. For å legge inn flere forekomster legger du til en ekstra kolonne med samme navn på første linje (overskrift) eller separerer forekomstene med |.
 
@@ -64,7 +64,7 @@ Du kan lese mer om beskrivelser av begrep her: [Forvaltningsstandard for begreps
 
 #### Lagring
 
-Når du har fylt tabellen med innhold i henhold til malen (riktig formattering) må du huske å eksportere den som en CSV-fil med semikolon separering og UTF-8 koding.
+Når du har fylt tabellen med innhold i henhold til [malen](https://github.com/Informasjonsforvaltning/fdk-testdata/raw/master/testdata/concept_sample.xlsx) (riktig formattering) må du huske å eksportere den som en CSV-fil med semikolon separering og UTF-8 koding.
 
 Eksempel med utgangspunkt i Excel for Microsoft 365:
 
