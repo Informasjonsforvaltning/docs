@@ -178,9 +178,6 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     "merkelapp": [
         "test-import-json"
     ],
-    "fagområdeKoder": [
-				"4"
-	],
     "gyldigFom": "2023-11-20",
     "gyldigTom": "2024-11-25",
     "seOgså": [
@@ -193,18 +190,53 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     "abbreviatedLabel": "forkortelse-av-begrepet",
     "begrepsRelasjon": [
         {
-            "beskrivelse": {
+            "relasjon": "assosiativ",
+		    "beskrivelse": {
                 "nb": "beskrivelse på norsk bokmål",
                 "nn": "skildring på norsk nynorsk",
                 "en": "description in english"
             },
+            "relatertBegrep": "http://begrepskatalogen/begrep/20b2e277-9fe1-11e5-a9f8-e4115b280940"
+        },
+	{
+            "relasjon": "partitiv",
+			"relasjonsType": "omfatter",
             "inndelingskriterium": {
                 "nb": "inndelingskriterium på norsk bokmål",
                 "nn": "inndelingskriterium på norsk nynorsk",
                 "en": "division criterion in english"
             },
-            "relasjon": "assosiativ",
-            "relatertBegrep": "http://begrepskatalogen/begrep/20b2e299-9fe1-11e5-a9f8-e4115b280940"
+            "relatertBegrep": "http://begrepskatalogen/begrep/20b2e277-9fe1-11e5-a9f8-e4115b280940"
+        },
+	{
+            "relasjon": "partitiv",
+			"relasjonsType": "erDelAv",
+            "inndelingskriterium": {
+                "nb": "inndelingskriterium på norsk bokmål",
+                "nn": "inndelingskriterium på norsk nynorsk",
+                "en": "division criterion in english"
+            },
+            "relatertBegrep": "http://begrepskatalogen/begrep/20b2e277-9fe1-11e5-a9f8-e4115b280940"
+        },
+	{
+            "relasjon": "generisk",
+			"relasjonsType": "overordnet",
+            "inndelingskriterium": {
+                "nb": "inndelingskriterium på norsk bokmål",
+                "nn": "inndelingskriterium på norsk nynorsk",
+                "en": "division criterion in english"
+            },
+            "relatertBegrep": "http://begrepskatalogen/begrep/20b2e277-9fe1-11e5-a9f8-e4115b280940"
+        },
+	{
+            "relasjon": "generisk",
+			"relasjonsType": "underordnet",
+            "inndelingskriterium": {
+                "nb": "inndelingskriterium på norsk bokmål",
+                "nn": "inndelingskriterium på norsk nynorsk",
+                "en": "division criterion in english"
+            },
+            "relatertBegrep": "http://begrepskatalogen/begrep/20b2e277-9fe1-11e5-a9f8-e4115b280940"
         }
     ],
     "merknad": {
@@ -217,6 +249,9 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
         "nn": "Døme på konkrete tilfelle av omgrepet på norsk nynorsk",
         "en": "Examples of concrete cases of the concept in english"
     },
+    "fagområdeKoder": [
+	"4"
+    ],
     "fagområde": {
         "nb": [
             "Spesialisert kunnskapsområde som begrepet tilhører på norsk bokmål"
@@ -325,9 +360,6 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     "merkelapp": [
         "test-import-json"
     ],
-    "fagområdeKoder": [
-				"5"
-	],
     "gyldigFom": "2023-11-20",
     "gyldigTom": "2024-11-25",
     "seOgså": [
@@ -340,18 +372,53 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
     "abbreviatedLabel": "forkortelse-av-begrepet",
     "begrepsRelasjon": [
         {
-            "beskrivelse": {
+            "relasjon": "assosiativ",
+		    "beskrivelse": {
                 "nb": "beskrivelse på norsk bokmål",
                 "nn": "skildring på norsk nynorsk",
                 "en": "description in english"
             },
+            "relatertBegrep": "http://begrepskatalogen/begrep/20b2e277-9fe1-11e5-a9f8-e4115b280940"
+        },
+	{
+            "relasjon": "partitiv",
+			"relasjonsType": "omfatter",
             "inndelingskriterium": {
                 "nb": "inndelingskriterium på norsk bokmål",
                 "nn": "inndelingskriterium på norsk nynorsk",
                 "en": "division criterion in english"
             },
-            "relasjon": "assosiativ",
-            "relatertBegrep": "http://begrepskatalogen/begrep/20b2e299-9fe1-11e5-a9f8-e4115b280940"
+            "relatertBegrep": "http://begrepskatalogen/begrep/20b2e277-9fe1-11e5-a9f8-e4115b280940"
+        },
+	{
+            "relasjon": "partitiv",
+			"relasjonsType": "erDelAv",
+            "inndelingskriterium": {
+                "nb": "inndelingskriterium på norsk bokmål",
+                "nn": "inndelingskriterium på norsk nynorsk",
+                "en": "division criterion in english"
+            },
+            "relatertBegrep": "http://begrepskatalogen/begrep/20b2e277-9fe1-11e5-a9f8-e4115b280940"
+        },
+	{
+            "relasjon": "generisk",
+			"relasjonsType": "overordnet",
+            "inndelingskriterium": {
+                "nb": "inndelingskriterium på norsk bokmål",
+                "nn": "inndelingskriterium på norsk nynorsk",
+                "en": "division criterion in english"
+            },
+            "relatertBegrep": "http://begrepskatalogen/begrep/20b2e277-9fe1-11e5-a9f8-e4115b280940"
+        },
+	{
+            "relasjon": "generisk",
+			"relasjonsType": "underordnet",
+            "inndelingskriterium": {
+                "nb": "inndelingskriterium på norsk bokmål",
+                "nn": "inndelingskriterium på norsk nynorsk",
+                "en": "division criterion in english"
+            },
+            "relatertBegrep": "http://begrepskatalogen/begrep/20b2e277-9fe1-11e5-a9f8-e4115b280940"
         }
     ],
     "merknad": {
@@ -364,6 +431,9 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
         "nn": "Døme på konkrete tilfelle av omgrepet på norsk nynorsk",
         "en": "Examples of concrete cases of the concept in english"
     },
+    "fagområdeKoder": [
+	"5"
+    ],
     "fagområde": {
         "nb": [
             "Spesialisert kunnskapsområde som begrepet tilhører på norsk bokmål"
