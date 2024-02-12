@@ -24,7 +24,7 @@ Her finner du vårt demo miljø: <https://demo.fellesdatakatalog.digdir.no>
 
 Her finner du registreringsløsningene i demo miljøet: <https://registrering.demo.fellesdatakatalog.digdir.no>
 
-For å få demo-bruker kan du ta kontakt på mail: fellesdatakatalog@digdir.no
+For å få demo-bruker kan du ta kontakt på mail: <fellesdatakatalog@digdir.no>
 
 ### Har dere statistikk på bruk?
 
