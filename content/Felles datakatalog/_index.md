@@ -7,9 +7,9 @@ alwaysopen : true
  src="/images/fdk-logo@2x.png" style="width:320px; display:inline; margin:0; cursor:default;" alt="Felles datakatalog" title="Felles datakatalog" onclick="return false;">&nbsp;
  </img>
 
-<div style="text-align: center"><small>DATASETT - BEGREPER - API - INFORMASJONSMODELLER</small></div style="text-align: center">
+<div style="text-align: center"><small>DATASETT - BEGREPER - API - INFORMASJONSMODELLER - TJENESTER - HENDELSER</small></div style="text-align: center">
 
-**Felles datakatalog (FDK)** er en løsning som gir oversikt over datasett, begreper, API og informasjonsmodeller (og sammenhenger mellom disse) i offentlig sektor.
+**Felles datakatalog (FDK)** er en løsning som gir oversikt over datasett, begreper, API, informasjonsmodeller, tjenester og hendelser (og sammenhenger mellom disse) i offentlig sektor.
 
 I menyen til venstre kan du finne informasjon om de ulike katalogene.
 <img src="./FDK_skjermbilde.png" width="40%" alt="Felles datakatalog bilde" align=right >
