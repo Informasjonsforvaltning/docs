@@ -27,7 +27,9 @@ Another aspect of testing is _timing_, when to run what tests:
 ![A standard release pipeline](./A_standard_release_process_as_pipeline.svg)
 
 ----------------------------------------
+
 ### References
-- https://martinfowler.com/articles/microservice-testing/
-- https://samnewman.io/books/building_microservices/
-- https://martinfowler.com/bliki/SyntheticMonitoring.html
+
+- <https://martinfowler.com/articles/microservice-testing/>
+- <https://samnewman.io/books/building_microservices/>
+- <https://martinfowler.com/bliki/SyntheticMonitoring.html>

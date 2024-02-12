@@ -2,10 +2,9 @@
 title: Felles datakatalog dokumentasjon
 ---
 
-# Felles datakatalog dokumentasjon
+## Felles datakatalog dokumentasjon
 
 Her finner du informasjon og dokumentasjon om [Felles datakatalog](/felles-datakatalog).
-
 
 Hvis du finner noe som er feil i vår dokumentasjon, eller som ikke er beskrevet godt nok på disse sidene:
 
