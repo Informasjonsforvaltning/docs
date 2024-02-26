@@ -9,3 +9,7 @@ weight: 10
   Started](https://www.rust-lang.org/learn/get-started) page.
 - The [Rust Book](https://doc.rust-lang.org/book/) is a great place to start
   learning Rust.
+
+  IDE recommendations
+- [Visual Studio Code](https://code.visualstudio.com/) with the [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) extension
+- [RustRover](https://www.jetbrains.com/rust/)
