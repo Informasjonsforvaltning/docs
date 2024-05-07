@@ -28,7 +28,7 @@ Etter hvert som oversiktene blir mer komplette og katalogene fylles opp av virks
 
 ### Føringer
 
-[Digitaliseringsrundskrivet](https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2623277/) er en sammenstilling av pålegg og anbefalinger om digitalisering i offentlig sektor. Rundskrivet gir følgende anbefaling: "Den enkelte virksomhet bør synliggjøre data som de er i stand til å dele med andre i Felles datakatalog og på data.norge.no."
+[Digitaliseringsrundskrivet](https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id3025117/) er en sammenstilling av pålegg og anbefalinger om digitalisering i offentlig sektor. Rundskrivet sier blant annet følgende: "Virksomheten skal registere datasett i Felles datakatalog (data.norge.no). Dette skal som et minimum gjøres når virksomheten endrer eller etablerer tjenester, herunder etablerer nye, eller oppgraderer eksisterende fagsystemer eller digitale tjenester."
 
 ### Effekter
 
