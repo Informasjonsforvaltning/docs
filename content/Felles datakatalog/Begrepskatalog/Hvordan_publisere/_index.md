@@ -250,7 +250,7 @@ Opprett en JSON fil med 1 eller flere begreper på formatet under:
         "en": "Examples of concrete cases of the concept in english"
     },
     "fagområdeKoder": [
-	"4"
+	"78a472e6-46bd-42b3-a2ca-e0cae858314c" 
     ],
     "fagområde": {
         "nb": [
