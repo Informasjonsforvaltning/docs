@@ -38,7 +38,7 @@ curl -X POST 'https://search.api.staging.fellesdatakatalog.digdir.no/search' -H 
 
 ### Filtering
 
-It's possible to filter the search result, see SearchFilters in the OpenAPI specification for a list of all possible filters.
+It's possible to filter the search result, see SearchFilters in the [OpenAPI specification](https://raw.githubusercontent.com/Informasjonsforvaltning/fdk-search-service/main/openapi.yaml) for a list of all possible filters.
 
 Example using the data theme filter:
 ```Shell
