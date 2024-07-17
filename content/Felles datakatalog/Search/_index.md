@@ -7,7 +7,7 @@ There are 3 different ways to search for data in Data.norge.no, each is based on
 
 ### Search
 
-The main search service in Data.norge.no is based on ElasticSearch. This service only searches the text in a few fields, but has filters and other advanced functionality that helps users navigate.
+The main search service in Data.norge.no is based on ElasticSearch. This service searches the text in a limited selection of fields, and has filters and other advanced functionality that helps users navigate.
 
 ### LLM
 
