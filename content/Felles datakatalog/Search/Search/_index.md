@@ -29,7 +29,7 @@ curl -X POST 'https://search.api.staging.fellesdatakatalog.digdir.no/search/data
 
 ### Pagination
 
-All search results will be paginated, it is possible to manipulate the size and page number with the pagination field in the search body.
+All search results will be paginated, it is possible to customize the size and page number with the pagination field in the search body.
 
 Example using the pagination field:
 ```Shell
