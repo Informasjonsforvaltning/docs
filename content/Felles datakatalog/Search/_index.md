@@ -3,7 +3,7 @@ title: Search
 weight: 8
 ---
 
-There are 3 different ways to search the data in Data.norge.no, each is based on a different technology.
+There are 3 different ways to search for data in Data.norge.no, each is based on a different technology.
 
 ### Search
 
