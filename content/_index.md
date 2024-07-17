@@ -1,15 +1,19 @@
 ---
-title: Felles datakatalog dokumentasjon
+title: Data.norge.no dokumentasjon
 ---
 
-## Felles datakatalog dokumentasjon
+## Data.norge.no dokumentasjon
 
-Her finner du informasjon og dokumentasjon om [Felles datakatalog](/felles-datakatalog).
+Her finner du informasjon og dokumentasjon om [Data.norge.no](/felles-datakatalog).
 
 Hvis du finner noe som er feil i vår dokumentasjon, eller som ikke er beskrevet godt nok på disse sidene:
 
 * send en epost til [fellesdatakatalog@digdir.no](mailto:fellesdatakatalog@digdir.no),
-* opprett en [sak](https://github.com/Informasjonsforvaltning/docs/issues), eller
-* lag en [pull request](https://github.com/Informasjonsforvaltning/docs/pulls).
+* opprett en [sak i Github Informasjonsforvaltning/docs](https://github.com/Informasjonsforvaltning/docs/issues), eller
+* lag en [pull request i Github Informasjonsforvaltning/docs](https://github.com/Informasjonsforvaltning/docs/pulls).
 
-Dersom du har funnet feil eller mangler i [Felles datakatalog](https://data.norge.no), opprett en sak direkte [her](https://github.com/Informasjonsforvaltning/fdk-issue-tracker/issues).
+
+Hvis du har funnet feil eller mangler på [Data.norge.no](https://data.norge.no):
+
+* send en e-post til [fellesdatakatalog@digdir.no](mailto:fellesdatakatalog@digdir.no)
+* opprett en sak direkte i [Github Informasjonsforvaltning/fdk-issue-tracker](https://github.com/Informasjonsforvaltning/fdk-issue-tracker/issues).
