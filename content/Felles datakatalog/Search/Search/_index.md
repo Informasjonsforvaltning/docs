@@ -49,9 +49,9 @@ curl -X POST 'https://search.api.staging.fellesdatakatalog.digdir.no/search/data
 
 All search results will be paginated, it is possible to customize the size and page number with the pagination field in the search body.
 
-Example using the pagination field:
+Example using the pagination field, with current page set to number 5 and there are 10 hits per page:
 ```Shell
-curl -X POST 'https://search.api.staging.fellesdatakatalog.digdir.no/search' -H 'Content-Type: application/json' -d '{"query":"test","pagination":{"size":1,"page":5}}'
+curl -X POST 'https://search.api.staging.fellesdatakatalog.digdir.no/search' -H 'Content-Type: application/json' -d '{"query":"test","pagination":{"size":10,"page":5}}'
 ```
 
 ### Filtering
