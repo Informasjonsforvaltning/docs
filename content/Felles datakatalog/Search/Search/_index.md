@@ -29,10 +29,10 @@ Hits from some fields will be prioritized over others, i.e. a matching hit from 
 
 | Field | Boost |
 | ------ | ------ |
-| title, partial match | 15 |
 | title, full phrase match | 30 |
-| description | 1 |
+| title, partial match | 15 |
 | keyword | 5 |
+| description | 1 |
 
 Take the title "Test search service" and the two queries "test service" and "search service". The first query will have 2 partial matches "test" and "service", with a combined search value of 15 + 15 = 30, the second query will have 3 matches where two are partial, "search" and "service", and one is a full phrase match, "search service", with a combined search value of 15 + 15 + 30 = 60.
 
