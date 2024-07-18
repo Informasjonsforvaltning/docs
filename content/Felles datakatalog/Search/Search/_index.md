@@ -14,9 +14,27 @@ Simple example using the staging endpoint:
 curl -X POST 'https://search.api.staging.fellesdatakatalog.digdir.no/search' -H 'Content-Type: application/json' -d '{"query":"test"}'
 ```
 
-### Boosting
+### Searchable fields
 
-Hits from some fields will be prioritized over others, i.e. a matching hit from the title field will be prioritized over a hit from the description field
+There are 3 searchable fields, they are `title`, `description` and `keyword`. The service will by default try to find matches for the query in all 3 fields, but it's possible to define which of the fields it should include in the search body.
+
+Example where only hits from the description fields are included:
+```Shell
+curl -X POST 'https://search.api.staging.fellesdatakatalog.digdir.no/search' -H 'Content-Type: application/json' -d '{"query":"test", "fields": {"title":false,"description":true,"keyword":false}}'
+```
+
+#### Boosting
+
+Hits from some fields will be prioritized over others, i.e. a matching hit from the title field will be prioritized over a hit from the description field.
+
+| Field | Boost |
+| ------ | ------ |
+| title, partial match | 15 |
+| title, full phrase match | 30 |
+| description | 1 |
+| keyword | 5 |
+
+Take the title "Test search service" and the two queries "test service" and "search service". The first query will have 2 partial matches "test" and "service", with a combined search value of 15 + 15 = 30, the second query will have 3 matches where two are partial, "search" and "service", and one is a full phrase match, "search service", with a combined search value of 15 + 15 + 30 = 60.
 
 ### Specific resource types
 
