@@ -21,7 +21,7 @@ A triggered harvest will download all relevant sources from fdk-harvest-admin, d
 
 All blank nodes will be [skolemized](https://www.w3.org/wiki/BnodeSkolemization) in the resource graphs, which means that an URI is generated for the blank node.
 
-When all sources from the trigger has been processed a new rabbit message will be published with the routing key `*.harvested`, the message body will be a list of harvest reports, one report for each source from [fdk-harvest-admin](https://informasjonsforvaltning.github.io/felles-datakatalog/harvesting/harvest-admin).
+When all sources from the trigger has been processed a new rabbit message will be published with the routing key `*.harvested`, the message body will be a list of harvest reports, one report for each source from [fdk-harvest-admin](https://informasjonsforvaltning.github.io/data.norge.no/harvesting/harvest-admin).
 Each report will contain these fields:
 * **id** - the id for the source in fdk-harvest-admin
 * **url** - the source url
