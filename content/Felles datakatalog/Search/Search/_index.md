@@ -56,7 +56,7 @@ curl -X POST 'https://search.api.staging.fellesdatakatalog.digdir.no/search' -H 
 
 ### Filtering
 
-It's possible to filter the search result, see SearchFilters in the [OpenAPI specification](https://raw.githubusercontent.com/Informasjonsforvaltning/fdk-search-service/main/openapi.yaml) for a list of all possible filters.
+It's possible to filter the search result, see SearchFilters in the [OpenAPI specification](https://raw.githubusercontent.com/Informasjonsforvaltning/fdk-search-service/main/openapi.yaml) for a list of all possible filters and what type of value they accept.
 
 Example using the data theme filter:
 ```Shell
@@ -71,4 +71,22 @@ curl -X POST 'https://search.api.staging.fellesdatakatalog.digdir.no/search' -H 
 Example using the formats filter:
 ```Shell
 curl -X POST 'https://search.api.staging.fellesdatakatalog.digdir.no/search' -H 'Content-Type: application/json' -d '{"query":"test","filters":{"formats":{"value":["MEDIA_TYPE application/json"]}}}'
+```
+
+#### Aggregations
+
+Each search result will include aggregations of the query for possible filter values. There are always included a value for each filter, it's a list of the filter options represented in the total search result and a count of how many hits the filter option has.
+
+Given that this search:
+```Shell
+curl -X POST 'https://search.api.staging.fellesdatakatalog.digdir.no/search' -H 'Content-Type: application/json' -d '{"query":"test"}'
+```
+Has this as the aggregation in the result:
+```
+"aggregations":{"accessRights":[{"key":"PUBLIC","count":5},{"key":"RESTRICTED","count":16}]}
+```
+
+Then the next example would therefore have 5 hits in it's result, since the aggregation values shows that the query has 5 hits where the value for the access rights field is PUBLIC and 16 where the value is RESTRICTED.
+```Shell
+curl -X POST 'https://search.api.staging.fellesdatakatalog.digdir.no/search' -H 'Content-Type: application/json' -d '{"query":"test","filters":{"accessRights":{"value":"PUBLIC"}}}'
 ```
