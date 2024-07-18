@@ -4,7 +4,7 @@ title: Data.norge.no dokumentasjon
 
 ## Data.norge.no dokumentasjon
 
-Her finner du informasjon og dokumentasjon om [Data.norge.no](/felles-datakatalog).
+Her finner du informasjon og dokumentasjon om [Data.norge.no](/data.norge.no).
 
 Hvis du finner noe som er feil i vår dokumentasjon, eller som ikke er beskrevet godt nok på disse sidene:
 

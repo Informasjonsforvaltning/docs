@@ -15,7 +15,7 @@ Felles datasettkatalog inneholder en [registreringsløsning](https://fellesdatak
 
 ### Hvordan importerer jeg mine begreper direkte inn i publiseringsløsningen?
 
-[Se brukerveiledning her](https://informasjonsforvaltning.github.io/felles-datakatalog/begrepskatalog/hvordan_publisere)
+[Se brukerveiledning her](https://informasjonsforvaltning.github.io/data.norge.no/begrepskatalog/hvordan_publisere)
 
 ### Hvor finner jeg felles begrepskatalog?
 

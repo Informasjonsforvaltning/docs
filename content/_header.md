@@ -1,1 +1,1 @@
-[![Felles datakatalog](/images/fdk-datanorge-logox2.gif)](/ "Felles datakatalog docs")
+[![Data.norge.no](/images/fdk-datanorge-logox2.gif)](/ "Data.norge.no docs")
