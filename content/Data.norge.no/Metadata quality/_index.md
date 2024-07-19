@@ -1,5 +1,5 @@
 ---
-title: Metadatakvalitet
+title: Metadata quality
 weight: 7
 ---
 
@@ -27,7 +27,10 @@ weight: 7
                     | assmentator |           +-->| property-checker +--+                |
                      '-----------'            |    '----------------'   |                |
                                               |    .----------------.   |                |
-                                               '->|   url-checker    +-'                 |
+                                              +-->|   url-checker    +--+                |
+                                              |    '----------------'   |                |
+                                              |    .----------------.   |                |
+                                               '->|  dcat-validator  +-'                 |
                                                    '----------------'                    |
                                                                                          |
                                        .--------.                                        |
@@ -39,22 +42,23 @@ weight: 7
 
 ```
 
+
 [`dataset-event-publisher`](https://github.com/Informasjonsforvaltning/fdk-dataset-event-publisher)
-lytter etter RabbitMQ harvest meldinger fra
+listens for RabbitMQ harvest messages from
 [`dataset-harvester`](https://github.com/Informasjonsforvaltning/fdk-dataset-harvester).
-Den henter så datasett-grafer via apiet til `dataset-harvester`,
-og produserer én event på _dataset-events_ topicen for hvert datasett `dataset-harvester` har oppdatert.
+It then gets dataset-graphs from `dataset-harvester`,
+and produces an event on the _dataset-events_ topic for every dataset `dataset-harvester` has updated.
 [`assmentator`](https://github.com/Informasjonsforvaltning/fdk-mqa-assmentator)
-konsumerer hver høstet graf fra _dataset-events_,
-legger til `hasAssessment` properties på både dataset- og hver distribution-node,
-og produserer videre til _mqa-dataset-events_.
-[`property-checker`](https://github.com/Informasjonsforvaltning/fdk-mqa-property-checker) og
-[`url-checker`](https://github.com/Informasjonsforvaltning/fdk-mqa-url-checker)
-konsumerer begge datasett grafer fra _mqa-dataset-events_
-og produserer assessment grafer til _mqa-events_.
-Disse assessment grafene konsumeres av
+consumes every harvested graph from _dataset-events_,
+adds `hasAssessment` properties on both dataset- and distribution-nodes,
+and produces a new event with the resulting graph on _mqa-dataset-events_.
+[`property-checker`](https://github.com/Informasjonsforvaltning/fdk-mqa-property-checker),
+[`url-checker`](https://github.com/Informasjonsforvaltning/fdk-mqa-url-checker) and [dcat-validator](https://github.com/Informasjonsforvaltning/fdk-mqa-dcat-validator)
+will all three consume dataset graphs from _mqa-dataset-events_
+and produce assessment graphs to _mqa-events_.
+These assessment graphs is consumed by
 [`scoring-service`](https://github.com/Informasjonsforvaltning/fdk-mqa-scoring-service),
-og sammenslås basert på _fdk_id_ og event timestamp.
-`scoring-service` lagrer/oppdaterer assessment grafer i `Postgres` via
+and merges these based on _fdk_id_ and event timestamp.
+`scoring-service` saves/updates assessment graphs in `Postgres` through
 [`scoring-api`](https://github.com/Informasjonsforvaltning/fdk-mqa-scoring-api),
-samt totalscore for hver dimensjon for å kunne gjøre raske aggregerte spørringer.
+as well as total score for every dimension so that it is possible execute quick aggregated queries.
