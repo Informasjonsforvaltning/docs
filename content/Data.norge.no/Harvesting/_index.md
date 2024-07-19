@@ -22,7 +22,7 @@ These reports are picked up by different versions of [fdk-kafka-event-publisher]
 
 Parts of FDK not strictly part of the harvest process that are also dependent of the kafka events produced by the process:
 * [fdk-sparql-service](https://github.com/Informasjonsforvaltning/fdk-sparql-service) That listens for reasoned and removed messages to maintain updated graphs available for sparql queries
-* [MQA](https://informasjonsforvaltning.github.io/data.norge.no/metadatakvalitet) That listens for `DATASET_HARVESTED` to produce an assessment of the harvested datasets
+* [MQA](https://informasjonsforvaltning.github.io/data.norge.no/metadata-quality) That listens for `DATASET_HARVESTED` to produce an assessment of the harvested datasets
 
 ## Detailed schema of the harvest process
 
