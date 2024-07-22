@@ -4,7 +4,7 @@ weight: 1
 alwaysopen : true
 ---
 
-[Data.norge.no](https://data.norge.no) is a solution that gives an overview of datasets, concepts, API, information models, services and events (and relations between these) in the public sector.
+[Data.norge.no](https://data.norge.no) is a solution that gives an overview of datasets, concepts, APIs, information models, services and events (and relations between these) in the public sector.
 
 ### How can I test Data.norge.no?
 
