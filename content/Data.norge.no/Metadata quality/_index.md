@@ -58,7 +58,7 @@ will all three consume dataset graphs from _mqa-dataset-events_
 and produce assessment graphs to _mqa-events_.
 These assessment graphs is consumed by
 [`scoring-service`](https://github.com/Informasjonsforvaltning/fdk-mqa-scoring-service),
-and merges these based on _fdk_id_ and event timestamp.
+and merged based on _fdk_id_ and event timestamp.
 `scoring-service` saves/updates assessment graphs in `Postgres` through
 [`scoring-api`](https://github.com/Informasjonsforvaltning/fdk-mqa-scoring-api),
 as well as total score for every dimension so that it is possible to execute quick aggregated queries.
