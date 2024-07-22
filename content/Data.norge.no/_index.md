@@ -13,3 +13,8 @@ This is our demo environment: <https://demo.fellesdatakatalog.digdir.no>
 This is our solution for registering resources in the demo environment: <https://registrering.demo.fellesdatakatalog.digdir.no>
 
 To get a demo-user you can contect us at this email: <fellesdatakatalog@digdir.no>
+
+### Where can I read more?
+
+- [About the national data catalog](https://data.norge.no/about)
+- [About the search API](https://informasjonsforvaltning.github.io/data.norge.no/search/search)
