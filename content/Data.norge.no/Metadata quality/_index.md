@@ -61,4 +61,4 @@ These assessment graphs is consumed by
 and merges these based on _fdk_id_ and event timestamp.
 `scoring-service` saves/updates assessment graphs in `Postgres` through
 [`scoring-api`](https://github.com/Informasjonsforvaltning/fdk-mqa-scoring-api),
-as well as total score for every dimension so that it is possible execute quick aggregated queries.
+as well as total score for every dimension so that it is possible to execute quick aggregated queries.
