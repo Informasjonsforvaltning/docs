@@ -4,12 +4,12 @@ weight: 1
 alwaysopen : true
 ---
 
-[Data.norge.no](https://data.norge.no) er en løsning som gir oversikt over datasett, begreper, API, informasjonsmodeller, tjenester og hendelser (og sammenhenger mellom disse) i offentlig sektor.
+[Data.norge.no](https://data.norge.no) is a solution that gives an overview of datasets, concepts, APIs, information models, services and events (and relations between these) in the public sector.
 
-### Hvordan kan jeg teste Data.norge.no?
+### How can I test Data.norge.no?
 
-Her finner du vårt demo miljø: <https://demo.fellesdatakatalog.digdir.no>
+This is our demo environment: <https://demo.fellesdatakatalog.digdir.no>
 
-Her finner du registreringsløsningene i demo miljøet: <https://registrering.demo.fellesdatakatalog.digdir.no>
+This is our solution for registering resources in the demo environment: <https://registrering.demo.fellesdatakatalog.digdir.no>
 
-For å få demo-bruker kan du ta kontakt på mail: <fellesdatakatalog@digdir.no>
+To get a demo-user you can contect us at this email: <fellesdatakatalog@digdir.no>
