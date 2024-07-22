@@ -8,9 +8,9 @@ Here you can find more information and documentation about [Data.norge.no](/data
 
 If you find something that is wrong or not described good enough in our documentation:
 
-* send an email to [fellesdatakatalog@digdir.no](mailto:fellesdatakatalog@digdir.no),
-* create an issue in [Github Informasjonsforvaltning/docs](https://github.com/Informasjonsforvaltning/docs/issues), eller
-* create a pull request in [Github Informasjonsforvaltning/docs](https://github.com/Informasjonsforvaltning/docs/pulls).
+* send an email to [fellesdatakatalog@digdir.no](mailto:fellesdatakatalog@digdir.no)
+* create an issue in [Github Informasjonsforvaltning/docs](https://github.com/Informasjonsforvaltning/docs/issues)
+* create a pull request in [Github Informasjonsforvaltning/docs](https://github.com/Informasjonsforvaltning/docs/pulls)
 
 
 If you find something that is wrong or missing in [Data.norge.no](https://data.norge.no):
