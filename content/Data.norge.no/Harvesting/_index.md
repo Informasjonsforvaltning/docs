@@ -21,7 +21,7 @@ These reports are picked up by different versions of [fdk-kafka-event-publisher]
 [Reasoning](https://github.com/Informasjonsforvaltning/fdk-reasoning-service) consumes events about changed resources and produces new events with the enriched graphs. [Parsing]() consumes events about reasoned resources and produces new events with a JSON version of the resource. The events about parsed resources are consumed by [fdk-search-service](https://github.com/Informasjonsforvaltning/fdk-search-service) and [fdk-resource-service](https://github.com/Informasjonsforvaltning/fdk-resource-service) and the harvest process is finished.
 
 Parts of FDK not strictly part of the harvest process that are also dependent of the kafka events produced by the process:
-* [fdk-sparql-service](https://github.com/Informasjonsforvaltning/fdk-sparql-service) That listens for reasoned and removed messages to maintain updated graphs available for sparql queries
+* [fdk-sparql-service](https://github.com/Informasjonsforvaltning/fdk-sparql-service) Listens for reasoned and removed messages to maintain updated graphs available for sparql queries
 * [Metadata quality](https://informasjonsforvaltning.github.io/data.norge.no/metadata-quality) Listens for `DATASET_HARVESTED` to produce an assessment of the harvested datasets
 
 ## Detailed schema of the harvest process
