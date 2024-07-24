@@ -35,9 +35,9 @@ Consider creating a custom Podman machine to:
 - In the Podman tile, click Create new.
 - In the Create a Podman machine screen:
  - Name: Enter a name, such as podman-machine-default.
- - CPU(s): Select the number of CPUs.
- - Memory: Select the memory size.
- - Disk size: Select the disk size.
+ - CPU(s): Select the number of CPUs, e.g. 2.
+ - Memory: Select the memory size, e.g. 2048 MiB
+ - Disk size: Select the disk size, e.g. 20 GiB.
  - Image path (Optional): Select a bootable image containing a virtual machine with Podman.
  - Machine with root privileges: Enable to use the rootful connection by default. Required to use Kind on Windows.
  - (On Windows) User mode networking (traffic relayed by a user process):  - Enable to route the traffic through the network connection from your  - Windows session. Required to access resources behind your VPN connection.
