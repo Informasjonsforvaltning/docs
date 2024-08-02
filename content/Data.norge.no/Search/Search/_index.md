@@ -3,7 +3,7 @@ title: Search
 weight: 1
 ---
 
-The service responsible for handling searches is [fdk-search-service](https://github.com/Informasjonsforvaltning/fdk-search-service), which is described by [this OpenAPI specification](https://raw.githubusercontent.com/Informasjonsforvaltning/fdk-search-service/main/openapi.yaml).
+The service is responsible for handling searches is [fdk-search-service](https://github.com/Informasjonsforvaltning/fdk-search-service), which is described by [this OpenAPI specification](https://raw.githubusercontent.com/Informasjonsforvaltning/fdk-search-service/main/openapi.yaml).
 
 Production endpoint: <https://search.api.fellesdatakatalog.digdir.no/search>
 Demo endpoint: <https://search.api.demo.fellesdatakatalog.digdir.no/search>
