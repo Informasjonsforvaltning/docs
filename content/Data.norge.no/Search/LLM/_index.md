@@ -3,8 +3,8 @@ title: LLM
 weight: 2
 ---
 
-The service is responsible for handling AI LLM searches is [fdk-llm-search-service](https://github.com/Informasjonsforvaltning/fdk-llm-search-service), which is described by [this OpenAPI specification](
-    https://aisearch.api.fellesdatakatalog.digdir.no/swagger-ui/index.html
+The service responsible for handling AI LLM searches is [fdk-llm-search-service](https://github.com/Informasjonsforvaltning/fdk-llm-search-service), which is described by [this OpenAPI specification](
+    https://aisearch.api.staging.fellesdatakatalog.digdir.no/swagger-ui/index.html
 ).
 
 ### Environments
