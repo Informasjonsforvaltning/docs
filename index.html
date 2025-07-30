@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="refresh"
+      content="5; url=https://data.norge.no/nb/technical"
+    />
+    <title>Omdirigerer til data.norge.no</title>
+    <link rel="canonical" href="https://data.norge.no/nb/technical" />
+    <link
+      rel="icon"
+      href="https://data.norge.no/favicon.ico"
+      type="image/x-icon"
+      sizes="48x48"
+    />
+    <link
+      rel="icon"
+      href="https://data.norge.no/icon0.svg?a48e0dab06fdba44"
+      type="image/svg+xml"
+      sizes="any"
+    />
+    <link
+      rel="icon"
+      href="https://data.norge.no/icon1.png?923e3ecc6cafa504"
+      type="image/png"
+      sizes="96x96"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://data.norge.no/apple-icon.png?225546a27f437514"
+      type="image/png"
+      sizes="180x180"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+          "Apple Color Emoji", "Segoe UI Emoji";
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        color: #000;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          color: #fff;
+          background: #000;
+        }
+      }
+
+      .error-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+      }
+
+      .error-code {
+        display: inline-block;
+        margin: 0 20px 0 0;
+        padding: 0 23px 0 0;
+        font-size: 24px;
+        font-weight: 500;
+        vertical-align: top;
+        line-height: 49px;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .error-code {
+          border-right: 1px solid rgba(255, 255, 255, 0.3);
+        }
+      }
+
+      .error-message {
+        display: inline-block;
+      }
+
+      .error-message h2 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 49px;
+        margin: 0;
+      }
+
+      .content {
+        max-width: 600px;
+        padding: 0 2rem;
+      }
+
+      .title {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: #333;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .title {
+          color: #fff;
+        }
+      }
+
+      .description {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+        color: #666;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .description {
+          color: #ccc;
+        }
+      }
+
+      .button {
+        display: inline-block;
+        background: #0066cc;
+        color: white;
+        text-decoration: none;
+        padding: 12px 24px;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 14px;
+        transition: background-color 0.2s ease;
+        border: none;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        background: #0052a3;
+      }
+
+      .button:focus {
+        outline: 2px solid #0066cc;
+        outline-offset: 2px;
+      }
+
+      .logo-container {
+        margin-bottom: 2rem;
+      }
+
+      .logo-link {
+        text-decoration: none;
+        color: inherit;
+        display: inline-block;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-weight: 600;
+        font-size: 1.2rem;
+      }
+
+      .logo svg {
+        width: 24px;
+        height: 24px;
+        fill: currentColor;
+      }
+
+      .loading-container {
+        margin: 2rem 0;
+        text-align: center;
+      }
+
+      .loading-spinner {
+        width: 40px;
+        height: 40px;
+        border: 3px solid #f3f3f3;
+        border-top: 3px solid #0066cc;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 1rem;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .loading-text {
+        font-size: 0.9rem;
+        color: #666;
+        margin-bottom: 0.5rem;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .loading-text {
+          color: #ccc;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .countdown {
+          color: #666;
+        }
+      }
+
+      .digdir-logo {
+        margin-top: 3rem;
+        font-size: 0.9rem;
+        color: #666;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .digdir-logo {
+          color: #999;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .title {
+          font-size: 1.5rem;
+        }
+
+        .description {
+          font-size: 1rem;
+        }
+
+        .content {
+          padding: 0 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="logo-container">
+        <a class="logo-link" href="/nb">
+          <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.69 24.74">
+              <title>digdir emblem</title>
+              <path
+                d="M19.73,7.06H7.56a.5.5,0,0,0-.5.5V31.3a.5.5,0,0,0,.5.5H19.73a12.37,12.37,0,0,0,0-24.73m1.19,21a8.8,8.8,0,1,1,7.18-7.18,8.8,8.8,0,0,1-7.18,7.18"
+                transform="translate(-7.06 -7.06)"
+              ></path>
+            </svg>
+            <span>data.norge.no</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="error-container">
+        <div class="error-code">→</div>
+        <div class="error-message">
+          <h2>Omdirigerer til data.norge.no</h2>
+        </div>
+      </div>
+
+      <h1 class="title">Omdirigerer til teknisk dokumentasjon</h1>
+      <p class="description">
+        Du blir omdirigert til den tekniske dokumentasjonen på data.norge.no.
+        Hvis du ikke blir omdirigert automatisk, klikk på knappen nedenfor.
+      </p>
+
+      <a href="https://data.norge.no/nb/technical" class="button">
+        Gå til teknisk dokumentasjon
+      </a>
+
+      <div class="loading-container">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Omdirigerer i <span id="countdown">5</span> sekunder...</div>
+        
+      </div>
+
+      <div class="digdir-logo">en tjeneste fra Digitaliseringsdirektoratet</div>
+    </div>
+
+    <script>
+      // Countdown timer
+      let timeLeft = 5;
+      const countdownElement = document.getElementById("countdown");
+
+      const countdown = setInterval(function () {
+        timeLeft--;
+        countdownElement.textContent = timeLeft;
+
+        if (timeLeft <= 0) {
+          clearInterval(countdown);
+        }
+      }, 1000);
+
+      // Redirect after 5 seconds
+      setTimeout(function () {
+        window.location.href = "https://data.norge.no/nb/technical";
+      }, 5000);
+    </script>
+  </body>
+</html>
